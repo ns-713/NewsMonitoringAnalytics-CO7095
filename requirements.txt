@@ -1,0 +1,17 @@
+# ==============================================================================
+# CO7095 - Software Measurement and Quality Assurance (2026-2027)
+# News Monitoring and Analytics Application
+# ==============================================================================
+# The core application runs 100% on Python 3 Standard Library!
+# No third-party packages are required to run the CLI application or unit tests.
+#
+# Optional packages for testing, symbolic execution, and coverage analysis:
+# (Install only if running extended research tools or external coverage CLI)
+# ==============================================================================
+
+# Code coverage tool (Optional: run_tests.py also contains a built-in stdlib coverage tracer)
+coverage>=7.0.0
+
+# Symbolic algebra & constraint solving (Optional research tools)
+sympy>=1.12
+z3-solver>=4.12.0

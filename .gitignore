@@ -1,0 +1,37 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Unit test and coverage output
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+reports/coverage/html/
+
+# Virtual Environments
+env/
+venv/
+ENV/
+.venv/
+
+# PyCharm / IDE configs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backups and temporary files
+*.tmp*
+*.bak
