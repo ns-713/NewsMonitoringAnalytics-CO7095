@@ -1,0 +1,35 @@
+[
+  {
+    "source_id": "SRC-BBC001",
+    "name": "BBC News - World",
+    "feed_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+    "url": "https://www.bbc.co.uk/news",
+    "category": "World News",
+    "enabled": true,
+    "created_at": "2026-11-01T10:00:00",
+    "last_polled_at": "2026-11-18T13:17:45.261392",
+    "article_count": 26
+  },
+  {
+    "source_id": "SRC-TECH01",
+    "name": "Ars Technica - Technology",
+    "feed_url": "https://feeds.arstechnica.com/arstechnica/index",
+    "url": "https://arstechnica.com",
+    "category": "Technology",
+    "enabled": true,
+    "created_at": "2026-11-01T10:00:00",
+    "last_polled_at": null,
+    "article_count": 0
+  },
+  {
+    "source_id": "SRC-NPR001",
+    "name": "NPR News - Business & Science",
+    "feed_url": "https://feeds.npr.org/1001/rss.xml",
+    "url": "https://www.npr.org",
+    "category": "Business",
+    "enabled": true,
+    "created_at": "2026-11-01T10:00:00",
+    "last_polled_at": null,
+    "article_count": 0
+  }
+]

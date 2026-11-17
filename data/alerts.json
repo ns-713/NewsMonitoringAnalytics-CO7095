@@ -1,0 +1,42 @@
+[
+  {
+    "alert_id": "ALT-3C5B3F2D",
+    "rule_id": "RUL-INIT02",
+    "keyword": "artificial intelligence",
+    "article_id": "ART-0023",
+    "headline": "International Consortium Launches Open Standard for Interoperable Artificial Intelligence Systems",
+    "alert_date": "2026-11-18T12:46:39.026085",
+    "status": "UNREAD",
+    "dismissed": false
+  },
+  {
+    "alert_id": "ALT-758E1863",
+    "rule_id": "RUL-INIT01",
+    "keyword": "climate",
+    "article_id": "ART-0071",
+    "headline": "Climate Paleontologists Discover Ancient Arctic Forest Fossils Indicating Warmer Earth Eras",
+    "alert_date": "2026-11-18T12:46:39.031270",
+    "status": "UNREAD",
+    "dismissed": false
+  },
+  {
+    "alert_id": "ALT-53B02D24",
+    "rule_id": "RUL-INIT01",
+    "keyword": "climate",
+    "article_id": "ART-0074",
+    "headline": "Geneticists Reconstruct Complete Nuclear Genome of Extinct Prehistoric Megafauna",
+    "alert_date": "2026-11-18T12:46:39.034270",
+    "status": "UNREAD",
+    "dismissed": false
+  },
+  {
+    "alert_id": "ALT-CE7A11B4",
+    "rule_id": "RUL-INIT01",
+    "keyword": "climate",
+    "article_id": "ART-0083",
+    "headline": "Urban Greening Initiative Lowers Heat Island Temperatures in Metropolitan Core",
+    "alert_date": "2026-11-18T12:46:39.040273",
+    "status": "UNREAD",
+    "dismissed": false
+  }
+]

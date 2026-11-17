@@ -1,0 +1,18 @@
+[
+  {
+    "rule_id": "RUL-INIT01",
+    "keyword": "climate",
+    "description": "Monitor environment and global climate accords",
+    "category_filter": null,
+    "enabled": true,
+    "created_at": "2026-11-01T10:00:00"
+  },
+  {
+    "rule_id": "RUL-INIT02",
+    "keyword": "artificial intelligence",
+    "description": "Track AI and machine learning breakthroughs",
+    "category_filter": "Technology",
+    "enabled": true,
+    "created_at": "2026-11-01T10:00:00"
+  }
+]

@@ -1,0 +1,2425 @@
+[
+  {
+    "article_id": "ART-0001",
+    "headline": "Parliament Approves Comprehensive Digital Rights and Data Privacy Act",
+    "description": "Lawmakers passed landmark legislation establishing statutory data governance and safeguarding online rights.",
+    "content": "Lawmakers passed landmark legislation establishing statutory data governance and safeguarding online rights. The parliament enacted rigorous privacy standards with cross-party consensus, imposing stringent compliance rules on multinational tech platforms. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "BBC News",
+    "source_url": "https://bbcnews.example.org",
+    "article_url": "https://example.synthetic.org/articles/1-politics",
+    "publication_date": "2026-09-03",
+    "category": "Politics",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "parliament",
+      "legislation",
+      "party"
+    ],
+    "created_timestamp": "2026-09-03T12:00:00"
+  },
+  {
+    "article_id": "ART-0002",
+    "headline": "Senate Commences Inquiries into Campaign Finance and Foreign Lobbying",
+    "description": "Legislative committee opened formal hearings reviewing political donations and transparency disclosures.",
+    "content": "Legislative committee opened formal hearings reviewing political donations and transparency disclosures. Lawmakers questioned regulatory officials regarding oversight loopholes, demanding urgent policy reforms and financial audits. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardianworld.example.org",
+    "article_url": "https://example.synthetic.org/articles/2-politics",
+    "publication_date": "2026-09-05",
+    "category": "Politics",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "policy",
+      "senate",
+      "campaign"
+    ],
+    "created_timestamp": "2026-09-05T12:00:00"
+  },
+  {
+    "article_id": "ART-0003",
+    "headline": "Presidential Envoy Arrives in Geneva for High-Level Bilateral Talks",
+    "description": "Diplomatic mission aims to negotiate bilateral cooperation frameworks and de-escalate cross-border friction.",
+    "content": "Diplomatic mission aims to negotiate bilateral cooperation frameworks and de-escalate cross-border friction. The ambassador met international counterparts to discuss humanitarian corridors and strategic stability agreements. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Reuters Wire",
+    "source_url": "https://reuterswire.example.org",
+    "article_url": "https://example.synthetic.org/articles/3-politics",
+    "publication_date": "2026-09-07",
+    "category": "World News",
+    "sentiment": "Positive",
+    "sentiment_score": 4,
+    "keywords": [
+      "international",
+      "humanitarian",
+      "cross-border",
+      "diplomatic"
+    ],
+    "created_timestamp": "2026-09-07T12:00:00"
+  },
+  {
+    "article_id": "ART-0004",
+    "headline": "Opposition Party Challenges Proposed Tax Reform in Supreme Judicial Court",
+    "description": "Constitutional petition alleges that recent legislative revisions breach regional devolution agreements.",
+    "content": "Constitutional petition alleges that recent legislative revisions breach regional devolution agreements. Party lawmakers argued in court that sudden fiscal alterations compromise municipal autonomy and public welfare. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "BBC News",
+    "source_url": "https://bbcnews.example.org",
+    "article_url": "https://example.synthetic.org/articles/4-politics",
+    "publication_date": "2026-09-09",
+    "category": "Politics",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "opposition",
+      "party"
+    ],
+    "created_timestamp": "2026-09-09T12:00:00"
+  },
+  {
+    "article_id": "ART-0005",
+    "headline": "Electoral Commission Reports Record Voter Turnout in Regional Municipal Ballots",
+    "description": "Citizens participated in local elections with unprecedented enthusiasm across urban and suburban districts.",
+    "content": "Citizens participated in local elections with unprecedented enthusiasm across urban and suburban districts. Electoral observers commended orderly administration, transparent ballot accounting, and peaceful voting conduct. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Reuters Wire",
+    "source_url": "https://reuterswire.example.org",
+    "article_url": "https://example.synthetic.org/articles/5-politics",
+    "publication_date": "2026-09-11",
+    "category": "Politics",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "voting"
+    ],
+    "created_timestamp": "2026-09-11T12:00:00"
+  },
+  {
+    "article_id": "ART-0006",
+    "headline": "Government Announces Strategic Infrastructure Modernisation Fund",
+    "description": "Prime minister unveiled multi-billion-pound capital investment program targeted at national transit networks.",
+    "content": "Prime minister unveiled multi-billion-pound capital investment program targeted at national transit networks. The policy initiative promises sustained economic connectivity, modernised freight rails, and green urban transport. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "BBC News",
+    "source_url": "https://bbcnews.example.org",
+    "article_url": "https://example.synthetic.org/articles/6-politics",
+    "publication_date": "2026-09-13",
+    "category": "Politics",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "government",
+      "minister",
+      "policy",
+      "prime minister"
+    ],
+    "created_timestamp": "2026-09-13T12:00:00"
+  },
+  {
+    "article_id": "ART-0007",
+    "headline": "Foreign Ministry Condemns Diplomatic Expulsion Following Embassy Dispute",
+    "description": "Diplomats faced reciprocal travel restrictions amid mounting disagreements over consular representation.",
+    "content": "Diplomats faced reciprocal travel restrictions amid mounting disagreements over consular representation. The spokesperson stated that retaliatory expulsions impede peaceful dialogue and undermine consular cooperation. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardianworld.example.org",
+    "article_url": "https://example.synthetic.org/articles/7-politics",
+    "publication_date": "2026-09-15",
+    "category": "World News",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "embassy",
+      "diplomatic"
+    ],
+    "created_timestamp": "2026-09-15T12:00:00"
+  },
+  {
+    "article_id": "ART-0008",
+    "headline": "Cabinet Reorganises Defence Advisory Council to Address Emergent Security Trends",
+    "description": "Ministers restructured the national advisory board to enhance responsiveness to modern geopolitical developments.",
+    "content": "Ministers restructured the national advisory board to enhance responsiveness to modern geopolitical developments. The council will integrate civilian technology advisers with military planners to review strategic resilience. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Reuters Wire",
+    "source_url": "https://reuterswire.example.org",
+    "article_url": "https://example.synthetic.org/articles/8-politics",
+    "publication_date": "2026-09-17",
+    "category": "Politics",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "cabinet"
+    ],
+    "created_timestamp": "2026-09-17T12:00:00"
+  },
+  {
+    "article_id": "ART-0009",
+    "headline": "Bipartisan Coalition Introduces Bill to Protect Regional Agricultural Water Rights",
+    "description": "Lawmakers united to formulate statutory protections for rural irrigation canals and aquifer management.",
+    "content": "Lawmakers united to formulate statutory protections for rural irrigation canals and aquifer management. The proposed bill establishes community oversight boards and allocates emergency conservation grants. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardianworld.example.org",
+    "article_url": "https://example.synthetic.org/articles/9-politics",
+    "publication_date": "2026-09-19",
+    "category": "Environment",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "conservation"
+    ],
+    "created_timestamp": "2026-09-19T12:00:00"
+  },
+  {
+    "article_id": "ART-0010",
+    "headline": "Parliamentary Committee Identifies Administrative Deficits in Public Procurement",
+    "description": "Auditors published findings highlighting procurement delays and cost overruns across several departmental tenders.",
+    "content": "Auditors published findings highlighting procurement delays and cost overruns across several departmental tenders. The report urged strict transparency protocols, mandatory competitive bidding, and independent fiscal reviews. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "BBC News",
+    "source_url": "https://bbcnews.example.org",
+    "article_url": "https://example.synthetic.org/articles/10-politics",
+    "publication_date": "2026-09-21",
+    "category": "Other",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [],
+    "created_timestamp": "2026-09-21T12:00:00"
+  },
+  {
+    "article_id": "ART-0011",
+    "headline": "Prime Minister Hosts Intergovernmental Summit on Regional Cohesion",
+    "description": "National and regional leaders gathered to address economic disparities and harmonise public services.",
+    "content": "National and regional leaders gathered to address economic disparities and harmonise public services. The summit concluded with a joint declaration pledging equalised infrastructure spending and workforce mobility. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Reuters Wire",
+    "source_url": "https://reuterswire.example.org",
+    "article_url": "https://example.synthetic.org/articles/11-politics",
+    "publication_date": "2026-09-23",
+    "category": "Politics",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "minister",
+      "prime minister"
+    ],
+    "created_timestamp": "2026-09-23T12:00:00"
+  },
+  {
+    "article_id": "ART-0012",
+    "headline": "Central Bank Holds Benchmark Interest Rates Constant Amid Stabilising Inflation",
+    "description": "Monetary policy committee voted to maintain lending rates as consumer price indices showed cooling momentum.",
+    "content": "Monetary policy committee voted to maintain lending rates as consumer price indices showed cooling momentum. The governor highlighted positive indicators in wholesale commodities while remaining vigilant against future volatility. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Bloomberg Financial",
+    "source_url": "https://bloombergfinancial.example.org",
+    "article_url": "https://example.synthetic.org/articles/12-business",
+    "publication_date": "2026-09-25",
+    "category": "Business",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "inflation",
+      "central bank"
+    ],
+    "created_timestamp": "2026-09-25T12:00:00"
+  },
+  {
+    "article_id": "ART-0013",
+    "headline": "Global Logistics Giant Reports Surge in Quarterly Freight Revenue and Profit",
+    "description": "Quarterly earnings surpassed Wall Street forecasts propelled by strong international maritime volumes.",
+    "content": "Quarterly earnings surpassed Wall Street forecasts propelled by strong international maritime volumes. Executives credited automation investments and streamlined customs clearance for higher corporate profit margins. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Bloomberg Financial",
+    "source_url": "https://bloombergfinancial.example.org",
+    "article_url": "https://example.synthetic.org/articles/13-business",
+    "publication_date": "2026-09-27",
+    "category": "Business",
+    "sentiment": "Positive",
+    "sentiment_score": 4,
+    "keywords": [
+      "revenue",
+      "profit",
+      "corporate",
+      "earnings"
+    ],
+    "created_timestamp": "2026-09-27T12:00:00"
+  },
+  {
+    "article_id": "ART-0014",
+    "headline": "Retail Superstore Chain Files for Restructuring Amid Unsustainable Debt Burdens",
+    "description": "Department store operator sought court protection after struggling with rising overheads and declining footfall.",
+    "content": "Department store operator sought court protection after struggling with rising overheads and declining footfall. The financial distress threatens thousands of distribution jobs and highlights intense online competition. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Reuters Wire",
+    "source_url": "https://reuterswire.example.org",
+    "article_url": "https://example.synthetic.org/articles/14-business",
+    "publication_date": "2026-09-29",
+    "category": "Other",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [],
+    "created_timestamp": "2026-09-29T12:00:00"
+  },
+  {
+    "article_id": "ART-0015",
+    "headline": "Technology Incubator Secures Capital Venture Inflow to Accelerate Clean Energy Startups",
+    "description": "Private equity partners pledged dedicated funding to nurture early-stage geothermal and solar technology firms.",
+    "content": "Private equity partners pledged dedicated funding to nurture early-stage geothermal and solar technology firms. The capital infusion will provide scalable resources, laboratory facilities, and international market access. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Bloomberg Financial",
+    "source_url": "https://bloombergfinancial.example.org",
+    "article_url": "https://example.synthetic.org/articles/15-business",
+    "publication_date": "2026-10-01",
+    "category": "Business",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "market"
+    ],
+    "created_timestamp": "2026-10-01T12:00:00"
+  },
+  {
+    "article_id": "ART-0016",
+    "headline": "Automotive Consortium Forms Landmark Alliance to Standardise Electric Battery Architecture",
+    "description": "Major carmakers agreed to collaborate on modular battery packs to lower production costs and consumer prices.",
+    "content": "Major carmakers agreed to collaborate on modular battery packs to lower production costs and consumer prices. The strategic joint venture will build shared gigafactories, fostering supply chain stability across markets. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Reuters Wire",
+    "source_url": "https://reuterswire.example.org",
+    "article_url": "https://example.synthetic.org/articles/16-business",
+    "publication_date": "2026-10-03",
+    "category": "World News",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "alliance"
+    ],
+    "created_timestamp": "2026-10-03T12:00:00"
+  },
+  {
+    "article_id": "ART-0017",
+    "headline": "Commodity Market Witnesses Dramatic Drop in Crude Oil Prices Following Surplus Output",
+    "description": "Energy indices experienced steep downturns as non-OPEC producers expanded extraction quotas.",
+    "content": "Energy indices experienced steep downturns as non-OPEC producers expanded extraction quotas. Analysts noted that falling petroleum costs reduce freight inflation but strain oil-dependent fiscal revenues. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Bloomberg Financial",
+    "source_url": "https://bloombergfinancial.example.org",
+    "article_url": "https://example.synthetic.org/articles/17-business",
+    "publication_date": "2026-10-05",
+    "category": "Business",
+    "sentiment": "Negative",
+    "sentiment_score": -1,
+    "keywords": [
+      "market",
+      "inflation",
+      "commodity"
+    ],
+    "created_timestamp": "2026-10-05T12:00:00"
+  },
+  {
+    "article_id": "ART-0018",
+    "headline": "Fintech Pioneer Announces Milestone Cross-Border Payment Settlement System",
+    "description": "Novel distributed ledger platform allows real-time interbank foreign exchange settlements at reduced costs.",
+    "content": "Novel distributed ledger platform allows real-time interbank foreign exchange settlements at reduced costs. The innovation eliminates multi-day processing lags, providing substantial benefits for small exporting businesses. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Reuters Wire",
+    "source_url": "https://reuterswire.example.org",
+    "article_url": "https://example.synthetic.org/articles/18-business",
+    "publication_date": "2026-10-07",
+    "category": "World News",
+    "sentiment": "Positive",
+    "sentiment_score": 3,
+    "keywords": [
+      "cross-border"
+    ],
+    "created_timestamp": "2026-10-07T12:00:00"
+  },
+  {
+    "article_id": "ART-0019",
+    "headline": "Manufacturing Index Signals Contraction Across Heavy Industrial Sectors",
+    "description": "Purchasing managers recorded reduced new orders and supply delays, pointing to a prolonged industrial slump.",
+    "content": "Purchasing managers recorded reduced new orders and supply delays, pointing to a prolonged industrial slump. Factory executives expressed growing concern regarding high power tariffs and softening consumer demand. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Bloomberg Financial",
+    "source_url": "https://bloombergfinancial.example.org",
+    "article_url": "https://example.synthetic.org/articles/19-business",
+    "publication_date": "2026-10-09",
+    "category": "Other",
+    "sentiment": "Negative",
+    "sentiment_score": -1,
+    "keywords": [],
+    "created_timestamp": "2026-10-09T12:00:00"
+  },
+  {
+    "article_id": "ART-0020",
+    "headline": "Sovereign Wealth Fund Directs Substantial Capital Towards Global Renewable Infrastructure",
+    "description": "Investment board committed substantial resources to long-term offshore wind and grid storage projects.",
+    "content": "Investment board committed substantial resources to long-term offshore wind and grid storage projects. The capital deployment targets sustainable risk-adjusted returns while accelerating international decarbonisation. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Reuters Wire",
+    "source_url": "https://reuterswire.example.org",
+    "article_url": "https://example.synthetic.org/articles/20-business",
+    "publication_date": "2026-10-11",
+    "category": "Environment",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "renewable",
+      "wind"
+    ],
+    "created_timestamp": "2026-10-11T12:00:00"
+  },
+  {
+    "article_id": "ART-0021",
+    "headline": "Aerospace Manufacturer Rebounds Strongly Following Successful Commercial Aircraft Certification",
+    "description": "Civil aviation regulators granted operational clearance for a modern fuel-efficient twin-engine passenger airliner.",
+    "content": "Civil aviation regulators granted operational clearance for a modern fuel-efficient twin-engine passenger airliner. Airline carriers placed massive fleet orders, triggering shares rally and revitalising manufacturing assembly lines. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Bloomberg Financial",
+    "source_url": "https://bloombergfinancial.example.org",
+    "article_url": "https://example.synthetic.org/articles/21-business",
+    "publication_date": "2026-10-13",
+    "category": "Business",
+    "sentiment": "Positive",
+    "sentiment_score": 3,
+    "keywords": [
+      "shares"
+    ],
+    "created_timestamp": "2026-10-13T12:00:00"
+  },
+  {
+    "article_id": "ART-0022",
+    "headline": "Securities Regulator Initiates Investigation into Corporate Accounting Irregularities",
+    "description": "Enforcement officers launched formal scrutiny into revenue recognition methods at a mid-cap retail supplier.",
+    "content": "Enforcement officers launched formal scrutiny into revenue recognition methods at a mid-cap retail supplier. The inquiry prompted market uncertainty and steep share declines as corporate leadership pledged full cooperation. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Bloomberg Financial",
+    "source_url": "https://bloombergfinancial.example.org",
+    "article_url": "https://example.synthetic.org/articles/22-business",
+    "publication_date": "2026-10-15",
+    "category": "Business",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "market",
+      "revenue",
+      "corporate"
+    ],
+    "created_timestamp": "2026-10-15T12:00:00"
+  },
+  {
+    "article_id": "ART-0023",
+    "headline": "International Consortium Launches Open Standard for Interoperable Artificial Intelligence Systems",
+    "description": "Technology leaders unveiled unified protocols ensuring transparency, benchmark safety, and model interoperability.",
+    "content": "Technology leaders unveiled unified protocols ensuring transparency, benchmark safety, and model interoperability. The open framework enables developers to audit neural networks reliably, preventing proprietary vendor lock-in. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "TechRadar Global",
+    "source_url": "https://techradarglobal.example.org",
+    "article_url": "https://example.synthetic.org/articles/23-technology",
+    "publication_date": "2026-10-17",
+    "category": "Technology",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "artificial intelligence"
+    ],
+    "created_timestamp": "2026-10-17T12:00:00"
+  },
+  {
+    "article_id": "ART-0024",
+    "headline": "Cybersecurity Agency Issues Alert on Zero-Day Exploit Targeting Enterprise Firewalls",
+    "description": "Security researchers detected sophisticated intrusion attempts exploiting unpatched network gateway devices.",
+    "content": "Security researchers detected sophisticated intrusion attempts exploiting unpatched network gateway devices. Administrators were urged to apply emergency patches immediately to safeguard confidential corporate data. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "TechRadar Global",
+    "source_url": "https://techradarglobal.example.org",
+    "article_url": "https://example.synthetic.org/articles/24-technology",
+    "publication_date": "2026-10-19",
+    "category": "Technology",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "cybersecurity",
+      "data"
+    ],
+    "created_timestamp": "2026-10-19T12:00:00"
+  },
+  {
+    "article_id": "ART-0025",
+    "headline": "Breakthrough in Photonic Semiconductor Architecture Promises Hundredfold Speed Gains",
+    "description": "Computer engineers demonstrated microchips utilising optical waveguides instead of traditional copper traces.",
+    "content": "Computer engineers demonstrated microchips utilising optical waveguides instead of traditional copper traces. The breakthrough drastically cuts power consumption and heat dissipation, marking a milestone in high-performance computing. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "TechRadar Global",
+    "source_url": "https://techradarglobal.example.org",
+    "article_url": "https://example.synthetic.org/articles/25-technology",
+    "publication_date": "2026-10-21",
+    "category": "Technology",
+    "sentiment": "Positive",
+    "sentiment_score": 4,
+    "keywords": [
+      "computing",
+      "semiconductor"
+    ],
+    "created_timestamp": "2026-10-21T12:00:00"
+  },
+  {
+    "article_id": "ART-0026",
+    "headline": "Major Cloud Infrastructure Outage Disrupts Online Services and E-Commerce Portals",
+    "description": "Server cluster failure in a northern data centre caused widespread access interruptions for multiple internet portals.",
+    "content": "Server cluster failure in a northern data centre caused widespread access interruptions for multiple internet portals. Engineers resolved the configuration anomaly within hours, while enterprise customers reviewed failover procedures. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "TechRadar Global",
+    "source_url": "https://techradarglobal.example.org",
+    "article_url": "https://example.synthetic.org/articles/26-technology",
+    "publication_date": "2026-10-23",
+    "category": "Technology",
+    "sentiment": "Negative",
+    "sentiment_score": -1,
+    "keywords": [
+      "cloud",
+      "internet",
+      "data"
+    ],
+    "created_timestamp": "2026-10-23T12:00:00"
+  },
+  {
+    "article_id": "ART-0027",
+    "headline": "Next-Generation Quantum Processor Achieves Fault-Tolerant Error Correction Threshold",
+    "description": "Quantum researchers demonstrated coherent logical qubits sustaining calculations beyond natural decoherence windows.",
+    "content": "Quantum researchers demonstrated coherent logical qubits sustaining calculations beyond natural decoherence windows. This significant achievement unlocks realistic timelines for practical quantum simulations in material science. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Nature Scientific",
+    "source_url": "https://naturescientific.example.org",
+    "article_url": "https://example.synthetic.org/articles/27-technology",
+    "publication_date": "2026-10-25",
+    "category": "Technology",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "quantum"
+    ],
+    "created_timestamp": "2026-10-25T12:00:00"
+  },
+  {
+    "article_id": "ART-0028",
+    "headline": "Autonomous Robotics Deployed for Complex Underground Pipeline Inspections",
+    "description": "Utility operators adopted autonomous crawlers equipped with acoustic sensors to detect microscopic fissures.",
+    "content": "Utility operators adopted autonomous crawlers equipped with acoustic sensors to detect microscopic fissures. The robotic system prevents hazardous gas leaks and cuts preventative maintenance expenditures significantly. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "TechRadar Global",
+    "source_url": "https://techradarglobal.example.org",
+    "article_url": "https://example.synthetic.org/articles/28-technology",
+    "publication_date": "2026-10-27",
+    "category": "Technology",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "robotics"
+    ],
+    "created_timestamp": "2026-10-27T12:00:00"
+  },
+  {
+    "article_id": "ART-0029",
+    "headline": "Software Development Community Embraces Open-Source Neural Compilers for Edge Devices",
+    "description": "New developer toolchain simplifies deploying compact machine learning inference models on low-power microcontrollers.",
+    "content": "New developer toolchain simplifies deploying compact machine learning inference models on low-power microcontrollers. Engineers lauded the software toolkit for democratising ambient computing in agricultural and industrial monitoring. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "TechRadar Global",
+    "source_url": "https://techradarglobal.example.org",
+    "article_url": "https://example.synthetic.org/articles/29-technology",
+    "publication_date": "2026-10-29",
+    "category": "Technology",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "software",
+      "computing",
+      "developer",
+      "machine learning"
+    ],
+    "created_timestamp": "2026-10-29T12:00:00"
+  },
+  {
+    "article_id": "ART-0030",
+    "headline": "Critical Database Flaw Exposes Millions of Encrypted Identity Tokens to Risk",
+    "description": "Vulnerability researchers identified a memory leak flaw affecting high-throughput relational and cache stores.",
+    "content": "Vulnerability researchers identified a memory leak flaw affecting high-throughput relational and cache stores. Maintainers released immediate software updates to mitigate data exposure risks across affected installations. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "TechRadar Global",
+    "source_url": "https://techradarglobal.example.org",
+    "article_url": "https://example.synthetic.org/articles/30-technology",
+    "publication_date": "2026-10-31",
+    "category": "Technology",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [
+      "software",
+      "data"
+    ],
+    "created_timestamp": "2026-10-31T12:00:00"
+  },
+  {
+    "article_id": "ART-0031",
+    "headline": "Telecommunications Authority Approves Next-Generation Terahertz Wireless Band Trials",
+    "description": "Regulators allocated experimental spectrum to research teams developing ultra-fast wireless backhaul networks.",
+    "content": "Regulators allocated experimental spectrum to research teams developing ultra-fast wireless backhaul networks. Initial testbeds achieved unprecedented transmission bandwidths capable of supporting volumetric holographic video. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "TechRadar Global",
+    "source_url": "https://techradarglobal.example.org",
+    "article_url": "https://example.synthetic.org/articles/31-technology",
+    "publication_date": "2026-11-02",
+    "category": "Other",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [],
+    "created_timestamp": "2026-11-02T12:00:00"
+  },
+  {
+    "article_id": "ART-0032",
+    "headline": "Open-Source Foundation Celebrates Milestone Anniversary with Robust Developer Growth",
+    "description": "Community leaders reported record contributions and enterprise adoption of core open operating systems.",
+    "content": "Community leaders reported record contributions and enterprise adoption of core open operating systems. Collaborative software development continues to power internet infrastructure, server platforms, and supercomputers. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "TechRadar Global",
+    "source_url": "https://techradarglobal.example.org",
+    "article_url": "https://example.synthetic.org/articles/32-technology",
+    "publication_date": "2026-11-04",
+    "category": "Technology",
+    "sentiment": "Positive",
+    "sentiment_score": 5,
+    "keywords": [
+      "software",
+      "internet",
+      "developer"
+    ],
+    "created_timestamp": "2026-11-04T12:00:00"
+  },
+  {
+    "article_id": "ART-0033",
+    "headline": "Semiconductor Foundry Overcomes Production Defect in Sub-Nanometre Lithography",
+    "description": "Fabrication engineers fine-tuned extreme ultraviolet optical mirrors to eradicate silicon wafer patterning errors.",
+    "content": "Fabrication engineers fine-tuned extreme ultraviolet optical mirrors to eradicate silicon wafer patterning errors. The manufacturing triumph paves the way for commercial rollout of ultra-dense mobile and data-centre processors. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "TechRadar Global",
+    "source_url": "https://techradarglobal.example.org",
+    "article_url": "https://example.synthetic.org/articles/33-technology",
+    "publication_date": "2026-11-06",
+    "category": "Technology",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "semiconductor",
+      "data"
+    ],
+    "created_timestamp": "2026-11-06T12:00:00"
+  },
+  {
+    "article_id": "ART-0034",
+    "headline": "Clinical Trial Confirms High Preventive Efficacy for Next-Generation Malaria Vaccine",
+    "description": "Paediatric health researchers announced outstanding trial results demonstrating durable protection against severe malaria.",
+    "content": "Paediatric health researchers announced outstanding trial results demonstrating durable protection against severe malaria. Global health organisations applauded the medical breakthrough as a transformative weapon against endemic tropical disease. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Healthline Medical",
+    "source_url": "https://healthlinemedical.example.org",
+    "article_url": "https://example.synthetic.org/articles/34-health",
+    "publication_date": "2026-11-08",
+    "category": "Health",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [
+      "disease",
+      "vaccine",
+      "clinical",
+      "medical"
+    ],
+    "created_timestamp": "2026-11-08T12:00:00"
+  },
+  {
+    "article_id": "ART-0035",
+    "headline": "Hospitals Experience Strain as Seasonal Respiratory Virus Admissions Surge",
+    "description": "Healthcare facilities reported high bed occupancy rates driven by concurrent outbreaks of influenza and RSV.",
+    "content": "Healthcare facilities reported high bed occupancy rates driven by concurrent outbreaks of influenza and RSV. Public health officials urged citizens to observe hygiene precautions and obtain seasonal immunisation shots. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Healthline Medical",
+    "source_url": "https://healthlinemedical.example.org",
+    "article_url": "https://example.synthetic.org/articles/35-health",
+    "publication_date": "2026-11-10",
+    "category": "Health",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "virus",
+      "healthcare",
+      "public health"
+    ],
+    "created_timestamp": "2026-11-10T12:00:00"
+  },
+  {
+    "article_id": "ART-0036",
+    "headline": "Novel Targeted Immunotherapy Drug Approved for Metastatic Melanoma Treatment",
+    "description": "Pharmaceutical regulatory agency authorised a bi-specific antibody therapy designed to activate cytotoxic T-cells.",
+    "content": "Pharmaceutical regulatory agency authorised a bi-specific antibody therapy designed to activate cytotoxic T-cells. Oncology specialists reported unprecedented tumour shrinkage and enhanced survival rates during rigorous clinical trials. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Nature Scientific",
+    "source_url": "https://naturescientific.example.org",
+    "article_url": "https://example.synthetic.org/articles/36-health",
+    "publication_date": "2026-11-12",
+    "category": "Health",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "clinical",
+      "pharmaceutical",
+      "therapy",
+      "treatment"
+    ],
+    "created_timestamp": "2026-11-12T12:00:00"
+  },
+  {
+    "article_id": "ART-0037",
+    "headline": "Public Health Study Uncovers Alarming Rise in Sedentary Lifestyle Disorders",
+    "description": "Epidemiologists identified growing incidences of metabolic syndrome among young adults working in remote desk environments.",
+    "content": "Epidemiologists identified growing incidences of metabolic syndrome among young adults working in remote desk environments. Researchers recommended ergonomic workplace guidelines, routine physical exercise, and dietary education to counter the crisis. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Healthline Medical",
+    "source_url": "https://healthlinemedical.example.org",
+    "article_url": "https://example.synthetic.org/articles/37-health",
+    "publication_date": "2026-11-14",
+    "category": "Health",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [
+      "public health"
+    ],
+    "created_timestamp": "2026-11-14T12:00:00"
+  },
+  {
+    "article_id": "ART-0038",
+    "headline": "Breakthrough Surgical Technique Enables Non-Invasive Cardiac Valve Restoration",
+    "description": "Cardiovascular surgeons developed a transcatheter procedure allowing valve replacement without open-heart trauma.",
+    "content": "Cardiovascular surgeons developed a transcatheter procedure allowing valve replacement without open-heart trauma. The innovative method drastically reduces patient recovery time and lowers post-operative complication risks. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Healthline Medical",
+    "source_url": "https://healthlinemedical.example.org",
+    "article_url": "https://example.synthetic.org/articles/38-health",
+    "publication_date": "2026-09-02",
+    "category": "Health",
+    "sentiment": "Positive",
+    "sentiment_score": 4,
+    "keywords": [
+      "patient"
+    ],
+    "created_timestamp": "2026-09-02T12:00:00"
+  },
+  {
+    "article_id": "ART-0039",
+    "headline": "Healthcare System Modernises Electronic Prescription Infrastructure to Prevent Medication Errors",
+    "description": "National health authorities introduced an integrated digital portal connecting clinics, hospitals, and pharmacies.",
+    "content": "National health authorities introduced an integrated digital portal connecting clinics, hospitals, and pharmacies. The technological upgrade ensures accurate dosage validation, allergy screening, and timely medication delivery. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Healthline Medical",
+    "source_url": "https://healthlinemedical.example.org",
+    "article_url": "https://example.synthetic.org/articles/39-health",
+    "publication_date": "2026-09-04",
+    "category": "Health",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "healthcare"
+    ],
+    "created_timestamp": "2026-09-04T12:00:00"
+  },
+  {
+    "article_id": "ART-0040",
+    "headline": "Health Agency Warns of Severe Heat-Related Illness During Unprecedented Summer Wave",
+    "description": "Emergency departments treated thousands of patients suffering from dehydration and hyperthermia across southern counties.",
+    "content": "Emergency departments treated thousands of patients suffering from dehydration and hyperthermia across southern counties. Clinicians reiterated protective measures, advising vulnerable elderly citizens to remain hydrated in air-cooled centres. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Healthline Medical",
+    "source_url": "https://healthlinemedical.example.org",
+    "article_url": "https://example.synthetic.org/articles/40-health",
+    "publication_date": "2026-09-06",
+    "category": "Other",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [],
+    "created_timestamp": "2026-09-06T12:00:00"
+  },
+  {
+    "article_id": "ART-0041",
+    "headline": "Pioneering Gene Therapy Restores Vision in Patients with Rare Inherited Retinal Dystrophy",
+    "description": "Ophthalmology researchers successfully repaired mutated photoreceptor cells using adeno-associated viral vectors.",
+    "content": "Ophthalmology researchers successfully repaired mutated photoreceptor cells using adeno-associated viral vectors. Treated patients regained visual acuity and night navigation capacity, marking an astounding victory in genetic medicine. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Nature Scientific",
+    "source_url": "https://naturescientific.example.org",
+    "article_url": "https://example.synthetic.org/articles/41-health",
+    "publication_date": "2026-09-08",
+    "category": "Health",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "medicine",
+      "therapy"
+    ],
+    "created_timestamp": "2026-09-08T12:00:00"
+  },
+  {
+    "article_id": "ART-0042",
+    "headline": "Medical Research Team Formulates Bioabsorbable Scaffolds for Bone Regeneration",
+    "description": "Biomedical engineers designed composite porous matrices that stimulate osteoblast growth while dissolving harmlessly.",
+    "content": "Biomedical engineers designed composite porous matrices that stimulate osteoblast growth while dissolving harmlessly. The regenerative healing approach eliminates the need for secondary implant removal surgeries in traumatic fractures. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Healthline Medical",
+    "source_url": "https://healthlinemedical.example.org",
+    "article_url": "https://example.synthetic.org/articles/42-health",
+    "publication_date": "2026-09-10",
+    "category": "Health",
+    "sentiment": "Positive",
+    "sentiment_score": 4,
+    "keywords": [
+      "medical"
+    ],
+    "created_timestamp": "2026-09-10T12:00:00"
+  },
+  {
+    "article_id": "ART-0043",
+    "headline": "Regional Blood Banks Issue Urgent Appeal Following Critical Supply Depletion",
+    "description": "Transfusion clinics reported dangerously low reserves of universal blood types due to seasonal donation slumps.",
+    "content": "Transfusion clinics reported dangerously low reserves of universal blood types due to seasonal donation slumps. Volunteers and community groups mobilised nationwide donation drives to replenish hospital emergency reserves. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Healthline Medical",
+    "source_url": "https://healthlinemedical.example.org",
+    "article_url": "https://example.synthetic.org/articles/43-health",
+    "publication_date": "2026-09-12",
+    "category": "Health",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "hospital"
+    ],
+    "created_timestamp": "2026-09-12T12:00:00"
+  },
+  {
+    "article_id": "ART-0044",
+    "headline": "Global Nutrition Initiative Publishes Practical Guidelines for Plant-Rich Diets",
+    "description": "Dietary scientists formulated accessible nutritional frameworks proven to reduce cardiovascular risks and inflammation.",
+    "content": "Dietary scientists formulated accessible nutritional frameworks proven to reduce cardiovascular risks and inflammation. The evidence-based recommendations emphasise legumes, whole grains, and antioxidant-rich produce for long-term longevity. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "NPR Science & Society",
+    "source_url": "https://nprsciencesociety.example.org",
+    "article_url": "https://example.synthetic.org/articles/44-health",
+    "publication_date": "2026-09-14",
+    "category": "Health",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "nutrition"
+    ],
+    "created_timestamp": "2026-09-14T12:00:00"
+  },
+  {
+    "article_id": "ART-0045",
+    "headline": "Underdog Football Club Triumphs in League Cup Final with Thrilling Extra-Time Goal",
+    "description": "Determined squad defeated reigning champions before an ecstatic crowd of eighty thousand spectators.",
+    "content": "Determined squad defeated reigning champions before an ecstatic crowd of eighty thousand spectators. The historic championship victory rewarded decades of perseverance, inspiring grassroots sporting academies nationwide. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Global Sports Weekly",
+    "source_url": "https://globalsportsweekly.example.org",
+    "article_url": "https://example.synthetic.org/articles/45-sports",
+    "publication_date": "2026-09-16",
+    "category": "Sports",
+    "sentiment": "Positive",
+    "sentiment_score": 3,
+    "keywords": [
+      "football",
+      "championship",
+      "league",
+      "victory"
+    ],
+    "created_timestamp": "2026-09-16T12:00:00"
+  },
+  {
+    "article_id": "ART-0046",
+    "headline": "National Cricket Team Suffers Crushing Defeat in International Test Series Decider",
+    "description": "Batting collapse against lethal spin bowling led to a demoralising loss within three days of play.",
+    "content": "Batting collapse against lethal spin bowling led to a demoralising loss within three days of play. The team captain expressed profound disappointment, promising thorough tactical review before upcoming foreign tours. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Global Sports Weekly",
+    "source_url": "https://globalsportsweekly.example.org",
+    "article_url": "https://example.synthetic.org/articles/46-sports",
+    "publication_date": "2026-09-18",
+    "category": "Sports",
+    "sentiment": "Negative",
+    "sentiment_score": -2,
+    "keywords": [
+      "cricket",
+      "defeat"
+    ],
+    "created_timestamp": "2026-09-18T12:00:00"
+  },
+  {
+    "article_id": "ART-0047",
+    "headline": "Olympic Committee Unveils State-of-the-Art Sustainable Venues for Upcoming Games",
+    "description": "Host city completed construction of solar-powered velodromes and recycled-timber aquatic arenas ahead of schedule.",
+    "content": "Host city completed construction of solar-powered velodromes and recycled-timber aquatic arenas ahead of schedule. International athletic delegates praised the design for combining world-class sporting facilities with carbon neutrality. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Global Sports Weekly",
+    "source_url": "https://globalsportsweekly.example.org",
+    "article_url": "https://example.synthetic.org/articles/47-sports",
+    "publication_date": "2026-09-20",
+    "category": "Environment",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "carbon",
+      "solar"
+    ],
+    "created_timestamp": "2026-09-20T12:00:00"
+  },
+  {
+    "article_id": "ART-0048",
+    "headline": "Star Tennis Champion Withdraws from Grand Slam Due to Severe Shoulder Injury",
+    "description": "Top-seeded player confirmed inability to compete following medical scans revealing tendon inflammation.",
+    "content": "Top-seeded player confirmed inability to compete following medical scans revealing tendon inflammation. Fans and fellow athletes expressed heartfelt sympathy as the tennis icon begins an extensive physical rehabilitation program. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Global Sports Weekly",
+    "source_url": "https://globalsportsweekly.example.org",
+    "article_url": "https://example.synthetic.org/articles/48-sports",
+    "publication_date": "2026-09-22",
+    "category": "Health",
+    "sentiment": "Negative",
+    "sentiment_score": -1,
+    "keywords": [
+      "medical"
+    ],
+    "created_timestamp": "2026-09-22T12:00:00"
+  },
+  {
+    "article_id": "ART-0049",
+    "headline": "Formula 1 Driver Secures Maiden Grand Prix Victory Following Flawless Wet Weather Drive",
+    "description": "Young racing talent mastered hazardous conditions, holding off experienced rivals through treacherous corners.",
+    "content": "Young racing talent mastered hazardous conditions, holding off experienced rivals through treacherous corners. Team mechanics celebrated the emotional milestone trophy in the paddock after an exhilarating tactical race. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Global Sports Weekly",
+    "source_url": "https://globalsportsweekly.example.org",
+    "article_url": "https://example.synthetic.org/articles/49-sports",
+    "publication_date": "2026-09-24",
+    "category": "Sports",
+    "sentiment": "Positive",
+    "sentiment_score": 3,
+    "keywords": [
+      "trophy",
+      "victory",
+      "formula 1",
+      "racing"
+    ],
+    "created_timestamp": "2026-09-24T12:00:00"
+  },
+  {
+    "article_id": "ART-0050",
+    "headline": "Basketball Franchise Shatters Regular Season Scoring Record in Overtime Thriller",
+    "description": "Dynamic backcourt duo combined for eighty-two points, propelling their squad to a record-setting win.",
+    "content": "Dynamic backcourt duo combined for eighty-two points, propelling their squad to a record-setting win. Analysts highlighted exceptional perimeter shooting accuracy and selfless ball distribution throughout the match. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Global Sports Weekly",
+    "source_url": "https://globalsportsweekly.example.org",
+    "article_url": "https://example.synthetic.org/articles/50-sports",
+    "publication_date": "2026-09-26",
+    "category": "Sports",
+    "sentiment": "Positive",
+    "sentiment_score": 6,
+    "keywords": [
+      "basketball",
+      "match"
+    ],
+    "created_timestamp": "2026-09-26T12:00:00"
+  },
+  {
+    "article_id": "ART-0051",
+    "headline": "International Rugby Union Postpones Continental Fixture Due to Flooded Pitch",
+    "description": "Torrential storms rendered the stadium playing surface unplayable, forcing organisers to reschedule the clash.",
+    "content": "Torrential storms rendered the stadium playing surface unplayable, forcing organisers to reschedule the clash. Frustrated supporters received ticket refunds as ground staff initiated extensive turf drainage procedures. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Global Sports Weekly",
+    "source_url": "https://globalsportsweekly.example.org",
+    "article_url": "https://example.synthetic.org/articles/51-sports",
+    "publication_date": "2026-09-28",
+    "category": "Sports",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "stadium",
+      "rugby"
+    ],
+    "created_timestamp": "2026-09-28T12:00:00"
+  },
+  {
+    "article_id": "ART-0052",
+    "headline": "Marathon Runner Breaks Course Record with Superb Tactical Pacing",
+    "description": "Elite athlete clocked historic finishing time through scenic city streets, cheered by thousands of spectators.",
+    "content": "Elite athlete clocked historic finishing time through scenic city streets, cheered by thousands of spectators. The inspirational runner dedicated the gold medal achievement to charitable youth athletics foundations. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Global Sports Weekly",
+    "source_url": "https://globalsportsweekly.example.org",
+    "article_url": "https://example.synthetic.org/articles/52-sports",
+    "publication_date": "2026-09-30",
+    "category": "Sports",
+    "sentiment": "Positive",
+    "sentiment_score": 3,
+    "keywords": [
+      "athlete",
+      "medal"
+    ],
+    "created_timestamp": "2026-09-30T12:00:00"
+  },
+  {
+    "article_id": "ART-0053",
+    "headline": "Sports Integrity Unit Suspends Cycling Official Over Anti-Doping Code Breaches",
+    "description": "Disciplinary tribunal enacted multi-year ban following conclusive evidence of prohibited substance distribution.",
+    "content": "Disciplinary tribunal enacted multi-year ban following conclusive evidence of prohibited substance distribution. Federation leadership reaffirmed zero tolerance against cheating, pledging to protect honest athletes and fair competition. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Global Sports Weekly",
+    "source_url": "https://globalsportsweekly.example.org",
+    "article_url": "https://example.synthetic.org/articles/53-sports",
+    "publication_date": "2026-10-02",
+    "category": "Other",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [],
+    "created_timestamp": "2026-10-02T12:00:00"
+  },
+  {
+    "article_id": "ART-0054",
+    "headline": "National Gymnastics Team Dominates International Invitational with Flawless Routines",
+    "description": "Young gymnasts secured clean sweep of podium medals across vault, balance beam, and floor exercises.",
+    "content": "Young gymnasts secured clean sweep of podium medals across vault, balance beam, and floor exercises. Head coach commended the athletes for exemplary discipline, technical artistry, and unwavering teamwork. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Global Sports Weekly",
+    "source_url": "https://globalsportsweekly.example.org",
+    "article_url": "https://example.synthetic.org/articles/54-sports",
+    "publication_date": "2026-10-04",
+    "category": "Sports",
+    "sentiment": "Positive",
+    "sentiment_score": 3,
+    "keywords": [
+      "coach"
+    ],
+    "created_timestamp": "2026-10-04T12:00:00"
+  },
+  {
+    "article_id": "ART-0055",
+    "headline": "Professional Football League Enforces Strict Financial Fair Play Penalties",
+    "description": "Auditing board deducted league points from two member clubs following sustained accounting expenditure infringements.",
+    "content": "Auditing board deducted league points from two member clubs following sustained accounting expenditure infringements. The punitive ruling altered championship qualification standings and provoked passionate debate among fan supporters. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Global Sports Weekly",
+    "source_url": "https://globalsportsweekly.example.org",
+    "article_url": "https://example.synthetic.org/articles/55-sports",
+    "publication_date": "2026-10-06",
+    "category": "Sports",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "football",
+      "championship",
+      "league"
+    ],
+    "created_timestamp": "2026-10-06T12:00:00"
+  },
+  {
+    "article_id": "ART-0056",
+    "headline": "Leading University Receives Historic Philanthropic Gift to Endow STEM Scholarships",
+    "description": "Generous endowment will provide full undergraduate tuition and research stipends for underprivileged students.",
+    "content": "Generous endowment will provide full undergraduate tuition and research stipends for underprivileged students. Faculty leaders celebrated the transformational bequest, which broadens educational equity and academic opportunity. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "NPR Science & Society",
+    "source_url": "https://nprsciencesociety.example.org",
+    "article_url": "https://example.synthetic.org/articles/56-education",
+    "publication_date": "2026-10-08",
+    "category": "Education",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "university",
+      "academic",
+      "tuition",
+      "faculty"
+    ],
+    "created_timestamp": "2026-10-08T12:00:00"
+  },
+  {
+    "article_id": "ART-0057",
+    "headline": "School Districts Face Severe Teacher Shortage as Resignations Outpace Recruitment",
+    "description": "Superintendents reported hundreds of unfilled classroom positions ahead of the forthcoming academic term.",
+    "content": "Superintendents reported hundreds of unfilled classroom positions ahead of the forthcoming academic term. Educational advocates attributed the crisis to stagnant salaries, excessive administrative workload, and inadequate resources. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardianworld.example.org",
+    "article_url": "https://example.synthetic.org/articles/57-education",
+    "publication_date": "2026-10-10",
+    "category": "Education",
+    "sentiment": "Negative",
+    "sentiment_score": -1,
+    "keywords": [
+      "school",
+      "teacher",
+      "academic",
+      "classroom"
+    ],
+    "created_timestamp": "2026-10-10T12:00:00"
+  },
+  {
+    "article_id": "ART-0058",
+    "headline": "Innovative Digital Literacy Curriculum Adopted Across Primary Education System",
+    "description": "Educational ministry launched interactive computing modules teaching algorithm basics and critical digital evaluation.",
+    "content": "Educational ministry launched interactive computing modules teaching algorithm basics and critical digital evaluation. Educators reported enthusiastic pupil engagement as children learned fundamental programming through playful gamified exercises. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "NPR Science & Society",
+    "source_url": "https://nprsciencesociety.example.org",
+    "article_url": "https://example.synthetic.org/articles/58-education",
+    "publication_date": "2026-10-12",
+    "category": "Education",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "curriculum",
+      "literacy",
+      "education"
+    ],
+    "created_timestamp": "2026-10-12T12:00:00"
+  },
+  {
+    "article_id": "ART-0059",
+    "headline": "University Students Protest Against Proposed On-Campus Accommodation Fee Escalations",
+    "description": "Student unions organised peaceful demonstrations outside administrative buildings demanding rent freezes.",
+    "content": "Student unions organised peaceful demonstrations outside administrative buildings demanding rent freezes. Representatives highlighted that soaring living expenses severely jeopardise academic retention and student well-being. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardianworld.example.org",
+    "article_url": "https://example.synthetic.org/articles/59-education",
+    "publication_date": "2026-10-14",
+    "category": "Education",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [
+      "university",
+      "student",
+      "campus",
+      "academic"
+    ],
+    "created_timestamp": "2026-10-14T12:00:00"
+  },
+  {
+    "article_id": "ART-0060",
+    "headline": "Consortium of Research Universities Launches Open-Access Scientific Repository",
+    "description": "Academic libraries partnered to publish peer-reviewed doctoral dissertations and research datasets freely worldwide.",
+    "content": "Academic libraries partnered to publish peer-reviewed doctoral dissertations and research datasets freely worldwide. The collaborative open-science platform dismantles subscription paywalls and accelerates global academic discovery. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "NPR Science & Society",
+    "source_url": "https://nprsciencesociety.example.org",
+    "article_url": "https://example.synthetic.org/articles/60-education",
+    "publication_date": "2026-10-16",
+    "category": "Science",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "discovery",
+      "scientific"
+    ],
+    "created_timestamp": "2026-10-16T12:00:00"
+  },
+  {
+    "article_id": "ART-0061",
+    "headline": "Secondary School Students Win Global Robotics Olympiad with Autonomous Sorter",
+    "description": "Talented high-school team claimed first place after designing an optical sensor-guided waste recycling robot.",
+    "content": "Talented high-school team claimed first place after designing an optical sensor-guided waste recycling robot. Mentors and teachers praised the students for ingenious engineering, collaborative problem-solving, and perseverance. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "NPR Science & Society",
+    "source_url": "https://nprsciencesociety.example.org",
+    "article_url": "https://example.synthetic.org/articles/61-education",
+    "publication_date": "2026-10-18",
+    "category": "Technology",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "robotics"
+    ],
+    "created_timestamp": "2026-10-18T12:00:00"
+  },
+  {
+    "article_id": "ART-0062",
+    "headline": "Education Authority Discloses Widespread Examination Paper Leak and Malpractice",
+    "description": "Standardised testing board cancelled regional exams following illicit circulation of question papers on social channels.",
+    "content": "Standardised testing board cancelled regional exams following illicit circulation of question papers on social channels. Officials initiated criminal fraud investigations, causing acute anxiety and disruption for thousands of candidates. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardianworld.example.org",
+    "article_url": "https://example.synthetic.org/articles/62-education",
+    "publication_date": "2026-10-20",
+    "category": "Education",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [
+      "education"
+    ],
+    "created_timestamp": "2026-10-20T12:00:00"
+  },
+  {
+    "article_id": "ART-0063",
+    "headline": "Vocational Training Institute Expands Green Energy Apprenticeship Pathways",
+    "description": "Technical college inaugurated advanced workshops training certified technicians in heat-pump and solar installation.",
+    "content": "Technical college inaugurated advanced workshops training certified technicians in heat-pump and solar installation. Industry employers guaranteed immediate post-graduation employment, citing urgent demands for skilled green tradespeople. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "NPR Science & Society",
+    "source_url": "https://nprsciencesociety.example.org",
+    "article_url": "https://example.synthetic.org/articles/63-education",
+    "publication_date": "2026-10-22",
+    "category": "Environment",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "solar",
+      "green energy"
+    ],
+    "created_timestamp": "2026-10-22T12:00:00"
+  },
+  {
+    "article_id": "ART-0064",
+    "headline": "Higher Education Funding Body Issues Warning Over University Operating Deficits",
+    "description": "Fiscal oversight report warned that numerous academic institutions face severe cash-flow pressures due to inflation.",
+    "content": "Fiscal oversight report warned that numerous academic institutions face severe cash-flow pressures due to inflation. Vice-chancellors called for strategic government stabilisation grants to prevent departmental closures and staff redundancies. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardianworld.example.org",
+    "article_url": "https://example.synthetic.org/articles/64-education",
+    "publication_date": "2026-10-24",
+    "category": "Education",
+    "sentiment": "Negative",
+    "sentiment_score": -4,
+    "keywords": [
+      "university",
+      "academic",
+      "education"
+    ],
+    "created_timestamp": "2026-10-24T12:00:00"
+  },
+  {
+    "article_id": "ART-0065",
+    "headline": "Early Childhood Learning Centres Report Exceptional Gains from Play-Based Pedagogy",
+    "description": "Longitudinal developmental study revealed enhanced cognitive flexibility and social empathy among participating toddlers.",
+    "content": "Longitudinal developmental study revealed enhanced cognitive flexibility and social empathy among participating toddlers. Researchers recommended widespread adoption of child-led outdoor exploration within national pre-school frameworks. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "NPR Science & Society",
+    "source_url": "https://nprsciencesociety.example.org",
+    "article_url": "https://example.synthetic.org/articles/65-education",
+    "publication_date": "2026-10-26",
+    "category": "Education",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "school",
+      "pedagogy",
+      "learning"
+    ],
+    "created_timestamp": "2026-10-26T12:00:00"
+  },
+  {
+    "article_id": "ART-0066",
+    "headline": "Academic Publishing House Retracts Falsified Research Papers Following Forensic Audit",
+    "description": "Editorial review board removed forty corrupted biomedical papers after discovering coordinated peer-review ring manipulation.",
+    "content": "Editorial review board removed forty corrupted biomedical papers after discovering coordinated peer-review ring manipulation. University integrity committees launched disciplinary proceedings against implicated researchers to safeguard scientific rigor. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardianworld.example.org",
+    "article_url": "https://example.synthetic.org/articles/66-education",
+    "publication_date": "2026-10-28",
+    "category": "Education",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "university",
+      "academic"
+    ],
+    "created_timestamp": "2026-10-28T12:00:00"
+  },
+  {
+    "article_id": "ART-0067",
+    "headline": "James Webb Telescope Discovers Atmospheres on Habitable-Zone Earth-Sized Exoplanets",
+    "description": "Spectroscopic observations revealed signs of water vapor, methane, and carbon dioxide around distant red dwarf star.",
+    "content": "Spectroscopic observations revealed signs of water vapor, methane, and carbon dioxide around distant red dwarf star. Astrophysicists hailed the monumental discovery as our most promising window yet into extraterrestrial habitability. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Nature Scientific",
+    "source_url": "https://naturescientific.example.org",
+    "article_url": "https://example.synthetic.org/articles/67-science",
+    "publication_date": "2026-10-30",
+    "category": "Science",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "telescope",
+      "discovery"
+    ],
+    "created_timestamp": "2026-10-30T12:00:00"
+  },
+  {
+    "article_id": "ART-0068",
+    "headline": "Deep Sea Expedition Records Unprecedented Hydrothermal Vent Ecosystems in Mariana Trench",
+    "description": "Submersible researchers documented vibrant communities of chemotrophic extremophiles thriving in extreme pressure and heat.",
+    "content": "Submersible researchers documented vibrant communities of chemotrophic extremophiles thriving in extreme pressure and heat. Biologists isolated novel enzymes with extraordinary thermal stability, holding high promise for green industrial biocatalysis. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Nature Scientific",
+    "source_url": "https://naturescientific.example.org",
+    "article_url": "https://example.synthetic.org/articles/68-science",
+    "publication_date": "2026-11-01",
+    "category": "Other",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [],
+    "created_timestamp": "2026-11-01T12:00:00"
+  },
+  {
+    "article_id": "ART-0069",
+    "headline": "Particle Physics Laboratory Observes Subtle Anomaly in Rare Muon Decay Mode",
+    "description": "Physicists reported statistical deviations from Standard Model expectations during high-luminosity collider runs.",
+    "content": "Physicists reported statistical deviations from Standard Model expectations during high-luminosity collider runs. The intriguing measurements could hint at hitherto undiscovered fundamental bosons or dark sector interactions. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Nature Scientific",
+    "source_url": "https://naturescientific.example.org",
+    "article_url": "https://example.synthetic.org/articles/69-science",
+    "publication_date": "2026-11-03",
+    "category": "Science",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "physics",
+      "particle",
+      "laboratory"
+    ],
+    "created_timestamp": "2026-11-03T12:00:00"
+  },
+  {
+    "article_id": "ART-0070",
+    "headline": "Archaeologists Unearth Pristine Neolithic Settlement Preserved in Peat Bog",
+    "description": "Excavation team discovered well-preserved timber dwellings, woven textiles, and ceramic cooking vessels dating five millennia.",
+    "content": "Excavation team discovered well-preserved timber dwellings, woven textiles, and ceramic cooking vessels dating five millennia. Historians commended the exquisite preservation, which provides unmatched clarity into prehistoric community organization. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Nature Scientific",
+    "source_url": "https://naturescientific.example.org",
+    "article_url": "https://example.synthetic.org/articles/70-science",
+    "publication_date": "2026-11-05",
+    "category": "Other",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [],
+    "created_timestamp": "2026-11-05T12:00:00"
+  },
+  {
+    "article_id": "ART-0071",
+    "headline": "Climate Paleontologists Discover Ancient Arctic Forest Fossils Indicating Warmer Earth Eras",
+    "description": "Sedimentary core drillings yielded petrified tree trunks and deciduous leaves from Eocene polar regions.",
+    "content": "Sedimentary core drillings yielded petrified tree trunks and deciduous leaves from Eocene polar regions. The geological record offers vital historical data points for calibrating contemporary climate sensitivity simulations. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Nature Scientific",
+    "source_url": "https://naturescientific.example.org",
+    "article_url": "https://example.synthetic.org/articles/71-science",
+    "publication_date": "2026-11-07",
+    "category": "Technology",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "data"
+    ],
+    "created_timestamp": "2026-11-07T12:00:00"
+  },
+  {
+    "article_id": "ART-0072",
+    "headline": "Biochemical Researchers Synthesise Artificial Chloroplast Capable of Enhanced Carbon Capture",
+    "description": "Synthetic biologists constructed lipid microdroplets that mimic photosynthetic light reactions with quadruple efficiency.",
+    "content": "Synthetic biologists constructed lipid microdroplets that mimic photosynthetic light reactions with quadruple efficiency. The laboratory breakthrough could provide biological foundations for industrial carbon-negative chemical manufacturing. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Nature Scientific",
+    "source_url": "https://naturescientific.example.org",
+    "article_url": "https://example.synthetic.org/articles/72-science",
+    "publication_date": "2026-11-09",
+    "category": "Science",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "laboratory"
+    ],
+    "created_timestamp": "2026-11-09T12:00:00"
+  },
+  {
+    "article_id": "ART-0073",
+    "headline": "Astronomers Track High-Energy Gamma Ray Burst Originating from Magnetar Flare",
+    "description": "Orbital observatories detected intense pulse of gamma radiation generated by crustal rupture on ultra-magnetic neutron star.",
+    "content": "Orbital observatories detected intense pulse of gamma radiation generated by crustal rupture on ultra-magnetic neutron star. The rare astronomical event provided valuable insights into relativistic shockwaves and magnetic field dynamics. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Nature Scientific",
+    "source_url": "https://naturescientific.example.org",
+    "article_url": "https://example.synthetic.org/articles/73-science",
+    "publication_date": "2026-11-11",
+    "category": "Other",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [],
+    "created_timestamp": "2026-11-11T12:00:00"
+  },
+  {
+    "article_id": "ART-0074",
+    "headline": "Geneticists Reconstruct Complete Nuclear Genome of Extinct Prehistoric Megafauna",
+    "description": "Ancient DNA extraction from Siberian permafrost permitted high-coverage sequencing of woolly mammoth chromosomes.",
+    "content": "Ancient DNA extraction from Siberian permafrost permitted high-coverage sequencing of woolly mammoth chromosomes. The genetic blueprint sheds light on cold-climate adaptations and evolutionary divergence in mammalian lineages. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Nature Scientific",
+    "source_url": "https://naturescientific.example.org",
+    "article_url": "https://example.synthetic.org/articles/74-science",
+    "publication_date": "2026-11-13",
+    "category": "Environment",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "climate"
+    ],
+    "created_timestamp": "2026-11-13T12:00:00"
+  },
+  {
+    "article_id": "ART-0075",
+    "headline": "Research Laboratory Incident Causes Loss of Long-Term Cryopreserved Biological Cultures",
+    "description": "Refrigeration compressor breakdown resulted in thermal degradation of thousands of unique microbiological specimen vials.",
+    "content": "Refrigeration compressor breakdown resulted in thermal degradation of thousands of unique microbiological specimen vials. Investigators identified power backup switch failure and implemented stringent redundant monitoring systems. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Nature Scientific",
+    "source_url": "https://naturescientific.example.org",
+    "article_url": "https://example.synthetic.org/articles/75-science",
+    "publication_date": "2026-09-01",
+    "category": "Science",
+    "sentiment": "Negative",
+    "sentiment_score": -1,
+    "keywords": [
+      "laboratory"
+    ],
+    "created_timestamp": "2026-09-01T12:00:00"
+  },
+  {
+    "article_id": "ART-0076",
+    "headline": "Materials Scientists Synthesise Ultra-Light Aerogel Possessing Unprecedented Thermal Insulation",
+    "description": "Nanotechnology engineers developed ceramic nanofibre aerogel that withstands temperatures exceeding one thousand degrees.",
+    "content": "Nanotechnology engineers developed ceramic nanofibre aerogel that withstands temperatures exceeding one thousand degrees. The material offers revolutionary shielding potential for aerospace re-entry capsules and cryogenic fuel tankers. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Nature Scientific",
+    "source_url": "https://naturescientific.example.org",
+    "article_url": "https://example.synthetic.org/articles/76-science",
+    "publication_date": "2026-09-03",
+    "category": "Other",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [],
+    "created_timestamp": "2026-09-03T12:00:00"
+  },
+  {
+    "article_id": "ART-0077",
+    "headline": "Neuroscientists Map Synaptic Connectome of Complex Avian Brain Circuitry",
+    "description": "Electron microscopy and AI reconstruction yielded high-resolution circuit diagram of bird brain responsible for tool use.",
+    "content": "Electron microscopy and AI reconstruction yielded high-resolution circuit diagram of bird brain responsible for tool use. The findings demonstrate convergent cognitive evolution in vertebrates, challenging conventional mammalian brain assumptions. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Nature Scientific",
+    "source_url": "https://naturescientific.example.org",
+    "article_url": "https://example.synthetic.org/articles/77-science",
+    "publication_date": "2026-09-05",
+    "category": "Science",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "evolution"
+    ],
+    "created_timestamp": "2026-09-05T12:00:00"
+  },
+  {
+    "article_id": "ART-0078",
+    "headline": "Global Reforestation Partnership Restores One Million Hectares of Degraded Rainforest",
+    "description": "Conservationists and indigenous communities celebrated successful regeneration of native canopy across South America.",
+    "content": "Conservationists and indigenous communities celebrated successful regeneration of native canopy across South America. Wildlife monitors confirmed the return of endangered jaguars, harpy eagles, and tapirs to restored river corridors. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "EcoPlanet Monitor",
+    "source_url": "https://ecoplanetmonitor.example.org",
+    "article_url": "https://example.synthetic.org/articles/78-environment",
+    "publication_date": "2026-09-07",
+    "category": "Environment",
+    "sentiment": "Positive",
+    "sentiment_score": 3,
+    "keywords": [
+      "wildlife"
+    ],
+    "created_timestamp": "2026-09-07T12:00:00"
+  },
+  {
+    "article_id": "ART-0079",
+    "headline": "Catastrophic Oil Pipeline Spill Contaminates Sensitive Coastal Wetland Estuary",
+    "description": "Rupture in aging maritime pipeline discharged crude into mangrove wetlands, threatening marine biodiversity.",
+    "content": "Rupture in aging maritime pipeline discharged crude into mangrove wetlands, threatening marine biodiversity. Emergency cleanup flotillas deployed containment booms while wildlife specialists rescued oil-drenched pelicans. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardianworld.example.org",
+    "article_url": "https://example.synthetic.org/articles/79-environment",
+    "publication_date": "2026-09-09",
+    "category": "Environment",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "biodiversity",
+      "wildlife"
+    ],
+    "created_timestamp": "2026-09-09T12:00:00"
+  },
+  {
+    "article_id": "ART-0080",
+    "headline": "Renewable Energy Surpasses Fossil Fuels in National Electricity Generation Grid",
+    "description": "Government energy department reported that wind, solar, and hydroelectric stations provided sixty percent of power demand.",
+    "content": "Government energy department reported that wind, solar, and hydroelectric stations provided sixty percent of power demand. The transition reduced greenhouse emissions significantly and protected consumer energy bills from international gas spikes. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "EcoPlanet Monitor",
+    "source_url": "https://ecoplanetmonitor.example.org",
+    "article_url": "https://example.synthetic.org/articles/80-environment",
+    "publication_date": "2026-09-11",
+    "category": "Environment",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "emissions",
+      "renewable",
+      "solar",
+      "wind",
+      "greenhouse"
+    ],
+    "created_timestamp": "2026-09-11T12:00:00"
+  },
+  {
+    "article_id": "ART-0081",
+    "headline": "Persistent Drought Forces Emergency Water Rationing Across Southwestern Agricultural Basins",
+    "description": "Depleted reservoir capacities reached historic lows, obliging water boards to restrict municipal and crop irrigation.",
+    "content": "Depleted reservoir capacities reached historic lows, obliging water boards to restrict municipal and crop irrigation. Farmers confronted severe economic distress as fallow acreage expanded and wildfire hazard warnings intensified. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardianworld.example.org",
+    "article_url": "https://example.synthetic.org/articles/81-environment",
+    "publication_date": "2026-09-13",
+    "category": "Environment",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [
+      "drought"
+    ],
+    "created_timestamp": "2026-09-13T12:00:00"
+  },
+  {
+    "article_id": "ART-0082",
+    "headline": "International Marine Sanctuary Established to Protect Critical Antarctic Krill Feeding Grounds",
+    "description": "Twenty-four nations signed treaty designating two million square kilometres of Southern Ocean as protected marine reserve.",
+    "content": "Twenty-four nations signed treaty designating two million square kilometres of Southern Ocean as protected marine reserve. The environmental accord safeguards essential food supplies for baleen whales, penguins, and seals against industrial trawlers. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "EcoPlanet Monitor",
+    "source_url": "https://ecoplanetmonitor.example.org",
+    "article_url": "https://example.synthetic.org/articles/82-environment",
+    "publication_date": "2026-09-15",
+    "category": "World News",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "international",
+      "treaty",
+      "accord"
+    ],
+    "created_timestamp": "2026-09-15T12:00:00"
+  },
+  {
+    "article_id": "ART-0083",
+    "headline": "Urban Greening Initiative Lowers Heat Island Temperatures in Metropolitan Core",
+    "description": "Municipal installation of rooftop gardens, permeable pavements, and shade tree corridors reduced street temperatures by three degrees.",
+    "content": "Municipal installation of rooftop gardens, permeable pavements, and shade tree corridors reduced street temperatures by three degrees. City planners presented the findings as an exemplary cost-effective climate adaptation blueprint for global metropolises. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "EcoPlanet Monitor",
+    "source_url": "https://ecoplanetmonitor.example.org",
+    "article_url": "https://example.synthetic.org/articles/83-environment",
+    "publication_date": "2026-09-17",
+    "category": "Environment",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "climate"
+    ],
+    "created_timestamp": "2026-09-17T12:00:00"
+  },
+  {
+    "article_id": "ART-0084",
+    "headline": "Industrial Chemical Runoff Prompts Toxic Algal Bloom in Regional Freshwater Reservoir",
+    "description": "Agricultural fertiliser discharges provoked rapid cyanobacteria expansion, rendering municipal tap water unsafe for drinking.",
+    "content": "Agricultural fertiliser discharges provoked rapid cyanobacteria expansion, rendering municipal tap water unsafe for drinking. Environmental enforcement agencies levied heavy fines on offending facilities and initiated emergency reservoir filtration. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardianworld.example.org",
+    "article_url": "https://example.synthetic.org/articles/84-environment",
+    "publication_date": "2026-09-19",
+    "category": "Other",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [],
+    "created_timestamp": "2026-09-19T12:00:00"
+  },
+  {
+    "article_id": "ART-0085",
+    "headline": "Innovations in Direct Air Carbon Capture Facility Achieve Lower Operating Costs",
+    "description": "Clean technology engineers demonstrated modular chemical filters that extract carbon dioxide using renewable geothermal heat.",
+    "content": "Clean technology engineers demonstrated modular chemical filters that extract carbon dioxide using renewable geothermal heat. The scalable commercial facility permanent stores captured carbon in subterranean basalt formations as mineral carbonate. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "EcoPlanet Monitor",
+    "source_url": "https://ecoplanetmonitor.example.org",
+    "article_url": "https://example.synthetic.org/articles/85-environment",
+    "publication_date": "2026-09-21",
+    "category": "Environment",
+    "sentiment": "Positive",
+    "sentiment_score": 3,
+    "keywords": [
+      "carbon",
+      "renewable"
+    ],
+    "created_timestamp": "2026-09-21T12:00:00"
+  },
+  {
+    "article_id": "ART-0086",
+    "headline": "Melting Mountain Glaciers Threaten Long-Term Freshwater Supplies for Himalayan Valleys",
+    "description": "Hydrological survey revealed accelerated ice loss across alpine glaciers, predicting seasonal river runoff shortages.",
+    "content": "Hydrological survey revealed accelerated ice loss across alpine glaciers, predicting seasonal river runoff shortages. Downstream communities face heightened risks of glacial lake outburst floods followed by severe summer water scarcity. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardianworld.example.org",
+    "article_url": "https://example.synthetic.org/articles/86-environment",
+    "publication_date": "2026-09-23",
+    "category": "Other",
+    "sentiment": "Negative",
+    "sentiment_score": -2,
+    "keywords": [],
+    "created_timestamp": "2026-09-23T12:00:00"
+  },
+  {
+    "article_id": "ART-0087",
+    "headline": "Community Zero-Waste Scheme Diverts Ninety Percent of Household Refuse from Landfill",
+    "description": "Pilot municipality achieved remarkable sustainability milestones through comprehensive composting and material recovery loops.",
+    "content": "Pilot municipality achieved remarkable sustainability milestones through comprehensive composting and material recovery loops. Local council members reported substantial waste disposal budget savings and widespread citizen participation. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "EcoPlanet Monitor",
+    "source_url": "https://ecoplanetmonitor.example.org",
+    "article_url": "https://example.synthetic.org/articles/87-environment",
+    "publication_date": "2026-09-25",
+    "category": "Environment",
+    "sentiment": "Positive",
+    "sentiment_score": 3,
+    "keywords": [
+      "sustainability"
+    ],
+    "created_timestamp": "2026-09-25T12:00:00"
+  },
+  {
+    "article_id": "ART-0088",
+    "headline": "Illegal Deforestation Operation Dismantled in Protected Biosphere Reserve",
+    "description": "Rangers and federal police arrested logging syndicate members and seized heavy earthmoving machinery in pristine forest.",
+    "content": "Rangers and federal police arrested logging syndicate members and seized heavy earthmoving machinery in pristine forest. Environmental authorities reaffirmed commitment to safeguard indigenous territories and combat timber contraband. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardianworld.example.org",
+    "article_url": "https://example.synthetic.org/articles/88-environment",
+    "publication_date": "2026-09-27",
+    "category": "Environment",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "deforestation"
+    ],
+    "created_timestamp": "2026-09-27T12:00:00"
+  },
+  {
+    "article_id": "ART-0089",
+    "headline": "United Nations General Assembly Adopts Universal Resolution on Humanitarian Aid Access",
+    "description": "Member states voted overwhelmingly to guarantee unhindered passage for medical convoys in conflict zones.",
+    "content": "Member states voted overwhelmingly to guarantee unhindered passage for medical convoys in conflict zones. The Secretary-General commended the diplomatic accord as a moral reaffirmation of humanitarian international law. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Reuters Wire",
+    "source_url": "https://reuterswire.example.org",
+    "article_url": "https://example.synthetic.org/articles/89-world-news",
+    "publication_date": "2026-09-29",
+    "category": "World News",
+    "sentiment": "Negative",
+    "sentiment_score": -1,
+    "keywords": [
+      "international",
+      "united nations",
+      "conflict",
+      "humanitarian",
+      "diplomatic",
+      "accord"
+    ],
+    "created_timestamp": "2026-09-29T12:00:00"
+  },
+  {
+    "article_id": "ART-0090",
+    "headline": "Escalating Border Skirmishes Displace Thousands of Families in Disputed Territory",
+    "description": "Artillery exchanges along the demarcation line forced civilian populations to seek emergency shelter in inland towns.",
+    "content": "Artillery exchanges along the demarcation line forced civilian populations to seek emergency shelter in inland towns. Humanitarian relief agencies appealed for immediate ceasefire windows to distribute food, blankets, and water. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "BBC News",
+    "source_url": "https://bbcnews.example.org",
+    "article_url": "https://example.synthetic.org/articles/90-world-news",
+    "publication_date": "2026-10-01",
+    "category": "World News",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "humanitarian"
+    ],
+    "created_timestamp": "2026-10-01T12:00:00"
+  },
+  {
+    "article_id": "ART-0091",
+    "headline": "International Maritime Accord Ratified to Suppress Piracy Along Critical Shipping Straits",
+    "description": "Naval commanders from twelve littoral nations established joint maritime patrols and shared radar intelligence.",
+    "content": "Naval commanders from twelve littoral nations established joint maritime patrols and shared radar intelligence. The collaborative security pact ensures uninterrupted commercial navigation and safeguards merchant crews from hijackings. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Reuters Wire",
+    "source_url": "https://reuterswire.example.org",
+    "article_url": "https://example.synthetic.org/articles/91-world-news",
+    "publication_date": "2026-10-03",
+    "category": "World News",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "international",
+      "accord"
+    ],
+    "created_timestamp": "2026-10-03T12:00:00"
+  },
+  {
+    "article_id": "ART-0092",
+    "headline": "Devastating Earthquake Strikes Mountainous Province Causing Severe Infrastructure Damage",
+    "description": "Seismic tremors measuring 7.1 magnitude destroyed rural bridges, collapsed masonry dwellings, and severed communications.",
+    "content": "Seismic tremors measuring 7.1 magnitude destroyed rural bridges, collapsed masonry dwellings, and severed communications. International rescue teams and sniffer dogs mobilised rapidly to search for survivors amidst precarious debris. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "BBC News",
+    "source_url": "https://bbcnews.example.org",
+    "article_url": "https://example.synthetic.org/articles/92-world-news",
+    "publication_date": "2026-10-05",
+    "category": "World News",
+    "sentiment": "Negative",
+    "sentiment_score": -1,
+    "keywords": [
+      "international"
+    ],
+    "created_timestamp": "2026-10-05T12:00:00"
+  },
+  {
+    "article_id": "ART-0093",
+    "headline": "Global Health Summit Concludes with Historic Pandemic Preparedness Treaty",
+    "description": "Delegates from one hundred and fifty countries ratified binding agreements to share vaccine patents and genomic data.",
+    "content": "Delegates from one hundred and fifty countries ratified binding agreements to share vaccine patents and genomic data. The accord guarantees equitable distribution of emergency diagnostics and medical therapeutics during future crises. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Reuters Wire",
+    "source_url": "https://reuterswire.example.org",
+    "article_url": "https://example.synthetic.org/articles/93-world-news",
+    "publication_date": "2026-10-07",
+    "category": "World News",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "global",
+      "treaty",
+      "summit",
+      "accord"
+    ],
+    "created_timestamp": "2026-10-07T12:00:00"
+  },
+  {
+    "article_id": "ART-0094",
+    "headline": "Civil Unrest and General Strike Paralyse Transport and Commerce in Capital City",
+    "description": "Thousands of citizens marched demanding government accountability, electoral reforms, and lower food tariffs.",
+    "content": "Thousands of citizens marched demanding government accountability, electoral reforms, and lower food tariffs. Clashes between demonstration crowds and riot police resulted in road blockades, arrests, and transit shutdowns. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardianworld.example.org",
+    "article_url": "https://example.synthetic.org/articles/94-world-news",
+    "publication_date": "2026-10-09",
+    "category": "Politics",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [
+      "government"
+    ],
+    "created_timestamp": "2026-10-09T12:00:00"
+  },
+  {
+    "article_id": "ART-0095",
+    "headline": "Bilateral Peacekeeping Accord Signed Following Protracted Truce Negotiations",
+    "description": "Opposing factions agreed to demilitarise border zones and allow international neutral monitors to oversee withdrawal.",
+    "content": "Opposing factions agreed to demilitarise border zones and allow international neutral monitors to oversee withdrawal. Displaced communities expressed cautious optimism as commercial transit corridors reopened after years of hostility. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Reuters Wire",
+    "source_url": "https://reuterswire.example.org",
+    "article_url": "https://example.synthetic.org/articles/95-world-news",
+    "publication_date": "2026-10-11",
+    "category": "World News",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "international",
+      "peacekeeping",
+      "accord",
+      "truce"
+    ],
+    "created_timestamp": "2026-10-11T12:00:00"
+  },
+  {
+    "article_id": "ART-0096",
+    "headline": "Severe Cyclone Causes Coastal Flooding and Destroys Essential Telecommunications",
+    "description": "Category four cyclone battered island communities with torrential rains, storm surges, and destructive wind gusts.",
+    "content": "Category four cyclone battered island communities with torrential rains, storm surges, and destructive wind gusts. Emergency response coordinators deployed satellite mobile stations to restore contact with isolated fishing settlements. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "BBC News",
+    "source_url": "https://bbcnews.example.org",
+    "article_url": "https://example.synthetic.org/articles/96-world-news",
+    "publication_date": "2026-10-13",
+    "category": "Environment",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [
+      "wind"
+    ],
+    "created_timestamp": "2026-10-13T12:00:00"
+  },
+  {
+    "article_id": "ART-0097",
+    "headline": "International Trade Summit Resolves Longstanding Agricultural Tariff Dispute",
+    "description": "Negotiators from major trading blocs reached reciprocal tariff reductions on grain, dairy, and horticultural products.",
+    "content": "Negotiators from major trading blocs reached reciprocal tariff reductions on grain, dairy, and horticultural products. The breakthrough accord revitalises multilateral commercial relationships and averts potential trade sanctions. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Reuters Wire",
+    "source_url": "https://reuterswire.example.org",
+    "article_url": "https://example.synthetic.org/articles/97-world-news",
+    "publication_date": "2026-10-15",
+    "category": "World News",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "international",
+      "summit",
+      "accord"
+    ],
+    "created_timestamp": "2026-10-15T12:00:00"
+  },
+  {
+    "article_id": "ART-0098",
+    "headline": "Humanitarian Agency Secures Emergency Relief Corridor for Blockaded Enclave",
+    "description": "Negotiators successfully arranged safe convoy passage for twenty aid trucks carrying infant formula and medical kits.",
+    "content": "Negotiators successfully arranged safe convoy passage for twenty aid trucks carrying infant formula and medical kits. Relief workers delivered essential assistance to vulnerable families, praising neutral mediators for brokering the corridor. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardianworld.example.org",
+    "article_url": "https://example.synthetic.org/articles/98-world-news",
+    "publication_date": "2026-10-17",
+    "category": "Health",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "medical"
+    ],
+    "created_timestamp": "2026-10-17T12:00:00"
+  },
+  {
+    "article_id": "ART-0099",
+    "headline": "Border Demarcation Accord Resolves Decades-Long Territorial Sovereignty Disagreement",
+    "description": "Survey commissioners from neighboring nations signed official maps demarcating riverine and mountainous borderlines.",
+    "content": "Survey commissioners from neighboring nations signed official maps demarcating riverine and mountainous borderlines. Leaders from both countries celebrated the milestone as a foundation for peaceful trade and cultural exchange. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "Reuters Wire",
+    "source_url": "https://reuterswire.example.org",
+    "article_url": "https://example.synthetic.org/articles/99-world-news",
+    "publication_date": "2026-10-19",
+    "category": "World News",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "sovereignty",
+      "accord"
+    ],
+    "created_timestamp": "2026-10-19T12:00:00"
+  },
+  {
+    "article_id": "ART-0100",
+    "headline": "Critically Acclaimed Independent Drama Sweeps Major International Film Awards",
+    "description": "Lyrical family portrait garnered Best Director, Best Screenplay, and Best Picture honors at prestigious ceremony.",
+    "content": "Lyrical family portrait garnered Best Director, Best Screenplay, and Best Picture honors at prestigious ceremony. Film critics lauded the production for authentic performances, evocative cinematography, and emotional depth. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "BBC News",
+    "source_url": "https://bbcnews.example.org",
+    "article_url": "https://example.synthetic.org/articles/100-entertainment",
+    "publication_date": "2026-10-21",
+    "category": "Entertainment",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "film",
+      "director"
+    ],
+    "created_timestamp": "2026-10-21T12:00:00"
+  },
+  {
+    "article_id": "ART-0101",
+    "headline": "Legendary Pop Musician Announces Historic Farewell Stadium Concert Tour",
+    "description": "Iconic singer-songwriter will perform sixty stadium shows worldwide, celebrating five decades of classic hits.",
+    "content": "Iconic singer-songwriter will perform sixty stadium shows worldwide, celebrating five decades of classic hits. Millions of excited fans queued online as ticket platforms witnessed unprecedented registration volumes. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "BBC News",
+    "source_url": "https://bbcnews.example.org",
+    "article_url": "https://example.synthetic.org/articles/101-entertainment",
+    "publication_date": "2026-10-23",
+    "category": "Sports",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "stadium"
+    ],
+    "created_timestamp": "2026-10-23T12:00:00"
+  },
+  {
+    "article_id": "ART-0102",
+    "headline": "Major Motion Picture Studio Postpones Superhero Blockbuster Release Amid Post-Production Delays",
+    "description": "Production executives announced a six-month release postponement to polish complex visual effects sequences.",
+    "content": "Production executives announced a six-month release postponement to polish complex visual effects sequences. Cinema exhibitors expressed disappointment over the empty summer release slot while fans debated leaked plot rumours. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "TechRadar Global",
+    "source_url": "https://techradarglobal.example.org",
+    "article_url": "https://example.synthetic.org/articles/102-entertainment",
+    "publication_date": "2026-10-25",
+    "category": "Entertainment",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "cinema"
+    ],
+    "created_timestamp": "2026-10-25T12:00:00"
+  },
+  {
+    "article_id": "ART-0103",
+    "headline": "Groundbreaking Television Fantasy Series Captivates Global Streaming Audiences",
+    "description": "Epic adaptation of celebrated novel series set viewership records across two hundred territories during debut weekend.",
+    "content": "Epic adaptation of celebrated novel series set viewership records across two hundred territories during debut weekend. Viewers praised the rich worldbuilding, intricate political intrigue, and stellar ensemble cast acting. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "TechRadar Global",
+    "source_url": "https://techradarglobal.example.org",
+    "article_url": "https://example.synthetic.org/articles/103-entertainment",
+    "publication_date": "2026-10-27",
+    "category": "Entertainment",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "television",
+      "series",
+      "streaming"
+    ],
+    "created_timestamp": "2026-10-27T12:00:00"
+  },
+  {
+    "article_id": "ART-0104",
+    "headline": "Broadway Revival of Classic Musical Earns Enthusiastic Ovations and Record Box Office",
+    "description": "Reimagined theatrical staging captivated theatregoers with brilliant choreography and dynamic vocal orchestrations.",
+    "content": "Reimagined theatrical staging captivated theatregoers with brilliant choreography and dynamic vocal orchestrations. Theatre producers announced extended performance runs after sellout crowds filled the historic playhouse. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "BBC News",
+    "source_url": "https://bbcnews.example.org",
+    "article_url": "https://example.synthetic.org/articles/104-entertainment",
+    "publication_date": "2026-10-29",
+    "category": "Entertainment",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "theatre",
+      "box office"
+    ],
+    "created_timestamp": "2026-10-29T12:00:00"
+  },
+  {
+    "article_id": "ART-0105",
+    "headline": "Grammy-Winning Jazz Ensemble Releases Innovative Fusion Album to Critical Praise",
+    "description": "Acoustic quartet blended traditional modal improvisation with microtonal electronic synthesis and West African rhythms.",
+    "content": "Acoustic quartet blended traditional modal improvisation with microtonal electronic synthesis and West African rhythms. Music critics hailed the recording as a daring masterpiece that reinvigorates contemporary instrumental jazz. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "NPR Science & Society",
+    "source_url": "https://nprsciencesociety.example.org",
+    "article_url": "https://example.synthetic.org/articles/105-entertainment",
+    "publication_date": "2026-10-31",
+    "category": "Entertainment",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "music",
+      "album",
+      "grammy"
+    ],
+    "created_timestamp": "2026-10-31T12:00:00"
+  },
+  {
+    "article_id": "ART-0106",
+    "headline": "Video Game Developer Cancels Anticipated Multiplayer Title Following Beta Testing Backlash",
+    "description": "Studio executives shelved the multiplayer shooter after player feedback criticised monetization and repetitive gameplay.",
+    "content": "Studio executives shelved the multiplayer shooter after player feedback criticised monetization and repetitive gameplay. Developers expressed sorrow over the abrupt cancellation after investing three years of continuous design effort. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "TechRadar Global",
+    "source_url": "https://techradarglobal.example.org",
+    "article_url": "https://example.synthetic.org/articles/106-entertainment",
+    "publication_date": "2026-11-02",
+    "category": "Technology",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "developer"
+    ],
+    "created_timestamp": "2026-11-02T12:00:00"
+  },
+  {
+    "article_id": "ART-0107",
+    "headline": "Renowned Documentary Filmmaker Receives Lifetime Achievement Honor at Venice Biennale",
+    "description": "Celebrated director was honored for courageous investigative documentaries exposing global environmental challenges.",
+    "content": "Celebrated director was honored for courageous investigative documentaries exposing global environmental challenges. Colleagues and festival judges presented the golden lion trophy amidst sustained standing applause from cinema luminaries. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "BBC News",
+    "source_url": "https://bbcnews.example.org",
+    "article_url": "https://example.synthetic.org/articles/107-entertainment",
+    "publication_date": "2026-11-04",
+    "category": "Entertainment",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "cinema",
+      "festival",
+      "director"
+    ],
+    "created_timestamp": "2026-11-04T12:00:00"
+  },
+  {
+    "article_id": "ART-0108",
+    "headline": "Historic City Centre Theatre Faces Closure Amid Severe Municipal Subsidy Reductions",
+    "description": "Century-old playhouse issued urgent fundraising appeal after city council rescinded core operational grants.",
+    "content": "Century-old playhouse issued urgent fundraising appeal after city council rescinded core operational grants. Prominent actors and local patrons rallied outside town hall to defend community cultural heritage and artistic performance. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardianworld.example.org",
+    "article_url": "https://example.synthetic.org/articles/108-entertainment",
+    "publication_date": "2026-11-06",
+    "category": "Entertainment",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [
+      "theatre"
+    ],
+    "created_timestamp": "2026-11-06T12:00:00"
+  },
+  {
+    "article_id": "ART-0109",
+    "headline": "Animated Feature Film Breaks Global Animation Box Office Record in Opening Weekend",
+    "description": "Whimsical tale of forest spirits and technological harmony delighted family audiences worldwide.",
+    "content": "Whimsical tale of forest spirits and technological harmony delighted family audiences worldwide. Cinema chains added midnight screenings to meet extraordinary demand as merchandise sales soared. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "BBC News",
+    "source_url": "https://bbcnews.example.org",
+    "article_url": "https://example.synthetic.org/articles/109-entertainment",
+    "publication_date": "2026-11-08",
+    "category": "Entertainment",
+    "sentiment": "Positive",
+    "sentiment_score": 4,
+    "keywords": [
+      "film",
+      "cinema",
+      "box office"
+    ],
+    "created_timestamp": "2026-11-08T12:00:00"
+  },
+  {
+    "article_id": "ART-0110",
+    "headline": "Popular Literary Mystery Novel Adapted into International Television Thriller",
+    "description": "Production company completed principal photography on mystery miniseries featuring prominent European cast.",
+    "content": "Production company completed principal photography on mystery miniseries featuring prominent European cast. Author commended the screenwriters for preserving original psychological suspense and atmospheric tension. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "BBC News",
+    "source_url": "https://bbcnews.example.org",
+    "article_url": "https://example.synthetic.org/articles/110-entertainment",
+    "publication_date": "2026-11-10",
+    "category": "World News",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [
+      "international"
+    ],
+    "created_timestamp": "2026-11-10T12:00:00"
+  },
+  {
+    "article_id": "ART-0111",
+    "headline": "Celebrity Actor and Philanthropist Founds Foundation to Support Emerging Screenwriters",
+    "description": "Hollywood star committed twenty million dollars to provide mentorship and production financing for diverse writers.",
+    "content": "Hollywood star committed twenty million dollars to provide mentorship and production financing for diverse writers. The endowment aims to elevate fresh storytelling voices and democratise access to film production studios. [DISCLAIMER: Synthetic demonstration news record created for CO7095 coursework testing and evaluation.]",
+    "source_name": "BBC News",
+    "source_url": "https://bbcnews.example.org",
+    "article_url": "https://example.synthetic.org/articles/111-entertainment",
+    "publication_date": "2026-11-12",
+    "category": "Entertainment",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "film",
+      "actor",
+      "hollywood",
+      "celebrity"
+    ],
+    "created_timestamp": "2026-11-12T12:00:00"
+  },
+  {
+    "article_id": "ART-0105",
+    "headline": "Presidential Envoy In Geneva For Bilateral Talks Accord",
+    "description": "Bilateral delegation meeting in Geneva.",
+    "content": "Diplomatic delegation in Geneva reviewing bilateral accords.",
+    "source_name": "The Guardian World",
+    "source_url": "https://theguardian.com",
+    "article_url": "https://example.synthetic.org/articles/dup-0105",
+    "publication_date": "2026-11-12",
+    "category": "World News",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [
+      "diplomatic",
+      "accord"
+    ],
+    "created_timestamp": "2026-11-12T12:00:00"
+  },
+  {
+    "article_id": "ART-42FC003C",
+    "headline": "Autonomous Solar Drone Sets New World Record in Flight",
+    "description": "Engineers celebrate breakthrough renewable technology.",
+    "content": "The zero-emission solar aircraft completed 30 consecutive days aloft.",
+    "source_name": "Clean Energy Journal",
+    "source_url": "",
+    "article_url": "https://cleanenergy.org/solar-drone-record",
+    "publication_date": "2026-11-18",
+    "category": "Environment",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "renewable",
+      "solar"
+    ],
+    "created_timestamp": "2026-11-18T13:14:15.250521"
+  },
+  {
+    "article_id": "ART-EB55FB49",
+    "headline": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+    "description": "China worries the scandal could ramp up pressure on the US to further restrict the sale of advanced chips.",
+    "content": "China worries the scandal could ramp up pressure on the US to further restrict the sale of advanced chips.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Other",
+    "sentiment": "Negative",
+    "sentiment_score": -3,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.117798"
+  },
+  {
+    "article_id": "ART-2B1933EC",
+    "headline": "Nvidia says it won't reinstate Huang as it reports soaring sales",
+    "description": "The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.",
+    "content": "The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-18",
+    "category": "Business",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "earnings"
+    ],
+    "created_timestamp": "2026-11-18T13:17:45.117798"
+  },
+  {
+    "article_id": "ART-E1122BA1",
+    "headline": "Rubio says US not 'under systemic attack' after series of tech outages",
+    "description": "Secretary of State Marco Rubio said there was \"zero evidence\" supporting theories online that recent disruptions affecting Microsoft, banks and flights are connected.",
+    "content": "Secretary of State Marco Rubio said there was \"zero evidence\" supporting theories online that recent disruptions affecting Microsoft, banks and flights are connected.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-18",
+    "category": "Technology",
+    "sentiment": "Negative",
+    "sentiment_score": -1,
+    "keywords": [
+      "tech"
+    ],
+    "created_timestamp": "2026-11-18T13:17:45.117798"
+  },
+  {
+    "article_id": "ART-B1DB9C9B",
+    "headline": "Democrats win Alaska Senate race two weeks after midterms counting began",
+    "description": "Confirmation of Mary Peltola's victory caps of the party's rout of the Republicans in the midterms Senate election.",
+    "content": "Confirmation of Mary Peltola's victory caps of the party's rout of the Republicans in the midterms Senate election.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-18",
+    "category": "Politics",
+    "sentiment": "Positive",
+    "sentiment_score": 3,
+    "keywords": [
+      "election",
+      "senate",
+      "party"
+    ],
+    "created_timestamp": "2026-11-18T13:17:45.117798"
+  },
+  {
+    "article_id": "ART-B224C069",
+    "headline": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+    "description": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan.",
+    "content": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Other",
+    "sentiment": "Negative",
+    "sentiment_score": -3,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.117798"
+  },
+  {
+    "article_id": "ART-3BE1FD14",
+    "headline": "Philippines police ask prosecutors to charge Thomas Markle over child sex abuse material",
+    "description": "Markle is being held in custody in the US after one charge and has previously denied all of the allegations.",
+    "content": "Markle is being held in custody in the US after one charge and has previously denied all of the allegations.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Other",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.117798"
+  },
+  {
+    "article_id": "ART-B5CA882D",
+    "headline": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+    "description": "Moscow has targeted bridges in Kyiv, while Ukraine severely damaged a critical bridge linking Russia to occupied Crimea.",
+    "content": "Moscow has targeted bridges in Kyiv, while Ukraine severely damaged a critical bridge linking Russia to occupied Crimea.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Other",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-98437785",
+    "headline": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
+    "description": "Palestinians say there was an attack by settlers in al-Duyuk al-Tahta, while the Israeli military says the settlers fired after being attacked.",
+    "content": "Palestinians say there was an attack by settlers in al-Duyuk al-Tahta, while the Israeli military says the settlers fired after being attacked.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Other",
+    "sentiment": "Negative",
+    "sentiment_score": -2,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-21B5EB96",
+    "headline": "Russian military plane crashes, killing all 19 on board",
+    "description": "Russia's defence ministry says it preliminarily believes a technical malfunction was the cause of the crash in the Kemerovo region.",
+    "content": "Russia's defence ministry says it preliminarily believes a technical malfunction was the cause of the crash in the Kemerovo region.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Other",
+    "sentiment": "Negative",
+    "sentiment_score": -2,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-E395CE5F",
+    "headline": "US loses measles elimination status after 26 years amid record case numbers",
+    "description": "States have reported over 5,400 cases and 10 measles-related deaths for the first time since the early 1990s.",
+    "content": "States have reported over 5,400 cases and 10 measles-related deaths for the first time since the early 1990s.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Other",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-72BA2101",
+    "headline": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+    "description": "The Metropolitan Police say he has been taken into custody by the US Military over suspected national security and espionage allegations.",
+    "content": "The Metropolitan Police say he has been taken into custody by the US Military over suspected national security and espionage allegations.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Other",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-0DF85363",
+    "headline": "William and Kate celebrate Earthshot Prize winners in Mumbai",
+    "description": "The Prince and Princess of Wales were joined by sporting and acting stars for the annual environmental awards ceremony.",
+    "content": "The Prince and Princess of Wales were joined by sporting and acting stars for the annual environmental awards ceremony.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/cqlykve012d1o?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Other",
+    "sentiment": "Positive",
+    "sentiment_score": 1,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-84ACCB52",
+    "headline": "Indian woman gang-raped while pregnant in 2002 'heartbroken' after two perpetrators bailed",
+    "description": "Bilkis Bano has spoken of her \"pain, shock and disbelief\" at the top court order and vowed to fight back.",
+    "content": "Bilkis Bano has spoken of her \"pain, shock and disbelief\" at the top court order and vowed to fight back.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/cr868wd2qg18o?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Other",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-0C2CE595",
+    "headline": "Nvidia partner Megaspeed being investigated by US government over chip exports",
+    "description": "The Singapore-based company is suspected of helping to ship high-end AI chips from tech giant Nvidia to China, violating US export rules.",
+    "content": "The Singapore-based company is suspected of helping to ship high-end AI chips from tech giant Nvidia to China, violating US export rules.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Technology",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [
+      "chip",
+      "tech"
+    ],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-309595AA",
+    "headline": "Trump says US taking 'very seriously' any Iranian plot against Washington",
+    "description": "Tehran rejects any suggestion it was plotting a so-called dirty bomb attack on the US capital as \"baseless\".",
+    "content": "Tehran rejects any suggestion it was plotting a so-called dirty bomb attack on the US capital as \"baseless\".",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Other",
+    "sentiment": "Negative",
+    "sentiment_score": -2,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-84C58881",
+    "headline": "BBC reports from Kyiv bridge hit by Russian attack",
+    "description": "The BBC's Sarah Rainsford spoke to residents near the site of the overnight strike.",
+    "content": "The BBC's Sarah Rainsford spoke to residents near the site of the overnight strike.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/videos/cmlywvww3pzlo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Other",
+    "sentiment": "Negative",
+    "sentiment_score": -3,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-F721B9E7",
+    "headline": "Inside the Chinese 'AI wonderland' where Xi will host Trump",
+    "description": "The meeting will take place as Trump attends the Asia-Pacific Economic Co-operation (Apec) summit in the southern city of Shenzhen.",
+    "content": "The meeting will take place as Trump attends the Asia-Pacific Economic Co-operation (Apec) summit in the southern city of Shenzhen.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/videos/ckjwjl6ywgn9o?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "World News",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [
+      "summit"
+    ],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-E3E45ECD",
+    "headline": "Will President Trump meet Kim Jong Un?",
+    "description": "President Trump says he would be keen to meet the North Korea leader in China.",
+    "content": "President Trump says he would be keen to meet the North Korea leader in China.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/videos/c6grew79p7qdo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Politics",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [
+      "president"
+    ],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-8D63F5FB",
+    "headline": "Street cricket with a legend then metro ride as William and Kate begin India visit",
+    "description": "The Prince and Princess of Wales are visiting Mumbai for the Earthshot Prize this week, but started their trip with some fun outings.",
+    "content": "The Prince and Princess of Wales are visiting Mumbai for the Earthshot Prize this week, but started their trip with some fun outings.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/videos/crkgvnl51w1vo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-16",
+    "category": "Sports",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "cricket"
+    ],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-0E1D56E6",
+    "headline": "New York teen reunites with cat missing after building collapse",
+    "description": "Rescuers found the pet cat in the ruins of Zariah's apartment four days after she made an emotional plea to the public.",
+    "content": "Rescuers found the pet cat in the ruins of Zariah's apartment four days after she made an emotional plea to the public.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/videos/cm3wgeqnppljo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-16",
+    "category": "Other",
+    "sentiment": "Negative",
+    "sentiment_score": -1,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-74071110",
+    "headline": "Pope Leo hit by flying rosary while waving to crowds in Peru",
+    "description": "The pontiff was struck in the face by what is thought to be prayer beads while travelling aboard the popemobile to deliver a farewell Mass.",
+    "content": "The pontiff was struck in the face by what is thought to be prayer beads while travelling aboard the popemobile to deliver a farewell Mass.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/videos/ckpdwn23j5j8o?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-16",
+    "category": "Other",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-58541094",
+    "headline": "How the attack on Crimean Bridge unfolded",
+    "description": "One of the key symbols of Russia's occupation of Ukraine has suffered major damage after a seven-stage attack by Kyiv.",
+    "content": "One of the key symbols of Russia's occupation of Ukraine has suffered major damage after a seven-stage attack by Kyiv.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Other",
+    "sentiment": "Negative",
+    "sentiment_score": -5,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-661461F5",
+    "headline": "Who to watch in Spain's election race",
+    "description": "Spain votes on 29 November, with the conservatives and the far right favourites to win after eight years of Socialist-led rule.",
+    "content": "Spain votes on 29 November, with the conservatives and the far right favourites to win after eight years of Socialist-led rule.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/cxr5g4lyp94no?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Politics",
+    "sentiment": "Positive",
+    "sentiment_score": 2,
+    "keywords": [
+      "election"
+    ],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-0873EDE5",
+    "headline": "How new US chip restrictions on South East Asia will hit China",
+    "description": "The new rules restrict chip exports and also access to their computing power, which China relies on heavily.",
+    "content": "The new rules restrict chip exports and also access to their computing power, which China relies on heavily.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Technology",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [
+      "computing",
+      "chip"
+    ],
+    "created_timestamp": "2026-11-18T13:17:45.118809"
+  },
+  {
+    "article_id": "ART-0CC47BE4",
+    "headline": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
+    "description": "Efforts to recover bodies after a “double-tap” attack in southern Ukraine are being hampered by continuing Russian strikes, officials say.",
+    "content": "Efforts to recover bodies after a “double-tap” attack in southern Ukraine are being hampered by continuing Russian strikes, officials say.",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Other",
+    "sentiment": "Negative",
+    "sentiment_score": -3,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.119537"
+  },
+  {
+    "article_id": "ART-EFD556EE",
+    "headline": "Pretending to be in New Zealand, booking leave and buying consoles - the lengths fans are going to for GTA 6",
+    "description": "Sensor Tower estimates the game has already made $1.18bn from pre-orders across PlayStation and Xbox",
+    "content": "Sensor Tower estimates the game has already made $1.18bn from pre-orders across PlayStation and Xbox",
+    "source_name": "BBC News - World",
+    "source_url": "",
+    "article_url": "https://www.bbc.co.uk/news/articles/cm4gn9xnn1ppo?at_medium=RSS&at_campaign=rss",
+    "publication_date": "2026-11-17",
+    "category": "Other",
+    "sentiment": "Neutral",
+    "sentiment_score": 0,
+    "keywords": [],
+    "created_timestamp": "2026-11-18T13:17:45.119537"
+  }
+]
