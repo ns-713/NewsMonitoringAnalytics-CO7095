@@ -1,0 +1,34 @@
+CO7095 Software Measurement - Code Coverage Report
+Generated: 2026-11-18 14:50:44
+======================================================================
+Total Statements : 2237
+Executed         : 1603
+Missed           : 634
+Coverage Score   : 71.7%
+
+File                                          Stmts    Exec     Coverage
+----------------------------------------------------------------------
+interface/__init__.py                         4        4        100.0%
+interface/formatting.py                       64       64       100.0%
+interface/input_handler.py                    55       16       29.1%
+interface/menu.py                             589      232      39.4%
+models/__init__.py                            5        5        100.0%
+models/alert.py                               54       48       88.9%
+models/alert_rule.py                          56       51       91.1%
+models/article.py                             84       80       95.2%
+models/news_source.py                         61       46       75.4%
+services/__init__.py                          26       13       50.0%
+services/alert_service.py                     121      111      91.7%
+services/categorisation_service.py            65       60       92.3%
+services/dashboard_service.py                 38       36       94.7%
+services/duplicate_service.py                 93       89       95.7%
+services/news_service.py                      197      128      65.0%
+services/report_service.py                    107      97       90.7%
+services/rss_service.py                       125      101      80.8%
+services/search_service.py                    95       89       93.7%
+services/sentiment_service.py                 78       67       85.9%
+services/source_analytics_service.py          61       52       85.2%
+services/time_analytics_service.py            92       71       77.2%
+services/trend_service.py                     77       70       90.9%
+storage/__init__.py                           2        2        100.0%
+storage/json_storage.py                       88       71       80.7%

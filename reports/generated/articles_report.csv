@@ -1,0 +1,113 @@
+article_id,headline,source_name,category,sentiment,sentiment_score,publication_date,article_url
+ART-0037,Public Health Study Uncovers Alarming Rise in Sedentary Lifestyle Disorders,Healthline Medical,Health,Neutral,0,2026-11-14,https://example.synthetic.org/articles/37-health
+ART-0074,Geneticists Reconstruct Complete Nuclear Genome of Extinct Prehistoric Megafauna,Nature Scientific,Environment,Positive,1,2026-11-13,https://example.synthetic.org/articles/74-science
+ART-0036,Novel Targeted Immunotherapy Drug Approved for Metastatic Melanoma Treatment,Nature Scientific,Health,Positive,1,2026-11-12,https://example.synthetic.org/articles/36-health
+ART-0111,Celebrity Actor and Philanthropist Founds Foundation to Support Emerging Screenwriters,BBC News,Entertainment,Positive,2,2026-11-12,https://example.synthetic.org/articles/111-entertainment
+ART-0105,Presidential Envoy In Geneva For Bilateral Talks Accord,The Guardian World,World News,Neutral,0,2026-11-12,https://example.synthetic.org/articles/dup-0105
+ART-0073,Astronomers Track High-Energy Gamma Ray Burst Originating from Magnetar Flare,Nature Scientific,Other,Positive,1,2026-11-11,https://example.synthetic.org/articles/73-science
+ART-0035,Hospitals Experience Strain as Seasonal Respiratory Virus Admissions Surge,Healthline Medical,Health,Positive,2,2026-11-10,https://example.synthetic.org/articles/35-health
+ART-0110,Popular Literary Mystery Novel Adapted into International Television Thriller,BBC News,World News,Positive,1,2026-11-10,https://example.synthetic.org/articles/110-entertainment
+ART-0072,Biochemical Researchers Synthesise Artificial Chloroplast Capable of Enhanced Carbon Capture,Nature Scientific,Science,Positive,2,2026-11-09,https://example.synthetic.org/articles/72-science
+ART-0034,Clinical Trial Confirms High Preventive Efficacy for Next-Generation Malaria Vaccine,Healthline Medical,Health,Neutral,0,2026-11-08,https://example.synthetic.org/articles/34-health
+ART-0109,Animated Feature Film Breaks Global Animation Box Office Record in Opening Weekend,BBC News,Entertainment,Positive,4,2026-11-08,https://example.synthetic.org/articles/109-entertainment
+ART-0071,Climate Paleontologists Discover Ancient Arctic Forest Fossils Indicating Warmer Earth Eras,Nature Scientific,Technology,Positive,2,2026-11-07,https://example.synthetic.org/articles/71-science
+ART-0033,Semiconductor Foundry Overcomes Production Defect in Sub-Nanometre Lithography,TechRadar Global,Technology,Positive,2,2026-11-06,https://example.synthetic.org/articles/33-technology
+ART-0108,Historic City Centre Theatre Faces Closure Amid Severe Municipal Subsidy Reductions,The Guardian World,Entertainment,Neutral,0,2026-11-06,https://example.synthetic.org/articles/108-entertainment
+ART-0070,Archaeologists Unearth Pristine Neolithic Settlement Preserved in Peat Bog,Nature Scientific,Other,Positive,1,2026-11-05,https://example.synthetic.org/articles/70-science
+ART-0032,Open-Source Foundation Celebrates Milestone Anniversary with Robust Developer Growth,TechRadar Global,Technology,Positive,5,2026-11-04,https://example.synthetic.org/articles/32-technology
+ART-0107,Renowned Documentary Filmmaker Receives Lifetime Achievement Honor at Venice Biennale,BBC News,Entertainment,Positive,2,2026-11-04,https://example.synthetic.org/articles/107-entertainment
+ART-0069,Particle Physics Laboratory Observes Subtle Anomaly in Rare Muon Decay Mode,Nature Scientific,Science,Positive,1,2026-11-03,https://example.synthetic.org/articles/69-science
+ART-0031,Telecommunications Authority Approves Next-Generation Terahertz Wireless Band Trials,TechRadar Global,Other,Positive,1,2026-11-02,https://example.synthetic.org/articles/31-technology
+ART-0106,Video Game Developer Cancels Anticipated Multiplayer Title Following Beta Testing Backlash,TechRadar Global,Technology,Positive,1,2026-11-02,https://example.synthetic.org/articles/106-entertainment
+ART-0068,Deep Sea Expedition Records Unprecedented Hydrothermal Vent Ecosystems in Mariana Trench,Nature Scientific,Other,Positive,2,2026-11-01,https://example.synthetic.org/articles/68-science
+ART-0030,Critical Database Flaw Exposes Millions of Encrypted Identity Tokens to Risk,TechRadar Global,Technology,Neutral,0,2026-10-31,https://example.synthetic.org/articles/30-technology
+ART-0105,Grammy-Winning Jazz Ensemble Releases Innovative Fusion Album to Critical Praise,NPR Science & Society,Entertainment,Positive,2,2026-10-31,https://example.synthetic.org/articles/105-entertainment
+ART-0067,James Webb Telescope Discovers Atmospheres on Habitable-Zone Earth-Sized Exoplanets,Nature Scientific,Science,Positive,2,2026-10-30,https://example.synthetic.org/articles/67-science
+ART-0029,Software Development Community Embraces Open-Source Neural Compilers for Edge Devices,TechRadar Global,Technology,Positive,1,2026-10-29,https://example.synthetic.org/articles/29-technology
+ART-0104,Broadway Revival of Classic Musical Earns Enthusiastic Ovations and Record Box Office,BBC News,Entertainment,Positive,2,2026-10-29,https://example.synthetic.org/articles/104-entertainment
+ART-0066,Academic Publishing House Retracts Falsified Research Papers Following Forensic Audit,The Guardian World,Education,Positive,1,2026-10-28,https://example.synthetic.org/articles/66-education
+ART-0028,Autonomous Robotics Deployed for Complex Underground Pipeline Inspections,TechRadar Global,Technology,Positive,1,2026-10-27,https://example.synthetic.org/articles/28-technology
+ART-0103,Groundbreaking Television Fantasy Series Captivates Global Streaming Audiences,TechRadar Global,Entertainment,Positive,1,2026-10-27,https://example.synthetic.org/articles/103-entertainment
+ART-0065,Early Childhood Learning Centres Report Exceptional Gains from Play-Based Pedagogy,NPR Science & Society,Education,Positive,1,2026-10-26,https://example.synthetic.org/articles/65-education
+ART-0027,Next-Generation Quantum Processor Achieves Fault-Tolerant Error Correction Threshold,Nature Scientific,Technology,Positive,2,2026-10-25,https://example.synthetic.org/articles/27-technology
+ART-0102,Major Motion Picture Studio Postpones Superhero Blockbuster Release Amid Post-Production Delays,TechRadar Global,Entertainment,Positive,1,2026-10-25,https://example.synthetic.org/articles/102-entertainment
+ART-0064,Higher Education Funding Body Issues Warning Over University Operating Deficits,The Guardian World,Education,Negative,-4,2026-10-24,https://example.synthetic.org/articles/64-education
+ART-0026,Major Cloud Infrastructure Outage Disrupts Online Services and E-Commerce Portals,TechRadar Global,Technology,Negative,-1,2026-10-23,https://example.synthetic.org/articles/26-technology
+ART-0101,Legendary Pop Musician Announces Historic Farewell Stadium Concert Tour,BBC News,Sports,Positive,1,2026-10-23,https://example.synthetic.org/articles/101-entertainment
+ART-0063,Vocational Training Institute Expands Green Energy Apprenticeship Pathways,NPR Science & Society,Environment,Positive,1,2026-10-22,https://example.synthetic.org/articles/63-education
+ART-0025,Breakthrough in Photonic Semiconductor Architecture Promises Hundredfold Speed Gains,TechRadar Global,Technology,Positive,4,2026-10-21,https://example.synthetic.org/articles/25-technology
+ART-0100,Critically Acclaimed Independent Drama Sweeps Major International Film Awards,BBC News,Entertainment,Positive,2,2026-10-21,https://example.synthetic.org/articles/100-entertainment
+ART-0062,Education Authority Discloses Widespread Examination Paper Leak and Malpractice,The Guardian World,Education,Neutral,0,2026-10-20,https://example.synthetic.org/articles/62-education
+ART-0024,Cybersecurity Agency Issues Alert on Zero-Day Exploit Targeting Enterprise Firewalls,TechRadar Global,Technology,Positive,1,2026-10-19,https://example.synthetic.org/articles/24-technology
+ART-0099,Border Demarcation Accord Resolves Decades-Long Territorial Sovereignty Disagreement,Reuters Wire,World News,Positive,2,2026-10-19,https://example.synthetic.org/articles/99-world-news
+ART-0061,Secondary School Students Win Global Robotics Olympiad with Autonomous Sorter,NPR Science & Society,Technology,Positive,2,2026-10-18,https://example.synthetic.org/articles/61-education
+ART-0023,International Consortium Launches Open Standard for Interoperable Artificial Intelligence Systems,TechRadar Global,Technology,Positive,1,2026-10-17,https://example.synthetic.org/articles/23-technology
+ART-0098,Humanitarian Agency Secures Emergency Relief Corridor for Blockaded Enclave,The Guardian World,Health,Positive,1,2026-10-17,https://example.synthetic.org/articles/98-world-news
+ART-0060,Consortium of Research Universities Launches Open-Access Scientific Repository,NPR Science & Society,Science,Positive,1,2026-10-16,https://example.synthetic.org/articles/60-education
+ART-0022,Securities Regulator Initiates Investigation into Corporate Accounting Irregularities,Bloomberg Financial,Business,Positive,2,2026-10-15,https://example.synthetic.org/articles/22-business
+ART-0097,International Trade Summit Resolves Longstanding Agricultural Tariff Dispute,Reuters Wire,World News,Positive,1,2026-10-15,https://example.synthetic.org/articles/97-world-news
+ART-0059,University Students Protest Against Proposed On-Campus Accommodation Fee Escalations,The Guardian World,Education,Neutral,0,2026-10-14,https://example.synthetic.org/articles/59-education
+ART-0021,Aerospace Manufacturer Rebounds Strongly Following Successful Commercial Aircraft Certification,Bloomberg Financial,Business,Positive,3,2026-10-13,https://example.synthetic.org/articles/21-business
+ART-0096,Severe Cyclone Causes Coastal Flooding and Destroys Essential Telecommunications,BBC News,Environment,Neutral,0,2026-10-13,https://example.synthetic.org/articles/96-world-news
+ART-0058,Innovative Digital Literacy Curriculum Adopted Across Primary Education System,NPR Science & Society,Education,Positive,2,2026-10-12,https://example.synthetic.org/articles/58-education
+ART-0020,Sovereign Wealth Fund Directs Substantial Capital Towards Global Renewable Infrastructure,Reuters Wire,Environment,Positive,1,2026-10-11,https://example.synthetic.org/articles/20-business
+ART-0095,Bilateral Peacekeeping Accord Signed Following Protracted Truce Negotiations,Reuters Wire,World News,Positive,2,2026-10-11,https://example.synthetic.org/articles/95-world-news
+ART-0057,School Districts Face Severe Teacher Shortage as Resignations Outpace Recruitment,The Guardian World,Education,Negative,-1,2026-10-10,https://example.synthetic.org/articles/57-education
+ART-0019,Manufacturing Index Signals Contraction Across Heavy Industrial Sectors,Bloomberg Financial,Other,Negative,-1,2026-10-09,https://example.synthetic.org/articles/19-business
+ART-0094,Civil Unrest and General Strike Paralyse Transport and Commerce in Capital City,The Guardian World,Politics,Neutral,0,2026-10-09,https://example.synthetic.org/articles/94-world-news
+ART-0056,Leading University Receives Historic Philanthropic Gift to Endow STEM Scholarships,NPR Science & Society,Education,Positive,1,2026-10-08,https://example.synthetic.org/articles/56-education
+ART-0018,Fintech Pioneer Announces Milestone Cross-Border Payment Settlement System,Reuters Wire,World News,Positive,3,2026-10-07,https://example.synthetic.org/articles/18-business
+ART-0093,Global Health Summit Concludes with Historic Pandemic Preparedness Treaty,Reuters Wire,World News,Positive,1,2026-10-07,https://example.synthetic.org/articles/93-world-news
+ART-0055,Professional Football League Enforces Strict Financial Fair Play Penalties,Global Sports Weekly,Sports,Positive,1,2026-10-06,https://example.synthetic.org/articles/55-sports
+ART-0017,Commodity Market Witnesses Dramatic Drop in Crude Oil Prices Following Surplus Output,Bloomberg Financial,Business,Negative,-1,2026-10-05,https://example.synthetic.org/articles/17-business
+ART-0092,Devastating Earthquake Strikes Mountainous Province Causing Severe Infrastructure Damage,BBC News,World News,Negative,-1,2026-10-05,https://example.synthetic.org/articles/92-world-news
+ART-0054,National Gymnastics Team Dominates International Invitational with Flawless Routines,Global Sports Weekly,Sports,Positive,3,2026-10-04,https://example.synthetic.org/articles/54-sports
+ART-0016,Automotive Consortium Forms Landmark Alliance to Standardise Electric Battery Architecture,Reuters Wire,World News,Positive,2,2026-10-03,https://example.synthetic.org/articles/16-business
+ART-0091,International Maritime Accord Ratified to Suppress Piracy Along Critical Shipping Straits,Reuters Wire,World News,Positive,1,2026-10-03,https://example.synthetic.org/articles/91-world-news
+ART-0053,Sports Integrity Unit Suspends Cycling Official Over Anti-Doping Code Breaches,Global Sports Weekly,Other,Positive,1,2026-10-02,https://example.synthetic.org/articles/53-sports
+ART-0015,Technology Incubator Secures Capital Venture Inflow to Accelerate Clean Energy Startups,Bloomberg Financial,Business,Positive,2,2026-10-01,https://example.synthetic.org/articles/15-business
+ART-0090,Escalating Border Skirmishes Displace Thousands of Families in Disputed Territory,BBC News,World News,Positive,1,2026-10-01,https://example.synthetic.org/articles/90-world-news
+ART-0052,Marathon Runner Breaks Course Record with Superb Tactical Pacing,Global Sports Weekly,Sports,Positive,3,2026-09-30,https://example.synthetic.org/articles/52-sports
+ART-0014,Retail Superstore Chain Files for Restructuring Amid Unsustainable Debt Burdens,Reuters Wire,Other,Neutral,0,2026-09-29,https://example.synthetic.org/articles/14-business
+ART-0089,United Nations General Assembly Adopts Universal Resolution on Humanitarian Aid Access,Reuters Wire,World News,Negative,-1,2026-09-29,https://example.synthetic.org/articles/89-world-news
+ART-0051,International Rugby Union Postpones Continental Fixture Due to Flooded Pitch,Global Sports Weekly,Sports,Positive,1,2026-09-28,https://example.synthetic.org/articles/51-sports
+ART-0013,Global Logistics Giant Reports Surge in Quarterly Freight Revenue and Profit,Bloomberg Financial,Business,Positive,4,2026-09-27,https://example.synthetic.org/articles/13-business
+ART-0088,Illegal Deforestation Operation Dismantled in Protected Biosphere Reserve,The Guardian World,Environment,Positive,1,2026-09-27,https://example.synthetic.org/articles/88-environment
+ART-0050,Basketball Franchise Shatters Regular Season Scoring Record in Overtime Thriller,Global Sports Weekly,Sports,Positive,6,2026-09-26,https://example.synthetic.org/articles/50-sports
+ART-0012,Central Bank Holds Benchmark Interest Rates Constant Amid Stabilising Inflation,Bloomberg Financial,Business,Positive,1,2026-09-25,https://example.synthetic.org/articles/12-business
+ART-0087,Community Zero-Waste Scheme Diverts Ninety Percent of Household Refuse from Landfill,EcoPlanet Monitor,Environment,Positive,3,2026-09-25,https://example.synthetic.org/articles/87-environment
+ART-0049,Formula 1 Driver Secures Maiden Grand Prix Victory Following Flawless Wet Weather Drive,Global Sports Weekly,Sports,Positive,3,2026-09-24,https://example.synthetic.org/articles/49-sports
+ART-0011,Prime Minister Hosts Intergovernmental Summit on Regional Cohesion,Reuters Wire,Politics,Positive,1,2026-09-23,https://example.synthetic.org/articles/11-politics
+ART-0086,Melting Mountain Glaciers Threaten Long-Term Freshwater Supplies for Himalayan Valleys,The Guardian World,Other,Negative,-2,2026-09-23,https://example.synthetic.org/articles/86-environment
+ART-0048,Star Tennis Champion Withdraws from Grand Slam Due to Severe Shoulder Injury,Global Sports Weekly,Health,Negative,-1,2026-09-22,https://example.synthetic.org/articles/48-sports
+ART-0010,Parliamentary Committee Identifies Administrative Deficits in Public Procurement,BBC News,Other,Positive,1,2026-09-21,https://example.synthetic.org/articles/10-politics
+ART-0085,Innovations in Direct Air Carbon Capture Facility Achieve Lower Operating Costs,EcoPlanet Monitor,Environment,Positive,3,2026-09-21,https://example.synthetic.org/articles/85-environment
+ART-0047,Olympic Committee Unveils State-of-the-Art Sustainable Venues for Upcoming Games,Global Sports Weekly,Environment,Positive,2,2026-09-20,https://example.synthetic.org/articles/47-sports
+ART-0009,Bipartisan Coalition Introduces Bill to Protect Regional Agricultural Water Rights,The Guardian World,Environment,Positive,1,2026-09-19,https://example.synthetic.org/articles/9-politics
+ART-0084,Industrial Chemical Runoff Prompts Toxic Algal Bloom in Regional Freshwater Reservoir,The Guardian World,Other,Neutral,0,2026-09-19,https://example.synthetic.org/articles/84-environment
+ART-0046,National Cricket Team Suffers Crushing Defeat in International Test Series Decider,Global Sports Weekly,Sports,Negative,-2,2026-09-18,https://example.synthetic.org/articles/46-sports
+ART-0008,Cabinet Reorganises Defence Advisory Council to Address Emergent Security Trends,Reuters Wire,Politics,Positive,1,2026-09-17,https://example.synthetic.org/articles/8-politics
+ART-0083,Urban Greening Initiative Lowers Heat Island Temperatures in Metropolitan Core,EcoPlanet Monitor,Environment,Positive,2,2026-09-17,https://example.synthetic.org/articles/83-environment
+ART-0045,Underdog Football Club Triumphs in League Cup Final with Thrilling Extra-Time Goal,Global Sports Weekly,Sports,Positive,3,2026-09-16,https://example.synthetic.org/articles/45-sports
+ART-0007,Foreign Ministry Condemns Diplomatic Expulsion Following Embassy Dispute,The Guardian World,World News,Positive,1,2026-09-15,https://example.synthetic.org/articles/7-politics
+ART-0082,International Marine Sanctuary Established to Protect Critical Antarctic Krill Feeding Grounds,EcoPlanet Monitor,World News,Positive,1,2026-09-15,https://example.synthetic.org/articles/82-environment
+ART-0044,Global Nutrition Initiative Publishes Practical Guidelines for Plant-Rich Diets,NPR Science & Society,Health,Positive,1,2026-09-14,https://example.synthetic.org/articles/44-health
+ART-0006,Government Announces Strategic Infrastructure Modernisation Fund,BBC News,Politics,Positive,1,2026-09-13,https://example.synthetic.org/articles/6-politics
+ART-0081,Persistent Drought Forces Emergency Water Rationing Across Southwestern Agricultural Basins,The Guardian World,Environment,Neutral,0,2026-09-13,https://example.synthetic.org/articles/81-environment
+ART-0043,Regional Blood Banks Issue Urgent Appeal Following Critical Supply Depletion,Healthline Medical,Health,Positive,1,2026-09-12,https://example.synthetic.org/articles/43-health
+ART-0005,Electoral Commission Reports Record Voter Turnout in Regional Municipal Ballots,Reuters Wire,Politics,Positive,2,2026-09-11,https://example.synthetic.org/articles/5-politics
+ART-0080,Renewable Energy Surpasses Fossil Fuels in National Electricity Generation Grid,EcoPlanet Monitor,Environment,Positive,1,2026-09-11,https://example.synthetic.org/articles/80-environment
+ART-0042,Medical Research Team Formulates Bioabsorbable Scaffolds for Bone Regeneration,Healthline Medical,Health,Positive,4,2026-09-10,https://example.synthetic.org/articles/42-health
+ART-0004,Opposition Party Challenges Proposed Tax Reform in Supreme Judicial Court,BBC News,Politics,Positive,1,2026-09-09,https://example.synthetic.org/articles/4-politics
+ART-0079,Catastrophic Oil Pipeline Spill Contaminates Sensitive Coastal Wetland Estuary,The Guardian World,Environment,Positive,1,2026-09-09,https://example.synthetic.org/articles/79-environment
+ART-0041,Pioneering Gene Therapy Restores Vision in Patients with Rare Inherited Retinal Dystrophy,Nature Scientific,Health,Positive,2,2026-09-08,https://example.synthetic.org/articles/41-health
+ART-0003,Presidential Envoy Arrives in Geneva for High-Level Bilateral Talks,Reuters Wire,World News,Positive,4,2026-09-07,https://example.synthetic.org/articles/3-politics
+ART-0078,Global Reforestation Partnership Restores One Million Hectares of Degraded Rainforest,EcoPlanet Monitor,Environment,Positive,3,2026-09-07,https://example.synthetic.org/articles/78-environment
+ART-0040,Health Agency Warns of Severe Heat-Related Illness During Unprecedented Summer Wave,Healthline Medical,Other,Neutral,0,2026-09-06,https://example.synthetic.org/articles/40-health
+ART-0002,Senate Commences Inquiries into Campaign Finance and Foreign Lobbying,The Guardian World,Politics,Positive,1,2026-09-05,https://example.synthetic.org/articles/2-politics
+ART-0077,Neuroscientists Map Synaptic Connectome of Complex Avian Brain Circuitry,Nature Scientific,Science,Positive,1,2026-09-05,https://example.synthetic.org/articles/77-science
+ART-0039,Healthcare System Modernises Electronic Prescription Infrastructure to Prevent Medication Errors,Healthline Medical,Health,Positive,1,2026-09-04,https://example.synthetic.org/articles/39-health
+ART-0001,Parliament Approves Comprehensive Digital Rights and Data Privacy Act,BBC News,Politics,Positive,1,2026-09-03,https://example.synthetic.org/articles/1-politics
+ART-0076,Materials Scientists Synthesise Ultra-Light Aerogel Possessing Unprecedented Thermal Insulation,Nature Scientific,Other,Positive,1,2026-09-03,https://example.synthetic.org/articles/76-science
+ART-0038,Breakthrough Surgical Technique Enables Non-Invasive Cardiac Valve Restoration,Healthline Medical,Health,Positive,4,2026-09-02,https://example.synthetic.org/articles/38-health
+ART-0075,Research Laboratory Incident Causes Loss of Long-Term Cryopreserved Biological Cultures,Nature Scientific,Science,Negative,-1,2026-09-01,https://example.synthetic.org/articles/75-science
