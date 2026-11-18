@@ -1,0 +1,62 @@
+{
+  "Politics": [
+    "government", "parliament", "election", "minister", "president", "policy",
+    "legislation", "senate", "congress", "diplomacy", "treaty", "campaign",
+    "voting", "democracy", "sanctions", "prime minister", "cabinet", "opposition",
+    "referendum", "geopolitics", "lawmaker", "party"
+  ],
+  "Business": [
+    "market", "economy", "stock", "shares", "inflation", "revenue", "profit",
+    "investment", "trade", "banking", "finance", "gdp", "corporate", "startup",
+    "earnings", "acquisition", "merger", "crypto", "commodity", "dividend",
+    "central bank", "recession", "commerce"
+  ],
+  "Technology": [
+    "software", "hardware", "artificial intelligence", "algorithm", "cybersecurity",
+    "cloud", "computing", "internet", "chip", "semiconductor", "robotics",
+    "developer", "quantum", "telecom", "data", "smartphone", "operating system",
+    "coding", "neural network", "machine learning", "automation", "tech"
+  ],
+  "Health": [
+    "hospital", "medicine", "doctor", "patient", "disease", "vaccine",
+    "clinical", "pharmaceutical", "virus", "infection", "therapy", "surgery",
+    "cancer", "nutrition", "mental health", "epidemic", "healthcare", "treatment",
+    "public health", "medical", "wellness"
+  ],
+  "Sports": [
+    "football", "soccer", "cricket", "basketball", "tennis", "olympics",
+    "championship", "tournament", "league", "athlete", "coach", "stadium",
+    "trophy", "medal", "match", "score", "victory", "defeat", "quarterback",
+    "formula 1", "racing", "rugby"
+  ],
+  "Education": [
+    "university", "school", "college", "student", "teacher", "professor",
+    "curriculum", "campus", "degree", "academic", "scholarship", "tuition",
+    "classroom", "pedagogy", "literacy", "exam", "education", "learning",
+    "faculty", "researcher"
+  ],
+  "Science": [
+    "astronomy", "physics", "chemistry", "biology", "space", "telescope",
+    "nasa", "esa", "genetics", "particle", "gravity", "galaxy", "evolution",
+    "laboratory", "experiment", "discovery", "scientific", "quantum physics",
+    "microscope", "ecosystem"
+  ],
+  "Environment": [
+    "climate", "emissions", "carbon", "renewable", "solar", "wind", "pollution",
+    "conservation", "biodiversity", "wildlife", "deforestation", "ocean",
+    "global warming", "sustainability", "drought", "flood", "ecology", "green energy",
+    "greenhouse", "recycling"
+  ],
+  "World News": [
+    "international", "united nations", "global", "crisis", "conflict", "refugee",
+    "humanitarian", "cross-border", "embassy", "foreign affairs", "treaty",
+    "peacekeeping", "sovereignty", "alliance", "diplomatic", "overseas", "summit",
+    "accord", "truce"
+  ],
+  "Entertainment": [
+    "movie", "film", "cinema", "actor", "actress", "hollywood", "music",
+    "album", "concert", "celebrity", "theatre", "television", "series",
+    "streaming", "grammy", "oscar", "box office", "pop star", "festival",
+    "director", "song"
+  ]
+}
