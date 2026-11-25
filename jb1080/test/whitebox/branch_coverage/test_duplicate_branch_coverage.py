@@ -59,6 +59,35 @@ class TestDuplicateWhitebox(unittest.TestCase):
         is_dup, _, _ = self.service.check_duplicate(art, [art])
         self.assertFalse(is_dup)
 
+    def test_tc_wb_dup_05_identical_candidate_id_duplicate_branch(self):
+        """TC-WB-DUP-05: Verifies that separate article objects sharing identical article_id are flagged as duplicates."""
+        existing_art = NewsArticle(
+            headline="Existing Stored Headline",
+            source_name="WireA",
+            article_url="https://wirea.com/story-101",
+            article_id="UUID-SHARED-101"
+        )
+        candidate_art = NewsArticle(
+            headline="Incoming Re-imported Headline",
+            source_name="WireB",
+            article_url="https://wireb.com/story-102",
+            article_id="UUID-SHARED-101"
+        )
+        is_dup, reason, matched = self.service.check_duplicate(candidate_art, [existing_art])
+        self.assertTrue(is_dup)
+        self.assertIn("Identical article ID", reason)
+        self.assertEqual(matched.article_id, "UUID-SHARED-101")
+
+    def test_tc_wb_dup_06_headline_normalization_and_fingerprint(self):
+        """TC-WB-DUP-06: Direct coverage of normalise_headline and headline_fingerprint."""
+        raw = "BREAKING: Quantum Computing Advances in 2026! -- Special Report"
+        norm = self.service.normalise_headline(raw)
+        self.assertNotIn(":", norm)
+        self.assertNotIn("!", norm)
+        fp = self.service.headline_fingerprint(raw)
+        self.assertIsInstance(fp, str)
+        self.assertEqual(fp, self.service.headline_fingerprint("breaking quantum computing advances 2026 special report"))
+
 
 if __name__ == "__main__":
     unittest.main()

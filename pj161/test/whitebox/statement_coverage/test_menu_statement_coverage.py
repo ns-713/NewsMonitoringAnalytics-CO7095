@@ -85,6 +85,39 @@ class TestMenuWhitebox(unittest.TestCase):
         with patch("builtins.input", side_effect=["2"]):  # Option 2: backup
             self.menu.data_management()
 
+    def test_tc_wb_mnu_07_analytics_and_search_menus(self):
+        """TC-WB-MNU-07: Exercises search, filter, sentiment, trends, and duplicates."""
+        self.menu.news_service.add_article(
+            headline="Semiconductor Markets Advance Rapidly",
+            source_name="TechDaily",
+            article_url="http://tech.com/semi",
+            content="Microchip manufacturing reaches new quarterly highs."
+        )
+        inputs_07 = ["semiconductor", "All", "", "All", "All", "", "", "B", "n"]
+        with patch("builtins.input", side_effect=inputs_07):
+            self.menu.search_news()
+            self.menu.filter_news()
+            self.menu.show_sentiment_analytics()
+            self.menu.show_trending_topics()
+            self.menu.show_source_analytics()
+            self.menu.show_duplicate_detection()
+
+    def test_tc_wb_mnu_08_add_news_and_rss(self):
+        """TC-WB-MNU-08: Exercises manual article creation and offline demo collection."""
+        with patch("builtins.input", side_effect=["Manual Headline", "ManualSource", "https://man.org/1", "Desc", "Content", "2026-10-15", "Technology"]):
+            self.menu.add_news_manually()
+        with patch("builtins.input", side_effect=["3"]):  # Offline demo RSS
+            self.menu.collect_news_from_rss()
+        with patch("builtins.input", return_value="y"):
+            self.menu.load_demo_dataset()
+
+    def test_tc_wb_mnu_09_run_loop_clean_exit(self):
+        """TC-WB-MNU-09: Verifies run() loop exits gracefully upon selecting option 0."""
+        with patch("builtins.input", side_effect=["0", "y"]):
+            self.menu.run()
+        with patch("builtins.input", side_effect=EOFError):
+            self.menu.run()
+
 
 if __name__ == "__main__":
     unittest.main()

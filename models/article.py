@@ -65,7 +65,43 @@ class NewsArticle:
         if self.sentiment not in ["Positive", "Negative", "Neutral"]:
             errors.append(f"Invalid sentiment '{self.sentiment}'. Must be Positive, Negative, or Neutral.")
 
+        if self.publication_date:
+            if not self._is_valid_date(self.publication_date):
+                errors.append(f"Invalid publication date '{self.publication_date}'. Must be a valid date format.")
+
         return len(errors) == 0, errors
+
+    @staticmethod
+    def _is_valid_date(date_str: str) -> bool:
+        """Validates publication date string without external service dependencies (preserves architectural layering)."""
+        if not date_str or not isinstance(date_str, str):
+            return False
+        clean_str = date_str.strip()
+        try:
+            from email.utils import parsedate_to_datetime
+            if parsedate_to_datetime(clean_str) is not None:
+                return True
+        except Exception:
+            pass
+
+        formats = [
+            "%Y-%m-%d",
+            "%Y-%m-%dT%H:%M:%S",
+            "%Y-%m-%d %H:%M:%S",
+            "%a, %d %b %Y %H:%M:%S %z",
+            "%a, %d %b %Y %H:%M:%S GMT",
+            "%a, %d %b %Y %H:%M:%S",
+            "%d/%m/%Y",
+            "%m/%d/%Y"
+        ]
+        target = clean_str[:19] if "T" in clean_str and len(clean_str) > 19 else clean_str
+        for fmt in formats:
+            try:
+                datetime.strptime(target, fmt)
+                return True
+            except (ValueError, TypeError):
+                continue
+        return False
 
     def to_dict(self) -> Dict[str, Any]:
         """Converts model instance to JSON-serializable dictionary."""

@@ -94,6 +94,18 @@ class TestAlertWhitebox(unittest.TestCase):
         self.assertEqual(count, 2)
         self.assertEqual(len(self.service.get_alerts(unread_only=True)), 0)
 
+    def test_tc_wb_alt_05_alert_model_lifecycle(self):
+        """TC-WB-ALT-05: Exercises Alert.mark_as_read(), dismiss(), to_dict(), and from_dict()."""
+        alt = Alert(rule_id="R1", keyword="tech", article_id="A1", headline="Tech Breakthrough")
+        self.assertEqual(alt.status, Alert.STATUS_UNREAD)
+        alt.mark_as_read()
+        self.assertEqual(alt.status, Alert.STATUS_READ)
+        alt.dismiss()
+        self.assertTrue(alt.dismissed)
+        d = alt.to_dict()
+        alt_restored = Alert.from_dict(d)
+        self.assertTrue(alt_restored.dismissed)
+
 
 if __name__ == "__main__":
     unittest.main()

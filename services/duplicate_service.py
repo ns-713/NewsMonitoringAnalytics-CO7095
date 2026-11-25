@@ -93,8 +93,12 @@ class DuplicateService:
         cand_fingerprint = self.headline_fingerprint(candidate.headline)
 
         for existing in existing_articles:
-            if existing.article_id == candidate.article_id:
+            if existing is candidate:
                 continue
+
+            # 0. Identical Article ID Match
+            if candidate.article_id and existing.article_id and candidate.article_id == existing.article_id:
+                return True, f"Identical article ID matched with '{existing.article_id}'", existing
 
             # 1. Exact URL Match
             exist_url = self.normalise_url(existing.article_url)

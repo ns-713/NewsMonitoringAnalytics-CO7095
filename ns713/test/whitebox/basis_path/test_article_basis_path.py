@@ -49,6 +49,51 @@ class TestArticleWhitebox(unittest.TestCase):
         self.assertTrue(valid6)
         self.assertEqual(len(err6), 0)
 
+    def test_tc_wb_art_04_publication_date_validation_branches(self):
+        """TC-WB-ART-04: Exercises publication date validation branch and format parsing."""
+        # Invalid date string branch (e.g. 99-99-9999 or corrupt text)
+        art_inv1 = NewsArticle(
+            headline="Invalid Date Headline",
+            source_name="Src",
+            article_url="http://a.com",
+            publication_date="99-99-9999"
+        )
+        valid_inv1, errs_inv1 = art_inv1.validate()
+        self.assertFalse(valid_inv1)
+        self.assertTrue(any("Invalid publication date" in e for e in errs_inv1))
+
+        art_inv2 = NewsArticle(
+            headline="Corrupt Date String",
+            source_name="Src",
+            article_url="http://a.com",
+            publication_date="not-a-valid-date"
+        )
+        valid_inv2, errs_inv2 = art_inv2.validate()
+        self.assertFalse(valid_inv2)
+        self.assertTrue(any("Invalid publication date" in e for e in errs_inv2))
+
+        # Valid ISO date branch
+        art_val1 = NewsArticle(
+            headline="Valid ISO Date",
+            source_name="Src",
+            article_url="http://a.com",
+            publication_date="2026-11-25"
+        )
+        valid_val1, errs_val1 = art_val1.validate()
+        self.assertTrue(valid_val1)
+        self.assertEqual(len(errs_val1), 0)
+
+        # Valid RFC 822 RSS date branch
+        art_val2 = NewsArticle(
+            headline="Valid RFC Date",
+            source_name="Src",
+            article_url="http://a.com",
+            publication_date="Wed, 25 Nov 2026 12:00:00 +0000"
+        )
+        valid_val2, errs_val2 = art_val2.validate()
+        self.assertTrue(valid_val2)
+        self.assertEqual(len(errs_val2), 0)
+
     def test_tc_wb_art_02_serialization_roundtrip(self):
         """TC-WB-ART-02: Exercises to_dict() and from_dict() data integrity."""
         original = NewsArticle(

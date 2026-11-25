@@ -60,54 +60,57 @@ class MainMenu:
             f"{COURSE_CODE} Software Measurement and QA ({ACADEMIC_YEAR})"
         )
 
-        while True:
-            self.display_main_menu()
-            choice = InputHandler.get_string("\nEnter your option (0-19)", default="1")
+        try:
+            while True:
+                self.display_main_menu()
+                choice = InputHandler.get_string("\nEnter your option (0-19)", default="0")
 
-            if choice == "0":
-                if InputHandler.confirm("Are you sure you want to exit?"):
-                    print("\nExiting application. Thank you for using News Monitoring and Analytics!")
-                    break
-            elif choice == "1":
-                self.show_dashboard()
-            elif choice == "2":
-                self.view_all_news()
-            elif choice == "3":
-                self.add_news_manually()
-            elif choice == "4":
-                self.collect_news_from_rss()
-            elif choice == "5":
-                self.manage_news_sources()
-            elif choice == "6":
-                self.search_news()
-            elif choice == "7":
-                self.filter_news()
-            elif choice == "8":
-                self.view_categories()
-            elif choice == "9":
-                self.show_sentiment_analytics()
-            elif choice == "10":
-                self.show_trending_topics()
-            elif choice == "11":
-                self.show_source_analytics()
-            elif choice == "12":
-                self.show_time_analytics()
-            elif choice == "13":
-                self.show_duplicate_detection()
-            elif choice == "14":
-                self.manage_keyword_monitoring()
-            elif choice == "15":
-                self.view_alerts()
-            elif choice == "16":
-                self.generate_reports()
-            elif choice == "17":
-                self.export_csv()
-            elif choice == "18":
-                self.load_demo_dataset()
-            elif choice == "19":
-                self.data_management()
-            else:
-                Formatter.print_error("Invalid selection. Please choose an option from 0 to 19.")
+                if choice == "0":
+                    if InputHandler.confirm("Are you sure you want to exit?"):
+                        print("\nExiting application. Thank you for using News Monitoring and Analytics!")
+                        break
+                elif choice == "1":
+                    self.show_dashboard()
+                elif choice == "2":
+                    self.view_all_news()
+                elif choice == "3":
+                    self.add_news_manually()
+                elif choice == "4":
+                    self.collect_news_from_rss()
+                elif choice == "5":
+                    self.manage_news_sources()
+                elif choice == "6":
+                    self.search_news()
+                elif choice == "7":
+                    self.filter_news()
+                elif choice == "8":
+                    self.view_categories()
+                elif choice == "9":
+                    self.show_sentiment_analytics()
+                elif choice == "10":
+                    self.show_trending_topics()
+                elif choice == "11":
+                    self.show_source_analytics()
+                elif choice == "12":
+                    self.show_time_analytics()
+                elif choice == "13":
+                    self.show_duplicate_detection()
+                elif choice == "14":
+                    self.manage_keyword_monitoring()
+                elif choice == "15":
+                    self.view_alerts()
+                elif choice == "16":
+                    self.generate_reports()
+                elif choice == "17":
+                    self.export_csv()
+                elif choice == "18":
+                    self.load_demo_dataset()
+                elif choice == "19":
+                    self.data_management()
+                else:
+                    Formatter.print_error("Invalid selection. Please choose an option from 0 to 19.")
+        except (KeyboardInterrupt, EOFError):
+            print("\nExiting application. Thank you for using News Monitoring and Analytics!")
 
     def display_main_menu(self) -> None:
         """Renders main numbered menu."""

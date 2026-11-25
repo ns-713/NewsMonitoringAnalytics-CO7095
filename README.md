@@ -188,7 +188,8 @@ This section provides explicit instructions for the teaching staff and graders r
 3. The application will start immediately in the Run tool window at the bottom.
 
 ### Step 5: Public GitHub Repository & Collaborators Access
-- **Public GitHub Repository URL:** `https://github.com/leicester-co7095-2026/NewsMonitoringAnalytics_CO7095`
+- **Public GitHub Repository URL:** `https://github.com/ns-713/NewsMonitoringAnalytics-CO7095`
+- **Public GitHub Project Board URL:** `https://github.com/users/ns-713/projects/1`
 - As required by the module brief, the GitHub IDs of the **Module Leader (Professor)** and all **Teaching Assistants (TAs)** have been granted collaborator access to the repository for commit history and code review verification.
 
 ---
@@ -317,8 +318,9 @@ The test runner `run_tests.py` includes a native Python statement tracer built u
  services\source_analytics_service.py    52           61       85.2%
  interface\formatting.py                134          134      100.0%
 ================================================================================
- Total Tests: 139 | Passed: 139 | Failures: 0 | Errors: 0 (100.0% Pass Rate)
- Execution Time: ~4.4s
+ Total Tests: 186 | Passed: 186 | Failures: 0 | Errors: 0 (100.0% Pass Rate)
+ Overall Statement Coverage: 82.9% | Total Measured Statements: 2,287
+ Execution Time: ~8.0s (Linux Sandbox) / ~16.2s (Windows Sandbox)
 ================================================================================
 ```
 

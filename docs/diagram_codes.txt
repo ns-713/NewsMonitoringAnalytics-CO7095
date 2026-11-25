@@ -1,0 +1,184 @@
+================================================================================
+CO7095 COURSEWORK REPORT - MERMAID DIAGRAM CODES FOR DRAW.IO
+================================================================================
+
+HOW TO USE IN DRAW.IO (app.diagrams.net):
+1. Open https://app.diagrams.net/
+2. In the top menu, click '+' (Insert) -> 'Advanced' -> 'Mermaid'
+3. Paste any of the code blocks below and click 'Insert'!
+
+--------------------------------------------------------------------------------
+1. FIGURE 1: FOUR-TIER LAYERED ARCHITECTURE (SECTION A3)
+--------------------------------------------------------------------------------
+
+graph TD
+    subgraph P["1. Presentation Layer (interface/)"]
+        P1["menu.py (Interactive CLI Menu - 20 Options)"]
+        P2["formatting.py (Tables, ANSI Colors & Disclaimers)"]
+        P3["input_handler.py (Validated User Prompts)"]
+    end
+
+    subgraph S["2. Service & Business Logic Layer (services/)"]
+        S1["NewsService & RssService (urllib + ElementTree)"]
+        S2["SearchService (Multi-field) & CategorisationService"]
+        S3["SentimentService (Lexical) & DuplicateService (4-Tier)"]
+        S4["TrendService, SourceAnalytics & TimeAnalytics"]
+        S5["AlertService, ReportService & DashboardService"]
+    end
+
+    subgraph D["3. Data Access & Storage Layer (storage/)"]
+        D1["json_storage.py (Atomic Write: .tmp -> os.replace)"]
+        D2["Automatic .bak Snapshots & Crash Recovery"]
+    end
+
+    subgraph M["4. Domain Model Layer (models/)"]
+        M1["NewsArticle & NewsSource"]
+        M2["AlertRule & Alert"]
+    end
+
+    P --> S
+    S --> D
+    S --> M
+    D --> M
+
+
+--------------------------------------------------------------------------------
+2. FIGURE 2: UML CLASS DIAGRAM (SECTION A3)
+--------------------------------------------------------------------------------
+
+classDiagram
+    direction TB
+    class NewsSource {
+        +str source_id
+        +str name
+        +str feed_url
+        +str category_hint
+        +bool is_active
+        +str last_fetched_at
+        +validate() bool
+        +to_dict() dict
+    }
+
+    class NewsArticle {
+        +str article_id
+        +str headline
+        +str source_name
+        +str article_url
+        +str description
+        +str content
+        +str published_at
+        +str category
+        +str sentiment_label
+        +int sentiment_score
+        +str ingested_at
+        +validate() bool
+        +to_dict() dict
+    }
+
+    class AlertRule {
+        +str rule_id
+        +str keyword
+        +str category_filter
+        +str created_at
+        +bool is_active
+        +matches(article) bool
+        +to_dict() dict
+    }
+
+    class Alert {
+        +str alert_id
+        +str rule_id
+        +str article_id
+        +str headline
+        +str triggered_at
+        +str status
+        +mark_read() void
+        +to_dict() dict
+    }
+
+    NewsSource "1" o-- "0..*" NewsArticle : publishes >
+    AlertRule "1" --> "0..*" Alert : raises >
+    Alert "0..*" --> "1" NewsArticle : refers to >
+
+
+--------------------------------------------------------------------------------
+3. FIGURE 3: UML SEQUENCE DIAGRAM - RSS INGESTION & ALERTING (SECTION A4)
+--------------------------------------------------------------------------------
+
+sequenceDiagram
+    autonumber
+    actor User as User / CLI Menu
+    participant Menu as menu.py
+    participant RSS as RssService
+    participant Dup as DuplicateService
+    participant Srv as Categorisation & Sentiment
+    participant Store as JsonStorage
+    participant Alert as AlertService
+
+    User->>Menu: Select [4] Ingest RSS Feeds
+    Menu->>RSS: fetch_and_parse_feed(feed_url)
+    RSS->>RSS: ElementTree parse with fault isolation
+    loop For Each Parsed Item in Feed
+        RSS->>Dup: is_duplicate(item, existing_articles)
+        alt Duplicate Detected (URL, Headline, Jaccard >= 0.70)
+            Dup-->>RSS: True (Item Skipped)
+        else Novel Unique Item
+            Dup-->>RSS: False
+            RSS->>Srv: predict_category() & score_sentiment()
+            Srv-->>RSS: Enriched Article Object
+            RSS->>Store: save_article(article)
+            Store->>Store: Atomic swap (.tmp -> os.replace)
+            RSS->>Alert: evaluate_article_against_rules(article)
+            opt Keyword Matches Active Rule
+                Alert->>Store: save_alert(UNREAD)
+            end
+        end
+    end
+    RSS-->>Menu: Ingestion Summary (Added / Skipped)
+    Menu-->>User: Display Ingestion Results
+
+
+--------------------------------------------------------------------------------
+4. FIGURE 4: CONTROL FLOW GRAPH (CFG) (SECTION A5)
+--------------------------------------------------------------------------------
+
+flowchart TD
+    N1["N1: Entry - calculate_similarity(tokens_a, tokens_b)"] --> N2{"N2: Not tokens_a AND Not tokens_b?"}
+    N2 -- Yes (Path 1) --> N6["N6: Return 0.0 (Zero-union guard)"]
+    N2 -- No --> N3["N3: Compute intersection & union"]
+    N3 --> N4{"N4: Intersection empty?"}
+    N4 -- Yes (Path 2) --> N6
+    N4 -- No --> N5{"N5: tokens_a == tokens_b?"}
+    N5 -- Yes (Path 3) --> N7["N7: Return 1.0 (Identical sets)"]
+    N5 -- No (Path 4) --> N8["N8: Return len(intersection) / len(union)"]
+    N6 --> N9(["N9: Exit / Return"])
+    N7 --> N9
+    N8 --> N9
+
+
+--------------------------------------------------------------------------------
+5. FIGURE 5: PERT CRITICAL PATH NETWORK DIAGRAM (SECTION A6)
+--------------------------------------------------------------------------------
+
+flowchart LR
+    A1["A1: Inception<br>2.0d"] ==> A2["A2: Architecture<br>3.0d"]
+    A2 ==> A3["A3: Domain Models<br>2.0d"]
+    A2 --> A4["A4: Storage Layer<br>2.5d"]
+    A3 ==> A5["A5: RSS Ingestion<br>4.0d"]
+    A4 --> A5
+    A5 ==> A6["A6: Deduplication<br>3.5d"]
+    A6 ==> A7["A7: Search Engine<br>3.0d"]
+    A6 --> A8["A8: Categorisation<br>2.5d"]
+    A7 ==> A9["A9: Sentiment Engine<br>3.0d"]
+    A8 --> A9
+    A9 ==> A10["A10: Trend Analytics<br>2.5d"]
+    A10 ==> A11["A11: Time Analytics<br>3.0d"]
+    A10 --> A12["A12: Source Analytics<br>2.5d"]
+    A11 --> A13["A13: Keyword Alerts<br>2.5d"]
+    A11 ==> A14["A14: CSV Reporting<br>3.0d"]
+    A12 --> A14
+    A13 --> A16["A16: Master Test Suite<br>4.5d"]
+    A14 --> A15["A15: CLI Dashboard<br>3.0d"]
+    A14 ==> A16
+    A15 --> A17["A17: CMMI Audit & Docs<br>4.85d"]
+    A16 ==> A17

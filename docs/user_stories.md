@@ -160,7 +160,7 @@ Across 3 sprints of 1–2 weeks each, the team of 4 members completes a balanced
   - Calculates total articles published per registered news source.
   - Calculates percentage share of total repository volume.
   - Clearly notes in output that volume measures activity, not factual accuracy or credibility.
-- **Assigned Member**: Jyothi Bandalapati (Jb1080) | **Sprint**: 1 | **Story Points**: 2 | **Priority**: Medium
+- **Assigned Member**: Jyothi Bandalapati (Jb1080) | **Sprint**: 1 | **Story Points**: 3 | **Priority**: Medium
 - **Related Modules**: `services/source_analytics_service.py`
 - **Dependencies**: US01, US03
 - **Black-Box Testing**: Test with 3 sources having known counts; verify percentage sums to 100%.
@@ -357,7 +357,7 @@ Across 3 sprints of 1–2 weeks each, the team of 4 members completes a balanced
   - Flags headline pairs exceeding similarity threshold ($\theta \ge 0.70$).
   - Explains reason for flagging (exact URL, normalised headline, fingerprint, similarity).
   - Generates list of duplicate pairs across repository.
-- **Assigned Member**: Jyothi Bandalapati (Jb1080) | **Sprint**: 2 | **Story Points**: 5 | **Priority**: High
+- **Assigned Member**: Jyothi Bandalapati (Jb1080) | **Sprint**: 2 | **Story Points**: 3 | **Priority**: High
 - **Related Modules**: `services/duplicate_service.py`
 - **Dependencies**: US08
 - **Black-Box Testing**: Provide headlines with 80% word overlap; confirm flagged with similarity score.
@@ -533,7 +533,7 @@ Across 3 sprints of 1–2 weeks each, the team of 4 members completes a balanced
   - Verified test fixtures compare computed sentiment scores and categorisation against known ground truth.
   - Validates that source percentages sum to exactly 100%.
   - Disclaims all machine learning claims; documents rule-based deterministic nature.
-- **Assigned Member**: Sashi Dommaraju (Sd683) | **Sprint**: 3 | **Story Points**: 2 | **Priority**: Low
+- **Assigned Member**: Sashi Dommaraju (Sd683) | **Sprint**: 3 | **Story Points**: 3 | **Priority**: Low
 - **Related Modules**: `tests/sd683/`
 - **Dependencies**: US06, US16, US21
 - **Black-Box Testing**: Execute verification test suite against curated ground truth fixtures.
@@ -623,7 +623,6 @@ Across 3 sprints of 1–2 weeks each, the team of 4 members completes a balanced
     `articles_report.csv`, `category_distribution.csv`, `source_analytics.csv`,
     `trending_topics.csv`, `alerts_report.csv`, `duplicates_report.csv`, `time_trends.csv`.
 - **Assigned Member**: Jalakam Prashanth (Pj161) | **Sprint**: 3 | **Story Points**: 5 | **Priority**: High
-- **Related Modules**: `services/report_service.py`, `interface/menu.py`
 - **Dependencies**: US13, US21, US24, US31, US33
 - **Black-Box Testing**: Execute full CSV export; verify all 7 files exist with valid row counts and non-zero size.
 - **White-Box Testing**: Statement coverage across all export routines in `ReportService`.
@@ -639,7 +638,7 @@ Across 3 sprints of 1–2 weeks each, the team of 4 members completes a balanced
   - Safe exit confirmation on option 0.
   - Clean error messages on invalid input; zero crashes on EOF or Ctrl+C.
   - Polished ASCII table rendering with column truncation.
-- **Assigned Member**: Jalakam Prashanth (Pj161) | **Sprint**: 3 | **Story Points**: 5 | **Priority**: High
+- **Assigned Member**: Jalakam Prashanth (Pj161) | **Sprint**: 3 | **Story Points**: 3 | **Priority**: High
 - **Related Modules**: `main.py`, `interface/menu.py`, `interface/formatting.py`, `interface/input_handler.py`
 - **Dependencies**: All preceding stories
 - **Black-Box Testing**: Walk through every menu option from 0 to 19; test cancellation ('B'); verify clean exit.

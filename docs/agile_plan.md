@@ -28,8 +28,8 @@ Story points are estimated using the standard **Fibonacci scale** ($1, 2, 3, 5, 
 | Sprint | Goal & Milestone | Total Stories | Committed Points | Velocity Target | Status |
 | :---: | :--- | :---: | :---: | :---: | :---: |
 | **Sprint 1** | Application Backbone, Core Models, Manual Intake, Search & Storage | 12 | 40 | 40 | Completed |
-| **Sprint 2** | Automated RSS Collection, Normalisation, Rule NLP, Duplicate Similarity & Alerts | 12 | 43 | 43 | Completed |
-| **Sprint 3** | Resilient Ingestion, Temporal Analytics, Offline Demo, CSV Exports, & Final CLI Integration | 12 | 43 | 43 | Completed |
+| **Sprint 2** | Automated RSS Collection, Normalisation, Rule NLP, Duplicate Similarity & Alerts | 12 | 44 | 44 | Completed |
+| **Sprint 3** | Resilient Ingestion, Temporal Analytics, Offline Demo, CSV Exports, & Final CLI Integration | 12 | 42 | 42 | Completed |
 | **Total** | **Full Application Development & Quality Assurance** | **36** | **126** | **126** | **Completed** |
 
 ---
@@ -74,7 +74,7 @@ Story points are estimated using the standard **Fibonacci scale** ($1, 2, 3, 5, 
 | **Jalakam Prashanth (Pj161)** | US22 | Keyword Alerts | 5 | High |
 | | US23 | Alert Management | 3 | High |
 | | US24 | Analytics CSV Reports | 3 | Medium |
-| **Sprint 2 Total** | | **12 Stories** | **43 Points** | |
+| **Sprint 2 Total** | | **12 Stories** | **44 Points** | |
 
 ---
 
@@ -95,7 +95,7 @@ Story points are estimated using the standard **Fibonacci scale** ($1, 2, 3, 5, 
 | **Jalakam Prashanth (Pj161)** | US34 | Alert and Dashboard Integration | 3 | High |
 | | US35 | Integrated Reporting and Export | 5 | High |
 | | US36 | Final CLI Integration and Usability | 5 | High |
-| **Sprint 3 Total** | | **12 Stories** | **43 Points** | |
+| **Sprint 3 Total** | | **12 Stories** | **42 Points** | |
 
 ---
 
@@ -167,12 +167,12 @@ Points Remaining
 
 ### 5.3 Sprint 2 Burndown Analysis (Monitoring & Analytics)
 
-- **Total Scope:** 43 Story Points (US13 – US24)
+- **Total Scope:** 44 Story Points (US13 – US24)
 - **Duration:** 14 Calendar Days (10 Working Days)
 
 | Working Day | Date | Ideal Remaining (pts) | Actual Remaining (pts) | Stories Completed on Day | Key Work Logged |
 | :---: | :---: | :---: | :---: | :--- | :--- |
-| **Day 0** | Mon 02 Nov 2026 | 43.0 | 43 | — | Sprint 2 planning, architectural branch creation |
+| **Day 0** | Mon 02 Nov 2026 | 44.0 | 44 | — | Sprint 2 planning, architectural branch creation |
 | **Day 1** | Tue 03 Nov 2026 | 38.7 | 43 | — | XML ElementTree parsing research & dictionary setup |
 | **Day 2** | Wed 04 Nov 2026 | 34.4 | 38 | US13 (5 pts) | Live RSS HTTP fetching engine via `urllib` |
 | **Day 3** | Thu 05 Nov 2026 | 30.1 | 33 | US14 (5 pts) | RFC 822 date conversion & XML clean extraction |
@@ -205,12 +205,12 @@ Points Remaining
 
 ### 5.4 Sprint 3 Burndown Analysis (Hardening, Verification & Quality)
 
-- **Total Scope:** 43 Story Points (US25 – US36)
+- **Total Scope:** 42 Story Points (US25 – US36)
 - **Duration:** 14 Calendar Days (10 Working Days)
 
 | Working Day | Date | Ideal Remaining (pts) | Actual Remaining (pts) | Stories Completed on Day | Key Work Logged |
 | :---: | :---: | :---: | :---: | :--- | :--- |
-| **Day 0** | Mon 16 Nov 2026 | 43.0 | 43 | — | Sprint 3 planning, quality gate definition |
+| **Day 0** | Mon 16 Nov 2026 | 42.0 | 42 | — | Sprint 3 planning, quality gate definition |
 | **Day 1** | Tue 17 Nov 2026 | 38.7 | 43 | — | Data recovery simulation & test harness setup |
 | **Day 2** | Wed 18 Nov 2026 | 34.4 | 40 | US25 (3 pts) | Data integrity validator & backup recovery |
 | **Day 3** | Thu 19 Nov 2026 | 30.1 | 37 | US26 (3 pts) | Fault-tolerant RSS connection timeout guards |

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CO7095 - System Architecture & UML Diagrams</title>
+    <!-- Mermaid CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #24292e;
+            margin: 0;
+            padding: 30px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e1e4e8;
+        }
+        .header h1 {
+            color: #0366d6;
+            margin-bottom: 8px;
+        }
+        .header p {
+            color: #586069;
+            font-size: 16px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+            padding: 28px;
+            margin-bottom: 35px;
+            border: 1px solid #e1e4e8;
+        }
+        .card h2 {
+            margin-top: 0;
+            color: #1b1f23;
+            font-size: 20px;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 10px;
+        }
+        .card p.caption {
+            font-style: italic;
+            color: #586069;
+            font-size: 14px;
+            margin-top: 15px;
+            text-align: center;
+        }
+        .diagram-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            overflow-x: auto;
+        }
+        .code-box {
+            background-color: #f6f8fa;
+            border: 1px solid #d1d5da;
+            border-radius: 6px;
+            padding: 12px;
+            margin-top: 15px;
+            font-family: Consolas, monospace;
+            font-size: 13px;
+            max-height: 140px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            color: #24292e;
+        }
+        .btn-copy {
+            background-color: #2ea44f;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+            float: right;
+            margin-top: -35px;
+        }
+        .btn-copy:hover {
+            background-color: #2c974b;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>CO7095 - Coursework Report Diagrams Viewer</h1>
+        <p>News Monitoring and Analytics Application | Group 19 | University of Leicester</p>
+    </div>
+
+    <!-- Diagram 1 -->
+    <div class="card">
+        <h2>Figure 1: Four-Tier Layered Architecture Diagram (Section A3)</h2>
+        <div class="diagram-container">
+            <pre class="mermaid">
+graph TD
+    subgraph P["1. Presentation Layer (interface/)"]
+        P1["menu.py (Interactive CLI Menu - 20 Options)"]
+        P2["formatting.py (Tables, ANSI Colors & Disclaimers)"]
+        P3["input_handler.py (Validated User Prompts)"]
+    end
+
+    subgraph S["2. Service & Business Logic Layer (services/)"]
+        S1["NewsService & RssService (urllib + ElementTree)"]
+        S2["SearchService (Multi-field) & CategorisationService"]
+        S3["SentimentService (Lexical) & DuplicateService (4-Tier)"]
+        S4["TrendService, SourceAnalytics & TimeAnalytics"]
+        S5["AlertService, ReportService & DashboardService"]
+    end
+
+    subgraph D["3. Data Access & Storage Layer (storage/)"]
+        D1["json_storage.py (Atomic Write: .tmp -> os.replace)"]
+        D2["Automatic .bak Snapshots & Crash Recovery"]
+    end
+
+    subgraph M["4. Domain Model Layer (models/)"]
+        M1["NewsArticle & NewsSource"]
+        M2["AlertRule & Alert"]
+    end
+
+    P --> S
+    S --> D
+    S --> M
+    D --> M
+
+    style P fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style S fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    style D fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    style M fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+            </pre>
+        </div>
+        <p class="caption">Figure 1. Four-tier layered architectural block diagram with downward dependency flow.</p>
+    </div>
+
+    <!-- Diagram 2 -->
+    <div class="card">
+        <h2>Figure 2: UML Class Diagram of Domain Entities (Section A3)</h2>
+        <div class="diagram-container">
+            <pre class="mermaid">
+classDiagram
+    direction TB
+    class NewsSource {
+        +str source_id
+        +str name
+        +str feed_url
+        +str category_hint
+        +bool is_active
+        +str last_fetched_at
+        +validate() bool
+        +to_dict() dict
+    }
+
+    class NewsArticle {
+        +str article_id
+        +str headline
+        +str source_name
+        +str article_url
+        +str description
+        +str content
+        +str published_at
+        +str category
+        +str sentiment_label
+        +int sentiment_score
+        +str ingested_at
+        +validate() bool
+        +to_dict() dict
+    }
+
+    class AlertRule {
+        +str rule_id
+        +str keyword
+        +str category_filter
+        +str created_at
+        +bool is_active
+        +matches(article) bool
+        +to_dict() dict
+    }
+
+    class Alert {
+        +str alert_id
+        +str rule_id
+        +str article_id
+        +str headline
+        +str triggered_at
+        +str status
+        +mark_read() void
+        +to_dict() dict
+    }
+
+    NewsSource "1" o-- "0..*" NewsArticle : publishes >
+    AlertRule "1" --> "0..*" Alert : raises >
+    Alert "0..*" --> "1" NewsArticle : refers to >
+            </pre>
+        </div>
+        <p class="caption">Figure 2. UML class diagram of domain entities NewsArticle, NewsSource, AlertRule, and Alert.</p>
+    </div>
+
+    <!-- Diagram 3 -->
+    <div class="card">
+        <h2>Figure 3: UML Sequence Diagram: RSS Ingestion & Alerting Pipeline (Section A4)</h2>
+        <div class="diagram-container">
+            <pre class="mermaid">
+sequenceDiagram
+    autonumber
+    actor User as User / CLI Menu
+    participant Menu as menu.py
+    participant RSS as RssService
+    participant Dup as DuplicateService
+    participant Srv as Categorisation & Sentiment
+    participant Store as JsonStorage
+    participant Alert as AlertService
+
+    User->>Menu: Select [4] Ingest RSS Feeds
+    Menu->>RSS: fetch_and_parse_feed(feed_url)
+    RSS->>RSS: ElementTree parse with fault isolation
+    loop For Each Parsed Item in Feed
+        RSS->>Dup: is_duplicate(item, existing_articles)
+        alt Duplicate Detected (URL, Headline, Jaccard >= 0.70)
+            Dup-->>RSS: True (Item Skipped)
+        else Novel Unique Item
+            Dup-->>RSS: False
+            RSS->>Srv: predict_category() & score_sentiment()
+            Srv-->>RSS: Enriched Article Object
+            RSS->>Store: save_article(article)
+            Store->>Store: Atomic swap (.tmp -> os.replace)
+            RSS->>Alert: evaluate_article_against_rules(article)
+            opt Keyword Matches Active Rule
+                Alert->>Store: save_alert(UNREAD)
+            end
+        end
+    end
+    RSS-->>Menu: Ingestion Summary (Added / Skipped)
+    Menu-->>User: Display Ingestion Results
+            </pre>
+        </div>
+        <p class="caption">Figure 3. UML sequence diagram of the RSS ingestion, deduplication, enrichment, and alert triggering pipeline.</p>
+    </div>
+
+    <!-- Diagram 4 -->
+    <div class="card">
+        <h2>Figure 4: Control Flow Graph (CFG) for Basis-Path Testing (Section A5)</h2>
+        <div class="diagram-container">
+            <pre class="mermaid">
+flowchart TD
+    N1["N1: Entry - calculate_similarity(tokens_a, tokens_b)"] --> N2{"N2: Not tokens_a AND Not tokens_b?"}
+    N2 -- Yes (Path 1) --> N6["N6: Return 0.0 (Zero-union guard)"]
+    N2 -- No --> N3["N3: Compute intersection & union"]
+    N3 --> N4{"N4: Intersection empty?"}
+    N4 -- Yes (Path 2) --> N6
+    N4 -- No --> N5{"N5: tokens_a == tokens_b?"}
+    N5 -- Yes (Path 3) --> N7["N7: Return 1.0 (Identical sets)"]
+    N5 -- No (Path 4) --> N8["N8: Return len(intersection) / len(union)"]
+    N6 --> N9(["N9: Exit / Return"])
+    N7 --> N9
+    N8 --> N9
+
+    style N2 fill:#ffebee,stroke:#c62828,stroke-width:2px
+    style N4 fill:#ffebee,stroke:#c62828,stroke-width:2px
+    style N5 fill:#ffebee,stroke:#c62828,stroke-width:2px
+    style N6 fill:#e8eaf6,stroke:#283593,stroke-width:2px
+    style N7 fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style N8 fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+            </pre>
+        </div>
+        <p class="caption">Figure 4. Control-flow graph of DuplicateService.calculate_similarity() with Cyclomatic Complexity M = E - N + 2P = 11 - 9 + 2(1) = 4.</p>
+    </div>
+
+    <!-- Diagram 5 -->
+    <div class="card">
+        <h2>Figure 5: PERT Activity-on-Node (AON) Network Diagram (Section A6)</h2>
+        <div class="diagram-container">
+            <pre class="mermaid">
+flowchart LR
+    A1["A1: Inception<br>2.0d"] ==> A2["A2: Architecture<br>3.0d"]
+    A2 ==> A3["A3: Domain Models<br>2.0d"]
+    A2 --> A4["A4: Storage Layer<br>2.5d"]
+    A3 ==> A5["A5: RSS Ingestion<br>4.0d"]
+    A4 --> A5
+    A5 ==> A6["A6: Deduplication<br>3.5d"]
+    A6 ==> A7["A7: Search Engine<br>3.0d"]
+    A6 --> A8["A8: Categorisation<br>2.5d"]
+    A7 ==> A9["A9: Sentiment Engine<br>3.0d"]
+    A8 --> A9
+    A9 ==> A10["A10: Trend Analytics<br>2.5d"]
+    A10 ==> A11["A11: Time Analytics<br>3.0d"]
+    A10 --> A12["A12: Source Analytics<br>2.5d"]
+    A11 --> A13["A13: Keyword Alerts<br>2.5d"]
+    A11 ==> A14["A14: CSV Reporting<br>3.0d"]
+    A12 --> A14
+    A13 --> A16["A16: Master Test Suite<br>4.5d"]
+    A14 --> A15["A15: CLI Dashboard<br>3.0d"]
+    A14 ==> A16
+    A15 --> A17["A17: CMMI Audit & Docs<br>4.85d"]
+    A16 ==> A17
+
+    style A1 fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px
+    style A2 fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px
+    style A3 fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px
+    style A5 fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px
+    style A6 fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px
+    style A7 fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px
+    style A9 fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px
+    style A10 fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px
+    style A11 fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px
+    style A14 fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px
+    style A16 fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px
+    style A17 fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px
+            </pre>
+        </div>
+        <p class="caption">Figure 5. PERT activity-on-node network diagram highlighting the Critical Path (A1 through A17, 41.85 working days in red).</p>
+    </div>
+</div>
+
+<script>
+    mermaid.initialize({
+        startOnLoad: true,
+        theme: 'default',
+        flowchart: { useMaxWidth: true, htmlLabels: true, curve: 'basis' },
+        securityLevel: 'loose'
+    });
+</script>
+
+</body>
+</html>

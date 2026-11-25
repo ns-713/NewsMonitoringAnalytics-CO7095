@@ -193,7 +193,8 @@ def main():
             PROJECT_ROOT / "sd683" / "test",
             PROJECT_ROOT / "jb1080" / "test",
             PROJECT_ROOT / "pj161" / "test",
-            PROJECT_ROOT / "tests" / "shared"
+            PROJECT_ROOT / "tests" / "shared",
+            PROJECT_ROOT / "research"
         ]
         suite_name = "CO7095 Master Test Suite (All Student Packages & Integration)"
 

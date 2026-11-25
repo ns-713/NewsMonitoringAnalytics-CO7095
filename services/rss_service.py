@@ -40,9 +40,13 @@ class RssService:
 
         feed_url = feed_url.strip()
 
-        # Handle local file feeds
+        # Handle local file feeds cross-platform (Windows, Linux, macOS)
         if feed_url.startswith("file://"):
-            local_path = feed_url.replace("file://", "").lstrip("/")
+            raw_path = feed_url[7:]
+            if len(raw_path) >= 3 and raw_path[0] == '/' and raw_path[2] == ':':
+                local_path = raw_path[1:]
+            else:
+                local_path = raw_path
             try:
                 with open(local_path, "r", encoding="utf-8") as f:
                     return True, f.read(), ""

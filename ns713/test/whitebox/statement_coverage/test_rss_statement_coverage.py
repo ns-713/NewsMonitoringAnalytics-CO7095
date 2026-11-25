@@ -35,6 +35,20 @@ class TestRssWhitebox(unittest.TestCase):
         finally:
             Path(temp_path).unlink(missing_ok=True)
 
+    def test_tc_wb_rss_05_cross_platform_path_handling(self):
+        """TC-WB-RSS-05: Verifies path normalization for both Windows drive letters and POSIX roots."""
+        # Test simulated Windows drive URL: file:///C:/data/feed.xml
+        simulated_win_url = "file:///C:/nonexistent_drive_test/feed.xml"
+        ok_win, _, err_win = self.service.fetch_feed_xml(simulated_win_url)
+        self.assertFalse(ok_win)
+        self.assertIn("Failed to read local file feed", err_win)
+
+        # Test simulated POSIX absolute path URL: file:///var/log/feed.xml
+        simulated_posix_url = "file:///var/nonexistent_posix_test/feed.xml"
+        ok_posix, _, err_posix = self.service.fetch_feed_xml(simulated_posix_url)
+        self.assertFalse(ok_posix)
+        self.assertIn("Failed to read local file feed", err_posix)
+
     def test_tc_wb_rss_02_parse_pub_date_branches(self):
         """TC-WB-RSS-02: Branch coverage of parse_pub_date."""
         # Empty date branch -> returns current date
