@@ -37,7 +37,7 @@ class TestSMTConcolicResearch(unittest.TestCase):
         self.assertEqual(status, "UNSAT")
         self.assertIsNone(model)
 
-    def test_tc_res_03_smt_solver_claude_benchmarks_and_unbounded_integers(self):
+    def test_tc_res_03_smt_solver_boundary_benchmarks_and_unbounded_integers(self):
         """TC-RES-03: Verifies SMT solver passes all benchmark constraint queries including unbounded integers."""
         # 1. Headline not empty and length < 3
         c1 = [
