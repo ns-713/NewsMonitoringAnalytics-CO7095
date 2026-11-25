@@ -534,7 +534,7 @@ Across 3 sprints of 1–2 weeks each, the team of 4 members completes a balanced
   - Validates that source percentages sum to exactly 100%.
   - Disclaims all machine learning claims; documents rule-based deterministic nature.
 - **Assigned Member**: Sashi Dommaraju (Sd683) | **Sprint**: 3 | **Story Points**: 3 | **Priority**: Low
-- **Related Modules**: `tests/sd683/`
+- **Related Modules**: `sd683/test/`
 - **Dependencies**: US06, US16, US21
 - **Black-Box Testing**: Execute verification test suite against curated ground truth fixtures.
 - **White-Box Testing**: Assertion verification across mathematical calculations.

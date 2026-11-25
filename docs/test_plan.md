@@ -60,10 +60,10 @@ Testing responsibilities are partitioned among all four team members to ensure b
 
 | Member | Identifier | Student ID | Primary Modules Under Test | Assigned Test Suites |
 | :--- | :--- | :--- | :--- | :--- |
-| **Nikitha Sarpur** | `ns713` | 259060190 | `models/article.py`<br>`models/news_source.py`<br>`services/rss_service.py`<br>`storage/json_storage.py` | `tests/ns713/blackbox/`<br>`tests/ns713/whitebox/`<br>`tests/ns713/symbolic/`<br>`tests/ns713/concolic/` |
-| **Sashi Dommaraju** | `Sd683` | 259062044 | `services/search_service.py`<br>`services/categorisation_service.py`<br>`services/sentiment_service.py` | `tests/sd683/blackbox/`<br>`tests/sd683/whitebox/`<br>`tests/sd683/symbolic/`<br>`tests/sd683/concolic/` |
-| **Jyothi Bandalapati** | `Jb1080` | 259060742 | `services/duplicate_service.py`<br>`services/trend_service.py`<br>`services/source_analytics_service.py`<br>`services/time_analytics_service.py` | `tests/jb1080/blackbox/`<br>`tests/jb1080/whitebox/`<br>`tests/jb1080/symbolic/`<br>`tests/jb1080/concolic/` |
-| **Jalakam Prashanth** | `Pj161` | 259060676 | `models/alert_rule.py`<br>`models/alert.py`<br>`services/alert_service.py`<br>`services/report_service.py`<br>`services/dashboard_service.py`<br>`interface/` | `tests/pj161/blackbox/`<br>`tests/pj161/whitebox/`<br>`tests/pj161/symbolic/`<br>`tests/pj161/concolic/` |
+| **Nikitha Sarpur** | `ns713` | 259060190 | `models/article.py`<br>`models/news_source.py`<br>`services/rss_service.py`<br>`storage/json_storage.py` | `ns713/test/blackbox/`<br>`ns713/test/whitebox/`<br>`ns713/test/symbolic/`<br>`ns713/test/concolic/` |
+| **Sashi Dommaraju** | `Sd683` | 259062044 | `services/search_service.py`<br>`services/categorisation_service.py`<br>`services/sentiment_service.py` | `sd683/test/blackbox/`<br>`sd683/test/whitebox/`<br>`sd683/test/symbolic/`<br>`sd683/test/concolic/` |
+| **Jyothi Bandalapati** | `Jb1080` | 259060742 | `services/duplicate_service.py`<br>`services/trend_service.py`<br>`services/source_analytics_service.py`<br>`services/time_analytics_service.py` | `jb1080/test/blackbox/`<br>`jb1080/test/whitebox/`<br>`jb1080/test/symbolic/`<br>`jb1080/test/concolic/` |
+| **Jalakam Prashanth** | `Pj161` | 259060676 | `models/alert_rule.py`<br>`models/alert.py`<br>`services/alert_service.py`<br>`services/report_service.py`<br>`services/dashboard_service.py`<br>`interface/` | `pj161/test/blackbox/`<br>`pj161/test/whitebox/`<br>`pj161/test/symbolic/`<br>`pj161/test/concolic/` |
 | **Shared Team** | *All* | *All* | Complete Integrated Subsystems & System Failover | `tests/shared/integration/`<br>`tests/shared/system/` |
 
 ---

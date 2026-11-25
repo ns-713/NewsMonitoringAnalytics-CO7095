@@ -491,7 +491,7 @@ pj161\test   ........ 71 passed
 tests\shared ........  6 passed
 research     ........  6 passed
 ----------------------------------------------------------------------
-Ran 195 tests in 27.4s
+Ran 195 tests
 OK   (executed: 195, passed: 195, failures: 0, errors: 0)
 ```
 

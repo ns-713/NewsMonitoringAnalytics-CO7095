@@ -107,19 +107,19 @@ The engineering effort was divided equitably among four software engineers over 
 +-------------------+-----------+---------------------+-------------------+--------------------------+
 | Member Name       | System ID | Primary Roles       | User Stories      | Core Testing Ownership   |
 +-------------------+-----------+---------------------+-------------------+--------------------------+
-| Nikitha Sarpur    | ns713     | Scrum Master, Lead  | US01-US03 (Sp 1)  | `tests/ns713/`           |
+| Nikitha Sarpur    | ns713     | Scrum Master, Lead  | US01-US03 (Sp 1)  | `ns713/test/`            |
 | (Lead Engineer)   | 259060190 | Storage, Models,    | US13-US15 (Sp 2)  | Article validation, RSS  |
 |                   |           | RSS Ingestion       | US25-US27 (Sp 3)  | XML parsing, Storage     |
 +-------------------+-----------+---------------------+-------------------+--------------------------+
-| Sashi Dommaraju   | sd683     | Quality Analyst,    | US04-US06 (Sp 1)  | `tests/sd683/`           |
+| Sashi Dommaraju   | sd683     | Quality Analyst,    | US04-US06 (Sp 1)  | `sd683/test/`            |
 | (QA Specialist)   | 259062044 | Search, Categorise, | US16-US18 (Sp 2)  | Search queries, Category |
 |                   |           | Sentiment Services  | US28-US30 (Sp 3)  | Lexical sentiment rules  |
 +-------------------+-----------+---------------------+-------------------+--------------------------+
-| Jyothi Bandalapati| jb1080    | Measurement Lead,   | US07-US09 (Sp 1)  | `tests/jb1080/`          |
+| Jyothi Bandalapati| jb1080    | Measurement Lead,   | US07-US09 (Sp 1)  | `jb1080/test/`           |
 | (Metrics Engineer)| 259060742 | Duplicates, Trends, | US19-US21 (Sp 2)  | Jaccard similarity,      |
 |                   |           | Source/Time Metrics | US31-US33 (Sp 3)  | Trend terms, Time dates  |
 +-------------------+-----------+---------------------+-------------------+--------------------------+
-| Jalakam Prashanth | pj161     | Integration Eng.,   | US10-US12 (Sp 1)  | `tests/pj161/`           |
+| Jalakam Prashanth | pj161     | Integration Eng.,   | US10-US12 (Sp 1)  | `pj161/test/`            |
 | (System Integrator| 259060676 | Alerts, CSV Reports,| US22-US24 (Sp 2)  | Alert triggers, CSV IO,  |
 |                   |           | CLI Dashboard, CMMI | US34-US36 (Sp 3)  | CLI dashboard telemetry  |
 +-------------------+-----------+---------------------+-------------------+--------------------------+
@@ -149,7 +149,7 @@ The project was subjected to multi-dimensional testing leveraging Python standar
 +--------------------+----------------+---------------+-----------------+---------------+
 | Total Project Test | 195            | 195           | 0               | 100.0%        |
 +--------------------+----------------+---------------+-----------------+---------------+
-*Execution time: ~8s (Linux Sandbox) / ~20s (Windows Tracer).*
+*100% automated pass rate across all 195 unit, integration, and research test cases.*
 ```
 
 ### Statement Coverage Metrics (2,287 Measured Statements):

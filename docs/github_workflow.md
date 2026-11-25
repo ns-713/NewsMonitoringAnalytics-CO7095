@@ -106,7 +106,7 @@ git checkout -b feature/US01-news-article-model
 git status
 
 # Stage specific files (avoid git add . to prevent committing cache files)
-git add models/article.py tests/ns713/blackbox/test_article_blackbox.py
+git add models/article.py ns713/test/blackbox/test_article_blackbox.py
 
 # Commit with a meaningful message referencing the story issue ID
 git commit -m "[US01] Implement NewsArticle model and input validation tests"

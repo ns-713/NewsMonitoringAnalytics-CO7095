@@ -256,7 +256,7 @@ Select Option: 0 (View Executive Dashboard)
 ### Segment 9: Verification Suite, Code Coverage & Symbolic Testing
 - **Timestamp:** 12:45 – 14:15
 - **Presenter:** All Members (Nikitha leading)
-- **Visual:** PyCharm terminal. Exiting main application (`Option 20`). Running `python run_tests.py`. Inspecting the test execution output and statement coverage table. Opening `tests/ns713/symbolic/test_article_symbolic.py` in editor.
+- **Visual:** PyCharm terminal. Exiting main application (`Option 20`). Running `python run_tests.py`. Inspecting the test execution output and statement coverage table. Opening `ns713/test/symbolic/symbolic_execution/test_symbolic_article_validation.py` in editor.
 
 **Terminal Commands:**
 ```bash

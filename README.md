@@ -336,7 +336,6 @@ The test runner `run_tests.py` includes a native Python statement tracer built u
 ================================================================================
  Total Tests: 195 | Passed: 195 | Failures: 0 | Errors: 0 (100.0% Pass Rate)
  Overall Statement Coverage: 85.2% (1,948 / 2,287 statements)
- Execution Time: ~8-27s (Full Statement Tracer Active across all 6 test directories)
 ================================================================================
 ```
 
@@ -411,7 +410,7 @@ Data is stored as human-readable JSON files in `data/`:
 This software was engineered under strict software quality assurance guidelines conforming to **CMMI Level 2 Managed** requirements:
 - **Requirements Traceability**: Every line of code traces directly to a documented User Story (US01–US36) and Functional Requirement (FR01–FR15).
 - **Formal Verification**: Code paths have been formally analysed using Equivalence Partitioning, Boundary Value Analysis, Cyclomatic Complexity ($M = E - N + 2P$), Symbolic Path Condition generation, and Concolic constraint mutation.
-- **Zero Fabricated Evidence**: All test passes (139/139), statement coverage figures, and estimation models reflect actual mathematical execution on the codebase.
+- **Zero Fabricated Evidence**: All test passes (195/195), statement coverage figures (85.2%), and estimation models reflect actual mathematical execution on the codebase.
 
 ---
 *News Monitoring and Analytics Application — CO7095 Software Measurement and Quality Assurance (2026–2027).*

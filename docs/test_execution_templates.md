@@ -41,7 +41,7 @@ When a test failure occurs, log the defect using the following standardized sche
 - **Discovered In Test**: `test_tc_bb_dup_05_high_similarity_near_duplicate`
 - **Severity**: Low / Minor / Major / Critical
 - **Assigned Developer**: Jyothi Bandalapati (`Jb1080`)
-- **Component / File**: `services/duplicate_service.py` / `tests/jb1080/`
+- **Component / File**: `services/duplicate_service.py` / `jb1080/test/`
 - **Description / Traceback**:
   `AssertionError: False is not true`
   Test headline variant produced Jaccard similarity of 0.666, which is strictly below the 0.70 threshold.
@@ -70,7 +70,7 @@ When a test failure occurs, log the defect using the following standardized sche
 Whenever a bug is repaired, the developer must:
 1. Execute the isolated failing test to confirm that the fix resolves the specific failure:
    ```bash
-   python -m unittest tests/ns713/blackbox/test_rss_blackbox.py
+   python -m unittest ns713/test/blackbox/test_rss_blackbox.py
    ```
 2. Execute the entire master test suite to verify that the change introduced **zero regressions** into other modules:
    ```bash
