@@ -267,7 +267,10 @@ python run_tests.py
 python run_tests.py --member ns713    # Nikitha Sarpur (38 tests)
 python run_tests.py --member sd683    # Sashi Dommaraju (36 tests)
 python run_tests.py --member jb1080   # Jyothi Bandalapati (29 tests)
-python run_tests.py --member pj161    # Jalakam Prashanth (34 tests)
+python run_tests.py --member ns713    # Nikitha Sarpur (45 tests)
+python run_tests.py --member sd683    # Sashi Dommaraju (36 tests)
+python run_tests.py --member jb1080   # Jyothi Bandalapati (31 tests)
+python run_tests.py --member pj161    # Jalakam Prashanth (71 tests)
 ```
 
 ### Run Tests Filtered by Testing Technique:
@@ -276,7 +279,8 @@ python run_tests.py --technique blackbox    # All Black-Box tests (category part
 python run_tests.py --technique whitebox    # All White-Box tests (statement, branch, basis path)
 python run_tests.py --technique symbolic    # All Symbolic Execution research tests
 python run_tests.py --technique concolic    # All Concolic Testing research tests
-python run_tests.py --shared                # Shared Integration & System lifecycle tests
+python run_tests.py --shared                # Shared Integration & System lifecycle tests (6 tests)
+python -m unittest research/test_smt_concolic_research.py # SMT & Concolic Research tests (6 tests)
 ```
 
 ### Direct Unittest Package Discovery:
@@ -303,24 +307,36 @@ The test runner `run_tests.py` includes a native Python statement tracer built u
 ================================================================================
  MODULE STATEMENT COVERAGE SUMMARY
 ================================================================================
- Module File                     Exec Lines  Total Lines  Coverage %
---------------------------------------------------------------------------------
- services\duplicate_service.py          112          117       95.7%
- models\article.py                       60           63       95.2%
- services\dashboard_service.py           54           57       94.7%
- services\search_service.py              59           63       93.7%
- services\categorisation_service.py      72           78       92.3%
- services\alert_service.py               77           84       91.7%
- models\alert_rule.py                    41           45       91.1%
- services\trend_service.py               70           77       90.9%
- services\report_service.py              88           97       90.7%
- services\sentiment_service.py           55           64       85.9%
- services\source_analytics_service.py    52           61       85.2%
- interface\formatting.py                134          134      100.0%
+ Source Module / File                       | Stmts  | Exec   | Cover % 
+ -------------------------------------------+--------+--------+---------
+ interface/__init__.py                      | 4      | 4      | 100.0  %
+ interface/formatting.py                    | 64     | 64     | 100.0  %
+ interface/input_handler.py                 | 64     | 62     | 96.9   %
+ interface/menu.py                          | 592    | 455    | 76.9   %
+ models/__init__.py                         | 5      | 5      | 100.0  %
+ models/alert.py                            | 54     | 49     | 90.7   %
+ models/alert_rule.py                       | 56     | 51     | 91.1   %
+ models/article.py                          | 116    | 103    | 88.8   %
+ models/news_source.py                      | 61     | 56     | 91.8   %
+ services/__init__.py                       | 26     | 13     | 50.0   %
+ services/alert_service.py                  | 121    | 111    | 91.7   %
+ services/categorisation_service.py         | 65     | 60     | 92.3   %
+ services/dashboard_service.py              | 38     | 36     | 94.7   %
+ services/duplicate_service.py              | 95     | 91     | 95.8   %
+ services/news_service.py                   | 197    | 179    | 90.9   %
+ services/report_service.py                 | 107    | 97     | 90.7   %
+ services/rss_service.py                    | 129    | 114    | 88.4   %
+ services/search_service.py                 | 95     | 89     | 93.7   %
+ services/sentiment_service.py              | 78     | 67     | 85.9   %
+ services/source_analytics_service.py       | 61     | 52     | 85.2   %
+ services/time_analytics_service.py         | 92     | 71     | 77.2   %
+ services/trend_service.py                  | 77     | 70     | 90.9   %
+ storage/__init__.py                        | 2      | 2      | 100.0  %
+ storage/json_storage.py                    | 88     | 71     | 80.7   %
 ================================================================================
- Total Tests: 186 | Passed: 186 | Failures: 0 | Errors: 0 (100.0% Pass Rate)
- Overall Statement Coverage: 82.9% | Total Measured Statements: 2,287
- Execution Time: ~8.0s (Linux Sandbox) / ~16.2s (Windows Sandbox)
+ Total Tests: 195 | Passed: 195 | Failures: 0 | Errors: 0 (100.0% Pass Rate)
+ Overall Statement Coverage: 86.2% | Total Measured Statements: 2,287 | Executed: 1,972
+ Execution Time: ~14-28s (Full Statement Tracer Active)
 ================================================================================
 ```
 

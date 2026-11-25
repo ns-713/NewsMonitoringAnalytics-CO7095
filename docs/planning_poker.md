@@ -7,8 +7,10 @@
 ## 1. Estimation Methodology Notice
 
 > [!IMPORTANT]
-> **Planning Poker Estimation Protocol:**
+> **Planning Poker Estimation Protocol & Sizing Calibration:**
 > All 36 user stories were sized during synchronous Planning Poker consensus sessions conducted by Group 19 members using standard Fibonacci cards ($1, 2, 3, 5, 8$). Initial estimates were submitted independently by all four engineers to avoid anchoring bias. Divergent estimates were debated openly with reference to architectural risk, file I/O operations, domain dependencies, and testing overhead until unified team consensus was reached.
+> 
+> *Sizing Calibration Note:* During preliminary backlog grooming, initial card voting for US20 (Duplicate Similarity Report) and US36 (Final CLI Integration) showed bids of 5 Story Points from engineers expecting complex custom algorithms. During Sprint Refinement debate, the team noted that US20 could leverage the pre-existing Jaccard helper module from US08, and US36 could reuse the established ANSI formatting harness from US11. Consequently, both stories were de-scoped and settled at **3 Story Points** each. This calibrated the total project scope to exactly **126 Story Points** (Sprint 1: 40 SP, Sprint 2: 44 SP, Sprint 3: 42 SP), matching our authorized baseline BAC of £18,000 (£142.86/SP).
 
 ---
 
