@@ -1,13 +1,15 @@
 """
 CO7095 Software Measurement and Quality Assurance - Academic Research Component
-Automated Concolic Testing & Directed Automated Random Testing (DART) Engine
+Semi-Automated Symbolic Execution & Concolic Test Generation Harness
 Authors: Group 19 (Nikitha Sarpur, Sashi Dommaraju, Jyothi Bandalapati, Jalakam Prashanth)
 
 RESEARCH OBJECTIVE:
-Executes target functions with concrete seeds, traces dynamic branch decisions,
-inverts conditional predicates, submits path conditions to the SMT solver,
-synthesizes concrete inputs, and executes genuine application methods covering
-all execution branches across all four team members' functional modules.
+Presents an explicit-state concolic exploration harness that:
+1. Evaluates target methods across all four team members' modules.
+2. Constructs first-order symbolic path conditions along traversed execution paths.
+3. Systematically inverts conditional predicates and queries SMTSolver for satisfying models.
+4. Concretely executes production methods on synthesized inputs and logs genuine return values.
+5. Formally prunes provably unsatisfiable execution branches via theorem proving.
 """
 
 from typing import Dict, List, Any, Optional, Tuple
@@ -33,14 +35,14 @@ class ConcolicExecutionStep:
 
 class ConcolicEngine:
     """
-    Automated Concolic Testing Engine that systematically inverts branch predicates
-    and executes genuine application functions across all team members' components.
+    Semi-automated concolic test generation harness executing concrete production code
+    against symbolic branch conditions across all team members' components.
     """
 
     @staticmethod
     def explore_article_validation() -> List[ConcolicExecutionStep]:
         """
-        Executes automated concolic exploration over NewsArticle.validate() (Member 1 - ns713).
+        Executes concolic exploration over NewsArticle.validate() (Member 1 - ns713).
         Directly executes NewsArticle.validate() on synthesized inputs and logs genuine return values.
         """
         steps: List[ConcolicExecutionStep] = []
@@ -59,16 +61,16 @@ class ConcolicEngine:
         res1 = art1.validate()  # Returns (True, [])
 
         pc1 = [
-            Constraint("headline", "is_not_empty", True),
-            Constraint("headline", ">=", 3),
-            Constraint("source_name", "is_not_empty", True),
-            Constraint("article_url", "is_not_empty", True),
-            Constraint("sentiment", "in", ["Positive", "Negative", "Neutral"]),
-            Constraint("publication_date", "==", "2026-11-25")
+            Constraint("headline", "is_not_empty", True, var_type="str"),
+            Constraint("headline", ">=", 3, var_type="str", is_length=True),
+            Constraint("source_name", "is_not_empty", True, var_type="str"),
+            Constraint("article_url", "is_not_empty", True, var_type="str"),
+            Constraint("sentiment", "in", ["Positive", "Negative", "Neutral"], var_type="str"),
+            Constraint("publication_date", "==", "2026-11-25", var_type="str")
         ]
 
         # Invert Branch 1: headline is empty
-        inv1 = Constraint("headline", "is_empty", True)
+        inv1 = Constraint("headline", "is_empty", True, var_type="str")
         sat1, model1 = SMTSolver.check_sat([inv1, pc1[2], pc1[3], pc1[4], pc1[5]])
 
         steps.append(ConcolicExecutionStep(
@@ -96,8 +98,8 @@ class ConcolicEngine:
         res2 = art2.validate()  # (False, ['Headline cannot be empty.'])
 
         # Invert Branch 2: headline length < 3
-        inv2 = Constraint("headline", "<", 3)
-        sat2, model2 = SMTSolver.check_sat([Constraint("headline", "is_not_empty", True), inv2, pc1[2], pc1[3], pc1[4], pc1[5]])
+        inv2 = Constraint("headline", "<", 3, var_type="str", is_length=True)
+        sat2, model2 = SMTSolver.check_sat([Constraint("headline", "is_not_empty", True, var_type="str"), inv2, pc1[2], pc1[3], pc1[4], pc1[5]])
 
         steps.append(ConcolicExecutionStep(
             iteration=2,
@@ -124,14 +126,14 @@ class ConcolicEngine:
         res3 = art3.validate()  # (False, ['Headline must be at least 3 characters long.'])
 
         # Invert Branch 3: source_name is empty
-        inv3 = Constraint("source_name", "is_empty", True)
+        inv3 = Constraint("source_name", "is_empty", True, var_type="str")
         sat3, model3 = SMTSolver.check_sat([pc1[0], pc1[1], inv3, pc1[3], pc1[4], pc1[5]])
 
         steps.append(ConcolicExecutionStep(
             iteration=3,
             target_function="NewsArticle.validate",
             concrete_input=inp3,
-            path_condition=[Constraint("headline", "is_not_empty", True), inv2, pc1[2], pc1[3], pc1[4], pc1[5]],
+            path_condition=[Constraint("headline", "is_not_empty", True, var_type="str"), inv2, pc1[2], pc1[3], pc1[4], pc1[5]],
             inverted_constraint=inv3,
             solver_status=sat3,
             generated_test_input=model3,
@@ -152,7 +154,7 @@ class ConcolicEngine:
         res4 = art4.validate()  # (False, ['Source name cannot be empty.'])
 
         # Invert Branch 4: article_url is empty
-        inv4 = Constraint("article_url", "is_empty", True)
+        inv4 = Constraint("article_url", "is_empty", True, var_type="str")
         sat4, model4 = SMTSolver.check_sat([pc1[0], pc1[1], pc1[2], inv4, pc1[4], pc1[5]])
 
         steps.append(ConcolicExecutionStep(
@@ -180,7 +182,7 @@ class ConcolicEngine:
         res5 = art5.validate()  # (False, ['Article URL cannot be empty.'])
 
         # Invert Branch 5: invalid sentiment enum
-        inv5 = Constraint("sentiment", "not_in", ["Positive", "Negative", "Neutral"])
+        inv5 = Constraint("sentiment", "not_in", ["Positive", "Negative", "Neutral"], var_type="str")
         sat5, model5 = SMTSolver.check_sat([pc1[0], pc1[1], pc1[2], pc1[3], inv5, pc1[5]])
 
         steps.append(ConcolicExecutionStep(
@@ -208,7 +210,7 @@ class ConcolicEngine:
         res6 = art6.validate()
 
         # Invert Branch 6: invalid publication date
-        inv6 = Constraint("publication_date", "==", "99-99-9999")
+        inv6 = Constraint("publication_date", "==", "99-99-9999", var_type="str")
         sat6, model6 = SMTSolver.check_sat([pc1[0], pc1[1], pc1[2], pc1[3], pc1[4], inv6])
 
         steps.append(ConcolicExecutionStep(
@@ -237,8 +239,8 @@ class ConcolicEngine:
 
         # Branch 8: Infeasible Path Demonstration (headline empty AND length >= 3)
         unsat_c = [
-            Constraint("headline", "is_empty", True),
-            Constraint("headline", ">=", 3)
+            Constraint("headline", "is_empty", True, var_type="str"),
+            Constraint("headline", ">=", 3, var_type="str", is_length=True)
         ]
         sat8, model8 = SMTSolver.check_sat(unsat_c)
 
@@ -258,14 +260,14 @@ class ConcolicEngine:
     @staticmethod
     def explore_sentiment_classification() -> List[ConcolicExecutionStep]:
         """
-        Executes automated concolic exploration over SentimentService.classify_score() (Member 2 - sd683).
+        Executes concolic exploration over SentimentService.classify_score() (Member 2 - sd683).
         Directly executes SentimentService.classify_score() with synthesized integer scores.
         """
         svc = SentimentService()
         steps: List[ConcolicExecutionStep] = []
 
         # Step 1: Seed score > 0 -> Positive
-        c1 = [Constraint("score", ">", 0)]
+        c1 = [Constraint("score", ">", 0, var_type="int")]
         sat1, m1 = SMTSolver.check_sat(c1)
         score1 = m1["score"] if m1 else 5
         res1 = svc.classify_score(score1)
@@ -274,14 +276,14 @@ class ConcolicEngine:
             target_function="SentimentService.classify_score",
             concrete_input={"score": score1},
             path_condition=c1,
-            inverted_constraint=Constraint("score", "<", 0),
+            inverted_constraint=Constraint("score", "<", 0, var_type="int"),
             solver_status=sat1,
             generated_test_input=m1,
             execution_result=res1
         ))
 
         # Step 2: Inverted score < 0 -> Negative
-        c2 = [Constraint("score", "<", 0)]
+        c2 = [Constraint("score", "<", 0, var_type="int")]
         sat2, m2 = SMTSolver.check_sat(c2)
         score2 = m2["score"] if m2 else -1
         res2 = svc.classify_score(score2)
@@ -290,14 +292,14 @@ class ConcolicEngine:
             target_function="SentimentService.classify_score",
             concrete_input={"score": score2},
             path_condition=c2,
-            inverted_constraint=Constraint("score", "==", 0),
+            inverted_constraint=Constraint("score", "==", 0, var_type="int"),
             solver_status=sat2,
             generated_test_input=m2,
             execution_result=res2
         ))
 
         # Step 3: Inverted score == 0 -> Neutral
-        c3 = [Constraint("score", "==", 0)]
+        c3 = [Constraint("score", "==", 0, var_type="int")]
         sat3, m3 = SMTSolver.check_sat(c3)
         score3 = m3["score"] if m3 else 0
         res3 = svc.classify_score(score3)
@@ -313,7 +315,7 @@ class ConcolicEngine:
         ))
 
         # Step 4: UNSAT contradiction (score > 0 AND score < 0)
-        c4 = [Constraint("score", ">", 0), Constraint("score", "<", 0)]
+        c4 = [Constraint("score", ">", 0, var_type="int"), Constraint("score", "<", 0, var_type="int")]
         sat4, m4 = SMTSolver.check_sat(c4)
         steps.append(ConcolicExecutionStep(
             iteration=4,
@@ -331,7 +333,7 @@ class ConcolicEngine:
     @staticmethod
     def explore_duplicate_similarity() -> List[ConcolicExecutionStep]:
         """
-        Executes automated concolic exploration over DuplicateService.calculate_similarity() (Member 3 - jb1080).
+        Executes concolic exploration over DuplicateService.calculate_similarity() (Member 3 - jb1080).
         Directly executes DuplicateService.calculate_similarity() with synthesized headline pairs.
         """
         svc = DuplicateService()
@@ -384,7 +386,7 @@ class ConcolicEngine:
     @staticmethod
     def explore_alert_rule_matching() -> List[ConcolicExecutionStep]:
         """
-        Executes automated concolic exploration over AlertRule.matches() (Member 4 - pj161).
+        Executes concolic exploration over AlertRule.matches() (Member 4 - pj161).
         Directly executes AlertRule.matches() with synthesized articles and rule configs.
         """
         steps: List[ConcolicExecutionStep] = []
@@ -448,7 +450,7 @@ class ConcolicEngine:
 
     @classmethod
     def explore_all_members(cls) -> Dict[str, List[ConcolicExecutionStep]]:
-        """Executes automated concolic exploration across all 4 team members' components."""
+        """Executes concolic exploration across all 4 team members' components."""
         return {
             "ns713": cls.explore_article_validation(),
             "sd683": cls.explore_sentiment_classification(),

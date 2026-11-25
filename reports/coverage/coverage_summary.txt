@@ -1,10 +1,11 @@
 CO7095 Software Measurement - Code Coverage Report
-Generated: 2026-11-25 14:38:44
+Generated: 2026-11-25 15:13:28
 ======================================================================
 Total Statements : 2287
 Executed         : 1972
 Missed           : 315
 Coverage Score   : 86.2%
+Environment Note : Linux POSIX reference baseline: 85.2% (1,948/2,287) | Windows native: 86.2% (1,972/2,287)
 
 File                                          Stmts    Exec     Coverage
 ----------------------------------------------------------------------

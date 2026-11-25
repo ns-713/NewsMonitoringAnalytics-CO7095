@@ -9,6 +9,9 @@
 # (Install only if running extended research tools or external coverage CLI)
 # ==============================================================================
 
+# Unit testing framework (Optional test runner alternative to standard unittest)
+pytest>=7.0.0
+
 # Code coverage tool (Optional: run_tests.py also contains a built-in stdlib coverage tracer)
 coverage>=7.0.0
 

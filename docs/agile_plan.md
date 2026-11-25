@@ -122,8 +122,8 @@ Velocity measures the amount of work in story points completed by the Scrum team
 | Sprint Iteration | Planned Story Points | Completed Story Points | Sprint Velocity | Cumulative Story Points | Completion Rate |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Sprint 1** | 40 | 40 | **40 pts** | 40 | 100% |
-| **Sprint 2** | 43 | 43 | **43 pts** | 83 | 100% |
-| **Sprint 3** | 43 | 43 | **43 pts** | 126 | 100% |
+| **Sprint 2** | 44 | 44 | **44 pts** | 84 | 100% |
+| **Sprint 3** | 42 | 42 | **42 pts** | 126 | 100% |
 | **Average Velocity** | **42.0 pts/sprint** | **42.0 pts/sprint** | **42.0 pts** | **126 total** | **100%** |
 
 ---
@@ -173,15 +173,15 @@ Points Remaining
 | Working Day | Date | Ideal Remaining (pts) | Actual Remaining (pts) | Stories Completed on Day | Key Work Logged |
 | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Day 0** | Mon 02 Nov 2026 | 44.0 | 44 | — | Sprint 2 planning, architectural branch creation |
-| **Day 1** | Tue 03 Nov 2026 | 38.7 | 43 | — | XML ElementTree parsing research & dictionary setup |
-| **Day 2** | Wed 04 Nov 2026 | 34.4 | 38 | US13 (5 pts) | Live RSS HTTP fetching engine via `urllib` |
-| **Day 3** | Thu 05 Nov 2026 | 30.1 | 33 | US14 (5 pts) | RFC 822 date conversion & XML clean extraction |
-| **Day 4** | Fri 06 Nov 2026 | 25.8 | 30 | US15 (3 pts) | Import exception isolation & malformed feed handling |
-| **Day 5** | Mon 09 Nov 2026 | 21.5 | 22 | US16 (5 pts), US17 (3 pts)| Lexical sentiment analysis & category dictionary |
-| **Day 6** | Tue 10 Nov 2026 | 17.2 | 19 | US19 (3 pts) | Stop-word filtering & term frequency counting |
-| **Day 7** | Wed 11 Nov 2026 | 12.9 | 14 | US20 (5 pts) | 4-tier deduplication & token Jaccard similarity |
-| **Day 8** | Thu 12 Nov 2026 | 8.6 | 11 | US18 (3 pts) | Combined multi-criteria search filtering |
-| **Day 9** | Fri 13 Nov 2026 | 4.3 | 3 | US21 (3 pts), US22 (5 pts)| Source sentiment analytics & keyword alert trigger |
+| **Day 1** | Tue 03 Nov 2026 | 39.6 | 44 | — | XML ElementTree parsing research & dictionary setup |
+| **Day 2** | Wed 04 Nov 2026 | 35.2 | 39 | US13 (5 pts) | Live RSS HTTP fetching engine via `urllib` |
+| **Day 3** | Thu 05 Nov 2026 | 30.8 | 34 | US14 (5 pts) | RFC 822 date conversion & XML clean extraction |
+| **Day 4** | Fri 06 Nov 2026 | 26.4 | 31 | US15 (3 pts) | Import exception isolation & malformed feed handling |
+| **Day 5** | Mon 09 Nov 2026 | 22.0 | 23 | US16 (5 pts), US17 (3 pts)| Lexical sentiment analysis & category dictionary |
+| **Day 6** | Tue 10 Nov 2026 | 17.6 | 20 | US19 (3 pts) | Stop-word filtering & term frequency counting |
+| **Day 7** | Wed 11 Nov 2026 | 13.2 | 17 | US20 (3 pts) | 4-tier deduplication & token Jaccard similarity |
+| **Day 8** | Thu 12 Nov 2026 | 8.8 | 14 | US18 (3 pts) | Combined multi-criteria search filtering |
+| **Day 9** | Fri 13 Nov 2026 | 4.4 | 6 | US21 (3 pts), US22 (5 pts)| Source sentiment analytics & keyword alert trigger |
 | **Day 10** | Mon 16 Nov 2026 | 0.0 | 0 | US23 (3 pts), US24 (3 pts)| Alert lifecycle & 7 RFC 4180 CSV export methods |
 
 ```
@@ -211,16 +211,16 @@ Points Remaining
 | Working Day | Date | Ideal Remaining (pts) | Actual Remaining (pts) | Stories Completed on Day | Key Work Logged |
 | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Day 0** | Mon 16 Nov 2026 | 42.0 | 42 | — | Sprint 3 planning, quality gate definition |
-| **Day 1** | Tue 17 Nov 2026 | 38.7 | 43 | — | Data recovery simulation & test harness setup |
-| **Day 2** | Wed 18 Nov 2026 | 34.4 | 40 | US25 (3 pts) | Data integrity validator & backup recovery |
-| **Day 3** | Thu 19 Nov 2026 | 30.1 | 37 | US26 (3 pts) | Fault-tolerant RSS connection timeout guards |
-| **Day 4** | Fri 20 Nov 2026 | 25.8 | 32 | US27 (5 pts) | 114 curated synthetic article offline dataset |
-| **Day 5** | Mon 23 Nov 2026 | 21.5 | 27 | US28 (3 pts), US30 (2 pts)| Lexical edge cases & analytic boundary tests |
-| **Day 6** | Tue 24 Nov 2026 | 17.2 | 22 | US31 (5 pts) | Daily, weekly, monthly time histograms |
-| **Day 7** | Wed 25 Nov 2026 | 12.9 | 16 | US29 (3 pts), US32 (3 pts)| Combined filter query & period velocity trends |
-| **Day 8** | Thu 26 Nov 2026 | 8.6 | 10 | US33 (3 pts), US34 (3 pts)| Source distribution report & alert integration |
-| **Day 9** | Fri 27 Nov 2026 | 4.3 | 5 | US35 (5 pts) | Comprehensive CSV reporting & formatting audit |
-| **Day 10** | Mon 30 Nov 2026 | 0.0 | 0 | US36 (5 pts) | Final 20-option CLI menu, master tests, DoD signoff |
+| **Day 1** | Tue 17 Nov 2026 | 37.8 | 42 | — | Data recovery simulation & test harness setup |
+| **Day 2** | Wed 18 Nov 2026 | 33.6 | 39 | US25 (3 pts) | Data integrity validator & backup recovery |
+| **Day 3** | Thu 19 Nov 2026 | 29.4 | 36 | US26 (3 pts) | Fault-tolerant RSS connection timeout guards |
+| **Day 4** | Fri 20 Nov 2026 | 25.2 | 31 | US27 (5 pts) | 114 curated synthetic article offline dataset |
+| **Day 5** | Mon 23 Nov 2026 | 21.0 | 25 | US28 (3 pts), US30 (3 pts)| Lexical edge cases & analytic boundary tests |
+| **Day 6** | Tue 24 Nov 2026 | 16.8 | 20 | US31 (5 pts) | Daily, weekly, monthly time histograms |
+| **Day 7** | Wed 25 Nov 2026 | 12.6 | 14 | US29 (3 pts), US32 (3 pts)| Combined filter query & period velocity trends |
+| **Day 8** | Thu 26 Nov 2026 | 8.4 | 8 | US33 (3 pts), US34 (3 pts)| Source distribution report & alert integration |
+| **Day 9** | Fri 27 Nov 2026 | 4.2 | 3 | US35 (5 pts) | Comprehensive CSV reporting & formatting audit |
+| **Day 10** | Mon 30 Nov 2026 | 0.0 | 0 | US36 (3 pts) | Final 20-option CLI menu, master tests, DoD signoff |
 
 ```
 Sprint 3 Burndown:

@@ -7,7 +7,7 @@
 **Department:** Department of Computing and Mathematical Sciences, University of Leicester  
 **Application Platform:** Python 3 (Standard Library Baseline) / CLI Architecture  
 **Persistence:** Atomic JSON-Based Local File Store  
-**Verification Level:** 139 Unit/Integration Tests, 100% Pass Rate, CMMI Level 2 Managed Compliance  
+**Verification Level:** 195 Automated Tests, 100% Pass Rate, CMMI Level 2 Managed Compliance  
 
 ---
 
@@ -22,13 +22,13 @@ The project simultaneously serves as a rigorous pedagogical testbed for advanced
 |                                    Core Statistics                                    |
 +------------------------------------+--------------------------------------------------+
 | Application Codebase (Physical)    | 2,741 SLOC across 18 Python modules              |
-| Verification Codebase (Physical)   | 2,534 SLOC across 24 test suites & runners       |
-| Total Monitored Project Codebase   | 5,275 SLOC                                       |
-| Automated Test Suite               | 139 tests (0 failures, 0 errors, 100% pass rate) |
-| Core Service Statement Coverage    | 85.2% - 100.0% statement coverage                |
+| Verification Codebase (Physical)   | 3,120 SLOC across master test runner & packages  |
+| Total Monitored Project Codebase   | 5,861 SLOC                                       |
+| Automated Test Suite               | 195 tests (0 failures, 0 errors, 100% pass rate) |
+| Overall Statement Coverage         | 85.2% (Linux reference) / 86.2% (Windows)        |
 | Demo Dataset                       | 114 curated articles across 10 distinct domains  |
 | Agile Sprints & User Stories       | 3 Sprints, 36 User Stories, 126 Story Points     |
-| EVM Indices at Project Close       | CPI = 1.05 (Under Budget), SPI = 1.00 (On Time)  |
+| EVM Indices at Project Close       | CPI = 1.050 (Under Budget), SPI = 1.000 (On Time)|
 | CMMI Level 2 Audit Result          | Fully Compliant across all 7 Process Areas       |
 +------------------------------------+--------------------------------------------------+
 ```
@@ -139,25 +139,39 @@ The project was subjected to multi-dimensional testing leveraging Python standar
 +--------------------+----------------+---------------+-----------------+---------------+
 | Suite Domain       | Tests Executed | Tests Passed  | Failures/Errors | Pass Rate     |
 +--------------------+----------------+---------------+-----------------+---------------+
-| ns713 (Nikitha)    | 24             | 24            | 0               | 100.0%        |
-| sd683 (Sashi)      | 25             | 25            | 0               | 100.0%        |
-| jb1080 (Jyothi)    | 27             | 27            | 0               | 100.0%        |
-| pj161 (Prashanth)  | 27             | 27            | 0               | 100.0%        |
-| shared/integration | 21             | 21            | 0               | 100.0%        |
-| shared/system      | 15             | 15            | 0               | 100.0%        |
+| ns713 (Nikitha)    | 45             | 45            | 0               | 100.0%        |
+| sd683 (Sashi)      | 36             | 36            | 0               | 100.0%        |
+| jb1080 (Jyothi)    | 31             | 31            | 0               | 100.0%        |
+| pj161 (Prashanth)  | 71             | 71            | 0               | 100.0%        |
+| shared/integration | 4              | 4             | 0               | 100.0%        |
+| shared/system      | 2              | 2             | 0               | 100.0%        |
+| research           | 6              | 6             | 0               | 100.0%        |
 +--------------------+----------------+---------------+-----------------+---------------+
-| Total Project Test | 139            | 139           | 0               | 100.0%        |
+| Total Project Test | 195            | 195           | 0               | 100.0%        |
 +--------------------+----------------+---------------+-----------------+---------------+
-*Execution time: ~4.4 seconds on standard laboratory hardware.*
+*Execution time: ~8s (Linux Sandbox) / ~20s (Windows Tracer).*
 ```
 
-### Statement Coverage Metrics:
-- `duplicate_service.py`: **95.7%**
-- `models/article.py`: **95.2%**
+### Statement Coverage Metrics (2,287 Measured Statements):
+- `interface/formatting.py`: **100.0%**
+- `interface/input_handler.py`: **96.9%**
+- `duplicate_service.py`: **95.8%**
 - `dashboard_service.py`: **94.7%**
 - `search_service.py`: **93.7%**
 - `categorisation_service.py`: **92.3%**
+- `news_source.py`: **91.8%**
 - `alert_service.py`: **91.7%**
+- `alert_rule.py`: **91.1%**
+- `news_service.py`: **90.9%**
+- `trend_service.py`: **90.9%**
+- `alert.py`: **90.7%**
+- `report_service.py`: **90.7%**
+- `article.py`: **88.8%**
+- `rss_service.py`: **88.4%**
+- `sentiment_service.py`: **85.9%**
+- `source_analytics_service.py`: **85.2%**
+- `menu.py`: **76.9%**
+- **Overall Statement Coverage:** **85.2%** (Linux reference) / **86.2%** (Windows)
 - `models/alert_rule.py`: **91.1%**
 - `trend_service.py`: **90.9%**
 - `report_service.py`: **90.7%**

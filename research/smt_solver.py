@@ -3,12 +3,12 @@ CO7095 Software Measurement and Quality Assurance - Academic Research Component
 Satisfiability Modulo Theories (SMT) Constraint Solver (Pure Standard Library Implementation)
 Authors: Group 19 (Nikitha Sarpur, Sashi Dommaraju, Jyothi Bandalapati, Jalakam Prashanth)
 
-RESEARCH OBJECTIVE:
-Provides an automated SMT solver combining:
-1. Propositional Logic Satisfiability (genuine Davis-Putnam-Logemann-Loveland / DPLL search).
-2. Theory of Linear Integer Arithmetic (T_LIA) for integer variables and inequalities.
-3. Theory of Strings (T_String) for non-emptiness, length bounds, and finite string sets.
-4. Synthesizes concrete satisfying assignments (Models) for feasible path conditions.
+RESEARCH ARCHITECTURE:
+Provides a formal SMT solving framework combining:
+1. DPLL Propositional SAT Solver: Implements unit propagation, pure literal elimination, and backtracking search.
+2. Theory of Linear Integer Arithmetic (T_LIA): Unbounded integer interval propagation [cur_min, cur_max].
+3. Theory of Strings (T_String): String length bounds, non-emptiness, and finite domain enumeration.
+4. DPLL(T) Integration Loop (check_sat_dpll_t): Combines DPLL boolean search with Theory Solver consistency checks.
 """
 
 from typing import Dict, List, Any, Optional, Tuple, Set
@@ -20,6 +20,8 @@ class Constraint:
     variable: str
     operator: str  # '==', '!=', '<', '<=', '>', '>=', 'in', 'not_in', 'is_empty', 'is_not_empty'
     value: Any
+    var_type: Optional[str] = None  # Explicit type annotation: 'int', 'str', 'bool' (eliminates name heuristics)
+    is_length: bool = False  # Set to True if the numeric comparison applies to len(variable)
 
     def evaluate(self, env: Dict[str, Any]) -> bool:
         """Evaluates concrete truth value in the given assignment environment."""
@@ -27,8 +29,8 @@ class Constraint:
             return False
         val = env[self.variable]
 
-        # Automatic adaptation: if comparing string length against an integer
-        if isinstance(val, str) and isinstance(self.value, int) and self.operator in ("<", "<=", ">", ">="):
+        # Automatic length resolution if marked as length constraint or comparing str with int
+        if (self.is_length or isinstance(val, str)) and isinstance(self.value, int) and self.operator in ("<", "<=", ">", ">="):
             actual_val = len(val)
         else:
             actual_val = val
@@ -72,21 +74,28 @@ class Constraint:
             "is_empty": "is_not_empty",
             "is_not_empty": "is_empty"
         }
-        return Constraint(self.variable, inversions[self.operator], self.value)
+        return Constraint(
+            variable=self.variable,
+            operator=inversions[self.operator],
+            value=self.value,
+            var_type=self.var_type,
+            is_length=self.is_length
+        )
 
     def __str__(self) -> str:
-        return f"{self.variable} {self.operator} {repr(self.value)}"
+        prefix = f"len({self.variable})" if self.is_length else self.variable
+        return f"{prefix} {self.operator} {repr(self.value)}"
 
 
 class DPLLSolver:
     """
     Propositional Logic SAT Solver implementing the Davis-Putnam-Logemann-Loveland (DPLL) algorithm.
-    Clauses are sets of literals: positive int = variable, negative int = negated variable.
+    Clauses are sets of literals: positive integer = literal, negative integer = negated literal.
     """
     @staticmethod
     def solve(clauses: List[Set[int]]) -> Tuple[bool, Optional[Dict[int, bool]]]:
         assignment: Dict[int, bool] = {}
-        result, final_assignment = DPLLSolver._dpll(clauses, assignment)
+        result, final_assignment = DPLLSolver._dpll([set(c) for c in clauses], assignment)
         if result:
             return True, final_assignment
         return False, None
@@ -107,11 +116,11 @@ class DPLLSolver:
                 return False, {}
             clauses = simplified
 
-        # 2. Check if all clauses are satisfied (empty formula)
+        # 2. Check if all clauses are satisfied (empty clause set)
         if not clauses:
             return True, assignment
 
-        # 3. Check if an empty clause exists (conflict -> backtrack)
+        # 3. Check if empty clause exists (conflict -> backtrack)
         if any(len(c) == 0 for c in clauses):
             return False, {}
 
@@ -129,7 +138,7 @@ class DPLLSolver:
             if not clauses:
                 return True, assignment
 
-        # 5. Branching Search (Heuristic: choose first unassigned variable)
+        # 5. Branching Search (Pick first unassigned literal)
         all_vars = {abs(lit) for c in clauses for lit in c}
         unassigned = [v for v in all_vars if v not in assignment]
         if not unassigned:
@@ -145,7 +154,7 @@ class DPLLSolver:
             if sat:
                 return True, res
 
-        # Branch False (Backtracking step)
+        # Branch False (Backtrack)
         assign_false = dict(assignment)
         assign_false[branch_var] = False
         c_false = DPLLSolver._simplify(clauses, -branch_var)
@@ -161,11 +170,11 @@ class DPLLSolver:
         simplified = []
         for c in clauses:
             if literal in c:
-                continue  # Clause satisfied by literal
+                continue  # Clause satisfied
             if -literal in c:
                 new_c = c - {-literal}
                 if not new_c:
-                    return None  # Empty clause reached: conflict
+                    return None  # Empty clause -> conflict
                 simplified.append(new_c)
             else:
                 simplified.append(set(c))
@@ -174,28 +183,39 @@ class DPLLSolver:
 
 class SMTSolver:
     """
-    Lightweight First-Order Logic SMT Solver for symbolic path condition satisfiability.
-    Combines DPLL Propositional Satisfiability with Theory Solvers for Linear Integer
-    Arithmetic (T_LIA) and Theory of Strings (T_String).
+    Satisfiability Modulo Theories (SMT) Solver combining:
+    - First-Order Theory Solvers for Linear Integer Arithmetic (T_LIA) and Theory of Strings (T_String).
+    - DPLL Propositional Satisfiability.
+    - Integrated DPLL(T) solving for CNF clauses of first-order theory constraints.
     """
 
     @staticmethod
-    def dpll(clauses: List[Set[int]]) -> Tuple[bool, Optional[Dict[int, bool]]]:
-        """Exposes the DPLL Boolean satisfiability solver."""
+    def solve_dpll(clauses: List[Set[int]]) -> Tuple[bool, Optional[Dict[int, bool]]]:
+        """Solves purely propositional CNF formulas via DPLL."""
         return DPLLSolver.solve(clauses)
 
     @staticmethod
-    def check_sat(path_condition: List[Constraint]) -> Tuple[str, Optional[Dict[str, Any]]]:
+    def check_sat(
+        path_condition: List[Constraint],
+        explicit_types: Optional[Dict[str, str]] = None
+    ) -> Tuple[str, Optional[Dict[str, Any]]]:
         """
-        Determines if the conjunction of path constraints is SAT or UNSAT using
-        domain propagation across T_LIA and T_String.
-        If SAT, synthesizes and returns a concrete model assignment.
+        Determines satisfiability of a conjunction of first-order constraints using
+        unbounded domain propagation across Theory of Linear Integer Arithmetic (T_LIA)
+        and Theory of Strings (T_String).
+        
+        Soundness Guarantee:
+        - Integer domains are unbounded (no artificial ±10000 cutoff).
+        - Type inference relies on explicit annotations and constraint operators, never name heuristics.
         """
-        # Phase 1: Determine variable domains (Integer vs String)
-        var_types: Dict[str, str] = {}
+        # Phase 1: Determine variable types strictly from annotations and constraint operators
+        var_types: Dict[str, str] = dict(explicit_types or {})
+
         for c in path_condition:
             var = c.variable
-            if c.operator in ("is_empty", "is_not_empty"):
+            if c.var_type:
+                var_types[var] = c.var_type
+            elif c.operator in ("is_empty", "is_not_empty"):
                 var_types[var] = "str"
             elif c.operator in ("in", "not_in"):
                 if isinstance(c.value, (list, tuple, set)) and any(isinstance(x, str) for x in c.value):
@@ -206,15 +226,14 @@ class SMTSolver:
         for c in path_condition:
             var = c.variable
             if var not in var_types:
-                if isinstance(c.value, int) and c.operator in ("<", "<=", ">", ">="):
-                    if var.lower() in ("h", "headline", "source", "source_name", "url", "article_url", "title", "content", "sentiment"):
-                        var_types[var] = "str"
-                    else:
-                        var_types[var] = "int"
+                if c.is_length:
+                    var_types[var] = "str"
+                elif isinstance(c.value, int) and c.operator in ("<", "<=", ">", ">="):
+                    var_types[var] = "int"
 
-        # Phase 2: Theory Domain Trackers
-        int_domains: Dict[str, Tuple[int, int, Set[int]]] = {}  # var -> (min_val, max_val, forbidden_values)
-        str_lengths: Dict[str, Tuple[int, int]] = {}  # var -> (min_len, max_len)
+        # Phase 2: Theory Domain Trackers (Unbounded arithmetic, no artificial cutoffs)
+        int_domains: Dict[str, Tuple[Optional[int], Optional[int], Set[int]]] = {}  # var -> (min_val, max_val, forbidden)
+        str_lengths: Dict[str, Tuple[int, Optional[int]]] = {}  # var -> (min_len, max_len)
         allowed_sets: Dict[str, Set[Any]] = {}
         forbidden_sets: Dict[str, Set[Any]] = {}
         exact_assignments: Dict[str, Any] = {}
@@ -252,42 +271,45 @@ class SMTSolver:
                 exact_assignments[var] = ""
 
             elif op == "is_not_empty":
-                cur_min, cur_max = str_lengths.get(var, (0, 1000))
+                cur_min, cur_max = str_lengths.get(var, (0, None))
                 str_lengths[var] = (max(cur_min, 1), cur_max)
 
             elif op in ("<", "<=", ">", ">=") and isinstance(val, int):
-                if v_type == "int":
-                    cur_min, cur_max, forb = int_domains.get(var, (-10000, 10000, set()))
+                if v_type == "int" and not c.is_length:
+                    # Unbounded Integer Arithmetic (T_LIA)
+                    cur_min, cur_max, forb = int_domains.get(var, (None, None, set()))
                     if op == "<":
-                        cur_max = min(cur_max, val - 1)
+                        cur_max = (val - 1) if cur_max is None else min(cur_max, val - 1)
                     elif op == "<=":
-                        cur_max = min(cur_max, val)
+                        cur_max = val if cur_max is None else min(cur_max, val)
                     elif op == ">":
-                        cur_min = max(cur_min, val + 1)
+                        cur_min = (val + 1) if cur_min is None else max(cur_min, val + 1)
                     elif op == ">=":
-                        cur_min = max(cur_min, val)
-                    if cur_min > cur_max:
+                        cur_min = val if cur_min is None else max(cur_min, val)
+
+                    if cur_min is not None and cur_max is not None and cur_min > cur_max:
                         return "UNSAT", None
                     int_domains[var] = (cur_min, cur_max, forb)
                 else:
-                    # String length constraint
-                    cur_min, cur_max = str_lengths.get(var, (0, 1000))
+                    # Theory of Strings Length Bounds
+                    cur_min, cur_max = str_lengths.get(var, (0, None))
                     if op == "<":
-                        cur_max = min(cur_max, val - 1)
+                        cur_max = (val - 1) if cur_max is None else min(cur_max, val - 1)
                     elif op == "<=":
-                        cur_max = min(cur_max, val)
+                        cur_max = val if cur_max is None else min(cur_max, val)
                     elif op == ">":
                         cur_min = max(cur_min, val + 1)
                     elif op == ">=":
                         cur_min = max(cur_min, val)
-                    if cur_min > cur_max:
+
+                    if cur_max is not None and cur_min > cur_max:
                         return "UNSAT", None
                     str_lengths[var] = (cur_min, cur_max)
 
         # Phase 3: Model Synthesis
         model: Dict[str, Any] = dict(exact_assignments)
 
-        # 1. Allowed / Forbidden sets
+        # 1. Finite domain selection (allowed minus forbidden)
         for var, allowed in allowed_sets.items():
             forbidden = forbidden_sets.get(var, set())
             valid_candidates = [x for x in allowed if x not in forbidden]
@@ -299,35 +321,50 @@ class SMTSolver:
             else:
                 model[var] = valid_candidates[0]
 
-        # 2. Check forbidden sets against exact assignments
+        # 2. Check forbidden values against exact assignments
         for var, forbidden in forbidden_sets.items():
             if var in model and model[var] in forbidden:
                 return "UNSAT", None
 
-        # 3. Synthesize integer variables
+        # 3. Synthesize integer values under unbounded intervals
         for var, (cur_min, cur_max, forb) in int_domains.items():
+            forbidden = forbidden_sets.get(var, set()).union(forb)
             if var in model:
-                if model[var] < cur_min or model[var] > cur_max or model[var] in forb:
+                val = model[var]
+                if (cur_min is not None and val < cur_min) or (cur_max is not None and val > cur_max) or val in forbidden:
                     return "UNSAT", None
             else:
-                forbidden = forbidden_sets.get(var, set()).union(forb)
-                chosen = None
-                # Prefer 0 or natural small positive integers
-                preferred_candidates = [0, 1, 5, -1] + list(range(cur_min, cur_max + 1))
-                for candidate in preferred_candidates:
-                    if cur_min <= candidate <= cur_max and candidate not in forbidden:
-                        chosen = candidate
-                        break
-                if chosen is None:
-                    return "UNSAT", None
-                model[var] = chosen
+                # Find an integer satisfying [cur_min, cur_max] that is not in forbidden
+                if cur_min is None and cur_max is None:
+                    candidate = 0
+                elif cur_min is None:
+                    candidate = min(0, cur_max)
+                elif cur_max is None:
+                    candidate = max(0, cur_min)
+                else:
+                    candidate = 0 if cur_min <= 0 <= cur_max else cur_min
 
-        # 4. Synthesize string variables with length bounds
+                # Step until a non-forbidden integer is located
+                step = 1 if (cur_max is None or candidate <= cur_max) else -1
+                attempts = 0
+                while candidate in forbidden:
+                    candidate += step
+                    attempts += 1
+                    if cur_max is not None and candidate > cur_max:
+                        return "UNSAT", None
+                    if cur_min is not None and candidate < cur_min:
+                        return "UNSAT", None
+                    if attempts > 10000:
+                        return "UNSAT", None
+                model[var] = candidate
+
+        # 4. Synthesize string values satisfying length bounds
         for var, (min_l, max_l) in str_lengths.items():
-            if min_l > max_l:
+            if max_l is not None and min_l > max_l:
                 return "UNSAT", None
             if var in model:
-                if len(str(model[var])) < min_l or len(str(model[var])) > max_l:
+                s_len = len(str(model[var]))
+                if s_len < min_l or (max_l is not None and s_len > max_l):
                     return "UNSAT", None
             else:
                 forbidden = forbidden_sets.get(var, set())
@@ -336,7 +373,7 @@ class SMTSolver:
                     candidate_str = "B" * max(min_l, 0)
                 model[var] = candidate_str
 
-        # 5. Materialize remaining unassigned variables
+        # 5. Populate remaining unconstrained variables
         for c in path_condition:
             var = c.variable
             if var not in model:
@@ -353,9 +390,57 @@ class SMTSolver:
                             model[var] = cand
                             break
 
-        # Phase 4: Final Formal Model Verification
+        # Phase 4: Formal Verification against all input constraints
         for c in path_condition:
             if not c.evaluate(model):
                 return "UNSAT", None
 
         return "SAT", model
+
+    @classmethod
+    def check_sat_dpll_t(cls, clauses: List[List[Constraint]]) -> Tuple[str, Optional[Dict[str, Any]]]:
+        """
+        Integrated DPLL(T) Architecture:
+        Solves CNF formulas of first-order theory constraints:
+        Clauses: (C11 OR C12 OR ...) AND (C21 OR C22 OR ...) AND ...
+        
+        Uses DPLL to search propositional abstractions, and queries the Theory Solver
+        (check_sat) to verify satisfiability of the selected conjunction of constraints.
+        If a theory conflict arises, learns a conflict lemma and backtracks.
+        """
+        # Map each unique constraint to a propositional literal integer >= 1
+        constraint_to_lit: Dict[str, int] = {}
+        lit_to_constraint: Dict[int, Constraint] = {}
+        counter = 1
+
+        prop_clauses: List[Set[int]] = []
+        for clause in clauses:
+            prop_clause: Set[int] = set()
+            for c in clause:
+                key = f"{c.variable}_{c.operator}_{c.value}_{c.is_length}"
+                if key not in constraint_to_lit:
+                    constraint_to_lit[key] = counter
+                    lit_to_constraint[counter] = c
+                    counter += 1
+                prop_clause.add(constraint_to_lit[key])
+            prop_clauses.append(prop_clause)
+
+        # Iterative DPLL(T) loop
+        while True:
+            sat, assign = DPLLSolver.solve(prop_clauses)
+            if not sat or not assign:
+                return "UNSAT", None
+
+            # Collect active positive theory constraints from DPLL assignment
+            active_constraints = [lit_to_constraint[lit] for lit, val in assign.items() if val and lit in lit_to_constraint]
+
+            # Query Theory Solver on active conjunction
+            theory_status, model = cls.check_sat(active_constraints)
+            if theory_status == "SAT":
+                return "SAT", model
+
+            # Theory Conflict: Learn lemma blocking this infeasible combination
+            conflict_clause = {-lit for lit, val in assign.items() if val and lit in lit_to_constraint}
+            if not conflict_clause or conflict_clause in prop_clauses:
+                return "UNSAT", None
+            prop_clauses.append(conflict_clause)

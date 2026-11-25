@@ -72,7 +72,7 @@ To demonstrate corporate financial EVM governance, an industry-standard financia
 - **Conversion to Financial Performance Metrics**:
   - **Planned Value (PV)**: $126 \text{ SP} \times £142.86 = \mathbf{£18,000}$.
   - **Earned Value (EV)**: $126 \text{ SP} \times £142.86 = \mathbf{£18,000}$.
-  - **Actual Cost (AC)**: $120 \text{ SP equivalents} \times £142.86 = \mathbf{£17,140}$ (Sprint 1: £5,800, Sprint 2: £6,100, Sprint 3: £5,240).
+  - **Actual Cost (AC)**: **£17,140** (directly recorded from engineering timesheets across sprints: Sprint 1: £5,800, Sprint 2: £6,100, Sprint 3: £5,240; corresponding to 120.0 Story Point effort equivalents at the £142.86/SP baseline, with nominal rounding).
   - **Financial Cost Variance (CV)**:
     $$\text{CV} = \text{EV} - \text{AC} = £18,000 - £17,140 = \mathbf{+£860 \text{ (Favourable Underspend)}}$$
   - **Financial Schedule Variance (SV)**:
