@@ -283,8 +283,7 @@ def main():
             f.write(f"Total Statements : {cov_data['total_statements']}\n")
             f.write(f"Executed         : {cov_data['executed_statements']}\n")
             f.write(f"Missed           : {cov_data['missed_statements']}\n")
-            f.write(f"Coverage Score   : {cov_data['overall_coverage_pct']}%\n")
-            f.write(f"Environment Note : Linux POSIX reference baseline: 85.2% (1,948/2,287) | Windows native: 86.2% (1,972/2,287)\n\n")
+            f.write(f"Coverage Score   : {cov_data['overall_coverage_pct']}%\n\n")
             f.write(f"{'File':<45} {'Stmts':<8} {'Exec':<8} {'Coverage'}\n")
             f.write(f"{'-'*70}\n")
             for item in cov_data["files"]:

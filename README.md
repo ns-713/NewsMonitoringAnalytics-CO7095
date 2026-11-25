@@ -335,9 +335,8 @@ The test runner `run_tests.py` includes a native Python statement tracer built u
  storage/json_storage.py                    | 88     | 71     | 80.7   %
 ================================================================================
  Total Tests: 195 | Passed: 195 | Failures: 0 | Errors: 0 (100.0% Pass Rate)
- Overall Statement Coverage: 85.2% on Linux POSIX baseline (1,948 / 2,287 stmts)
-                             86.2% on Windows development environment (1,972 / 2,287 stmts)
- Execution Time: ~8s (Linux Sandbox) / ~20-27s (Windows Native Statement Tracer)
+ Overall Statement Coverage: 85.2% (1,948 / 2,287 statements)
+ Execution Time: ~8-27s (Full Statement Tracer Active across all 6 test directories)
 ================================================================================
 ```
 

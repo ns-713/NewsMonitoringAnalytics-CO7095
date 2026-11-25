@@ -101,7 +101,7 @@ The coursework specification mandates a strict upper limit of **5,000 words**. T
 - **Target Word Count:** 950 words (Highest weight section)
 - **Primary Owners:** All 4 Team Members (Allocated by module ownership)
 - **Core Focus:**
-  - **Testing Strategy & Infrastructure**: Master test suite using `unittest`, driven by `run_tests.py` with custom standard-library statement tracing (`sys.settrace`). 139 tests passing, 0 failures, 0 errors, in 4.4 seconds.
+  - **Testing Strategy & Infrastructure**: Master test suite using `unittest`, driven by `run_tests.py` with custom standard-library statement tracing (`sys.settrace`). 195 tests passing, 0 failures, 0 errors, 100% pass rate.
   - **Black-Box Testing (250 words - Sashi/Nikitha)**:
     - Equivalence Partitioning (EP) and Boundary Value Analysis (BVA) applied to headline length, URL formatting, date ranges, and sentiment score thresholds.
     - Decision Table Testing (DTT) on multi-condition search queries and alert rule evaluation.
@@ -241,7 +241,7 @@ The following documents from the repository should be incorporated as formal App
   - Jalakam Prashanth (ID: 259060676)
 - [ ] **Figure & Table Numbering**: All figures and tables cited in text sequentially (e.g., Figure 1.1, Table 2.1).
 - [ ] **Equation Typography**: All mathematical formulas rendered in clean LaTeX notation with defined variables.
-- [ ] **Zero Fabricated Data**: All test numbers (139 tests, 100% pass, 4.4s execution) and coverage percentages directly match output from `python run_tests.py`.
+- [ ] **Zero Fabricated Data**: All test numbers (195 tests, 100% pass, 85.2% statement coverage) and metrics directly match output from `python run_tests.py`.
 - [ ] **PDF Export**: Generate final submission PDF from LaTeX/Word ensuring font embedding and high-contrast vector diagrams.
 
 ---

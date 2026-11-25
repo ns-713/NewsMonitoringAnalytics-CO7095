@@ -78,4 +78,4 @@ The coverage metrics measured directly via Python's built-in execution tracer co
 | **`storage/json_storage.py`** | 88 | 71 | **80.7%** | Robust Coverage (failover paths) |
 | **`services/time_analytics_service.py`**| 92 | 71 | **77.2%** | Robust Coverage |
 | **`interface/menu.py`** | 592 | 455 | **76.9%** | High Interactive CLI Coverage |
-| **Total Measured Statements** | **2,287** | **1,948 - 1,972** | **85.2% - 86.2%** | **OVERALL QUALITY GATE MET** |
+| **Total Measured Statements** | **2,287** | **1,948** | **85.2%** | **OVERALL QUALITY GATE MET** |

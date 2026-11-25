@@ -99,6 +99,11 @@ class TestSMTConcolicResearch(unittest.TestCase):
         val = model["x"]
         self.assertTrue(val < 0 or 5 < val < 10)
 
+        # Empty CNF formula is vacuously SAT
+        empty_sat, empty_model = SMTSolver.check_sat_dpll_t([])
+        self.assertEqual(empty_sat, "SAT")
+        self.assertEqual(empty_model, {})
+
     def test_tc_res_05_concolic_exploration_steps(self):
         """TC-RES-05: Executes iterative concolic testing steps and verifies test case synthesis."""
         steps = ConcolicEngine.explore_article_validation()

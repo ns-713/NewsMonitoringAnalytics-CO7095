@@ -88,7 +88,7 @@ Testing responsibilities are partitioned among all four team members to ensure b
   - `report_service.py`: **90.7%**
   - `sentiment_service.py`: **85.9%**
   - `source_analytics_service.py`: **85.2%**
-  - `rss_service.py`: **80.8%**
+  - `rss_service.py`: **88.4%**
   - `json_storage.py`: **80.7%**
   - `formatting.py`: **100.0%**
 
@@ -100,7 +100,7 @@ Testing responsibilities are partitioned among all four team members to ensure b
 ```bash
 python run_tests.py
 ```
-This discovers all 139 tests across all member folders and shared suites, executes them under code tracing, and generates summary reports in `reports/execution/` and `reports/coverage/`.
+This discovers all 195 tests across all member folders, shared suites, and research modules, executes them under code tracing, and generates summary reports in `reports/execution/` and `reports/coverage/`.
 
 ### 5.2 Running Individual Member Suites
 ```bash

@@ -102,13 +102,13 @@ CMMI Level 2 ("Managed") establishes that projects are planned, performed, measu
 ### 2.6 Process and Product Quality Assurance (PPQA)
 - **Purpose**: Provide staff and management with objective insight into processes and associated work products.
 - **Relevant Project Activities**: Enforcing the Definition of Done; peer code reviews on pull requests; executing black-box, white-box, symbolic, and concolic test suites.
-- **Required Evidence**: `tests/` suite (139 automated tests), `docs/test_plan.md`, `docs/whitebox_testing.md`, `docs/blackbox_testing.md`.
+- **Required Evidence**: `tests/` suite (195 automated tests), `docs/test_plan.md`, `docs/whitebox_testing.md`, `docs/blackbox_testing.md`.
 - **Responsible Member**: Sashi Dommaraju (`Sd683`)
 
 | Audit Checklist Item | Expected Artifact / Evidence | Status | Audit Findings & Gaps | Improvement Recommendations |
 | :--- | :--- | :---: | :--- | :--- |
 | Objectively evaluate processes | Adherence to GitFlow and DoD | **Compliant** | Feature branches merged only with passing test suites. | Require mandatory approvals on GitHub repository. |
-| Objectively evaluate work products | Automated unit and integration testing | **Compliant** | 139 tests executed with 100% pass rate. | Extend automated testing to edge-case stress inputs. |
+| Objectively evaluate work products | Automated unit and integration testing | **Compliant** | 195 tests executed with 100% pass rate. | Extend automated testing to edge-case stress inputs. |
 | Communicate and resolve non-compliances| Automated test failure reporting | **Compliant** | `test_run_summary.txt` logs detailed traceback on error. | Ensure failed tests block branch merging immediately. |
 | Maintain QA records | Historical test run logs | **Compliant** | Timestamped logs stored in `reports/execution/`. | Retain test logs in permanent repository archive. |
 
@@ -132,7 +132,7 @@ CMMI Level 2 ("Managed") establishes that projects are planned, performed, measu
 ## 3. Audit Summary, Gap Analysis, and Continuous Improvement
 
 ### 3.1 Strengths Identified
-1. **Exceptional Automated Test Rigor**: 139 discrete automated tests combining black-box, white-box, concolic, and symbolic execution techniques with 100% pass rate.
+1. **Exceptional Automated Test Rigor**: 195 discrete automated tests combining black-box, white-box, concolic, and symbolic execution techniques with 100% pass rate.
 2. **Robust Configuration Management**: Atomic file writing and automated `.bak` generation protect runtime data from unhandled corruption.
 3. **Comprehensive Measurement Infrastructure**: Native standard-library coverage tracing ensures full software measurement compliance on lab hardware.
 

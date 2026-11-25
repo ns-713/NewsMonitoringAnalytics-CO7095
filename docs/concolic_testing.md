@@ -75,7 +75,7 @@ To demonstrate practical concolic execution across team responsibilities, four c
 - **Concrete Execution Result**: Catches `ET.ParseError`, returns `(False, [], "Malformed XML: ...")`.
 - **Path Divergence**: Exception handler branch successfully exercised.
 
-*Automated Test Evidence*: Verified in `tests/ns713/concolic/test_concolic_rss_parsing.py`.
+*Automated Test Evidence*: Verified in `ns713/test/concolic/concolic_testing/test_concolic_rss_parsing.py`.
 
 ---
 
@@ -101,7 +101,7 @@ To demonstrate practical concolic execution across team responsibilities, four c
 - **Concrete Result**: Assigned `"Other"`, matched keywords: `[]`.
 - **Path Divergence**: Fallback branch `if not scores: return DEFAULT_CATEGORY, []` executed.
 
-*Automated Test Evidence*: Verified in `tests/sd683/concolic/test_concolic_categorisation.py`.
+*Automated Test Evidence*: Verified in `sd683/test/concolic/concolic_testing/test_concolic_categorisation.py`.
 
 ---
 
@@ -127,7 +127,7 @@ To demonstrate practical concolic execution across team responsibilities, four c
 - **Concrete Result**: `['quantum', 'algorithm']` (numbers "2026", "400" discarded).
 - **Path Divergence**: Numeric token rejection branch verified.
 
-*Automated Test Evidence*: Verified in `tests/jb1080/concolic/test_concolic_trend_extraction.py`.
+*Automated Test Evidence*: Verified in `jb1080/test/concolic/concolic_testing/test_concolic_trend_extraction.py`.
 
 ---
 
@@ -152,7 +152,7 @@ To demonstrate practical concolic execution across team responsibilities, four c
 - **Concrete Result**: Escaped double quotes: `"Headline with ""Quoted Phrase"" Inside"`.
 - **Structural Integrity Check**: Re-read CSV returns identical literal quotation marks.
 
-*Automated Test Evidence*: Verified in `tests/pj161/concolic/test_concolic_csv_export.py`.
+*Automated Test Evidence*: Verified in `pj161/test/concolic/concolic_testing/test_concolic_csv_export.py`.
 
 ---
 

@@ -266,21 +266,21 @@ python run_tests.py
 **Spoken Script:**
 > **Nikitha:** *"We now exit the interactive menu and run our master automated test suite using `python run_tests.py`.*
 >
-> *Notice that all 139 automated tests pass with 0 errors and 0 failures in approximately 4.4 seconds. Our custom tracer—built using Python's native `trace` module—reports statement coverage across all core services:*
-> - *`duplicate_service.py`: 95.7%*
-> - *`article.py`: 95.2%*
+> *Notice that all 195 automated tests pass with 0 errors and 0 failures. Our custom tracer—built using Python's native `trace` module—reports statement coverage across all core services:*
+> - *`duplicate_service.py`: 95.8%*
+> - *`article.py`: 88.8%*
 > - *`dashboard_service.py`: 94.7%*
 > - *`search_service.py`: 93.7%*
 > - *`categorisation_service.py`: 92.3%*
 > - *`alert_service.py`: 91.7%*
 > - *`trend_service.py`: 90.9%*
-> - *Overall business logic statement coverage comfortably exceeds our 85% CMMI quality gate.*
+> - *Overall application statement coverage reaches 85.2%, comfortably exceeding our 80% quality gate.*
 >
-> **Sashi:** *"In `tests/sd683/`, my black-box test suite applies Equivalence Partitioning and Boundary Value Analysis on headline lengths and sentiment word counts, while white-box suites guarantee 100% branch coverage on sentiment classification logic.*
+> **Sashi:** *"In `sd683/test/`, my black-box test suite applies Equivalence Partitioning and Boundary Value Analysis on headline lengths and sentiment word counts, while white-box suites guarantee comprehensive branch coverage on sentiment classification logic.*
 >
-> **Jyothi:** *"In `tests/jb1080/`, my symbolic test suite explores the path condition constraints of `calculate_similarity()`, formally proving that token set intersections produce boundaries at exactly theta equals 0.70.*
+> **Jyothi:** *"In `jb1080/test/`, my symbolic test suite explores the path condition constraints of `calculate_similarity()`, formally proving that token set intersections produce boundaries at exactly theta equals 0.70.*
 >
-> **Prashanth:** *"And in `tests/pj161/concolic/`, we apply concrete-symbolic execution on CSV field escaping, demonstrating that embedded quotation marks, commas, and line breaks are correctly escaped without dialect corruption."*
+> **Prashanth:** *"And in `pj161/test/` alongside `research/`, our semi-automated concolic harness explores symbolic path conditions and generates concrete test inputs across all four student packages, backed by our DPLL(T) SMT solver."*
 
 ---
 

@@ -25,7 +25,7 @@ Use this template to record official test runs across project sprints:
 | **RUN-001** | 2026-11-18 11:54 | Master Test Suite | Automated | 130 | 123 | 7 | 0 | 0 | 94.6% | 7.37s | `reports/execution/test_run_summary.txt` |
 | **RUN-002** | 2026-11-18 11:56 | Master Test Suite | Automated | 130 | 130 | 0 | 0 | 0 | **100.0%** | 6.58s | Verified fixes applied |
 | **RUN-003** | 2026-11-18 11:57 | Master Test Suite (+UI) | Automated | 139 | 139 | 0 | 0 | 0 | **100.0%** | 4.43s | Complete Master Benchmark |
-| *[RUN-004]* | *[YYYY-MM-DD]* | *[Suite Name]* | *[Member]* | *[...]* | *[...]* | *[...]* | *[...]* | *[...]* | *[...%]* | *[...s]* | *[Log path]* |
+| **RUN-004** | 2026-11-25 15:24 | Master Test Suite (Full System + SMT/Concolic Research) | Automated | 195 | 195 | 0 | 0 | 0 | **100.0%** | 26.83s | `reports/execution/test_run_summary.txt` (85.2% statement coverage) |
 
 ---
 

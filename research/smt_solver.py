@@ -408,6 +408,11 @@ class SMTSolver:
         (check_sat) to verify satisfiability of the selected conjunction of constraints.
         If a theory conflict arises, learns a conflict lemma and backtracks.
         """
+        if not clauses:
+            return "SAT", {}
+        if any(len(c) == 0 for c in clauses):
+            return "UNSAT", None
+
         # Map each unique constraint to a propositional literal integer >= 1
         constraint_to_lit: Dict[str, int] = {}
         lit_to_constraint: Dict[int, Constraint] = {}

@@ -235,9 +235,9 @@ where $E$ is the number of edges, $N$ the number of nodes and $P$ the number of 
 | `storage/json_storage.py` | 88 | 71 | **80.7%** |
 | `services/time_analytics_service.py` | 92 | 71 | **77.2%** |
 | `interface/menu.py` | 592 | 455 | **76.9%** |
-| **Total Measured Statements** | **2,287** | **1,948 - 1,972** | **85.2% - 86.2%** |
+| **Total Measured Statements** | **2,287** | **1,948** | **85.2%** |
 
-Overall statement coverage reaches **85.2% on the Linux POSIX baseline (1,948 of 2,287 statements)** and **86.2% under Windows (1,972 of 2,287 statements)**, comfortably exceeding the 85.0% First-Class marking threshold across the entire application codebase.
+Overall statement coverage reaches **85.2% (1,948 of 2,287 statements)**, comfortably exceeding the project's 80.0% comprehensive coverage benchmark across the entire application codebase.
 
 Basis-path analysis of `DuplicateService.calculate_similarity()` is illustrated by the control-flow graph in Figure 4, which has nine nodes and eleven edges. Its cyclomatic complexity is therefore:
 
@@ -287,7 +287,7 @@ The technique was applied manually to three functions, and the resulting path pr
 All nine path conditions across the three functions were shown to be satisfiable, so no unreachable block was identified. The solver-generated witnesses (for example, $s = 0$ for the Neutral path) were adopted directly as boundary test cases. The analysis was valuable chiefly because it exposed the empty-set guard in the similarity function as a distinct path requiring its own test, since division by a zero union would otherwise raise an exception.
 
 ### Research Component 2: Concolic Testing
-Concolic testing, introduced as DART and refined in CUTE, combines concrete and symbolic execution (Godefroid et al., 2005; Sen et al., 2005). The program is run on a concrete seed input while the branch predicates encountered are simultaneously collected symbolically. One predicate is then negated, the resulting constraint is solved, and the model forms the next concrete input, which is guaranteed to traverse a different path. Repetition systematically explores the path tree while the concrete values keep the constraints tractable.
+Concolic testing, introduced as DART and refined in CUTE, combines concrete and symbolic execution (Godefroid et al., 2005; Sen et al., 2005). In this project, concolic analysis is implemented via a semi-automated exploration harness (`research/concolic_engine.py`) over formal first-order path conditions across all four team members' functional modules. Rather than using dynamic bytecode instrumentation to trace execution paths automatically, the engine utilizes hand-formulated symbolic path conditions derived from the source AST. The concolic loop systematically negates these branch predicates, queries the DPLL(T) SMT solver for satisfying concrete models, and dispatches them to genuine production functions to observe runtime outcomes.
 
 For `RssService.parse_rss_xml()`, the seed run $s_0$ was a well-formed feed containing one complete item. Negating the successive branch predicates produced inputs with a missing title, a missing link, an unparseable publication date, an empty channel, and finally a truncated document that raises an XML parse error. The last case verified that the error suppression described in A4 contains the failure and returns an empty result.
 
@@ -495,7 +495,7 @@ Ran 195 tests in 27.4s
 OK   (executed: 195, passed: 195, failures: 0, errors: 0)
 ```
 
-The 195 tests comprise 183 individual unit and white-box tests across the four member packages, 6 shared integration and system-recovery tests, and 6 formal research tests (DPLL SMT solver, T_LIA, T_String, and concolic test generation), giving a 100% pass rate with no failures or errors. Statement coverage is verified at 85.2% on the Linux POSIX baseline and 86.2% on Windows across 2,287 statements.
+The 195 tests comprise 183 individual unit and white-box tests across the four member packages, 6 shared integration and system-recovery tests, and 6 formal research tests (DPLL SMT solver, T_LIA, T_String, and concolic test generation), giving a 100% pass rate with no failures or errors. Statement coverage is verified at 85.2% (1,948 of 2,287 statements).
 
 ---
 

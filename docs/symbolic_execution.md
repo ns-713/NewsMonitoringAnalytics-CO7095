@@ -129,7 +129,7 @@ def classify_score(self, score: int) -> str:
   Solutions: $P = 0, N = 0$ (no matches) or $P = 3, N = 3$ (balanced polarity).
   In both cases: $S = 0 \implies \text{Label} = \text{"Neutral"}$.
 
-*Automated Verification*: Executed in `tests/sd683/symbolic/test_symbolic_sentiment_scoring.py` with 100% path coverage.
+*Automated Verification*: Executed in `sd683/test/symbolic/symbolic_execution/test_symbolic_sentiment_scoring.py` with 100% path coverage.
 
 ---
 
@@ -165,7 +165,7 @@ $$\Phi_{\text{duplicate}} \equiv \left(\frac{k}{n_A + n_B - k} \ge 0.70\right) \
 - For $n_A = 8, n_B = 8, k = 6$:
   $$u = 8 + 8 - 6 = 10 \implies J = \frac{6}{10} = 0.60 < 0.70 \quad \text{[SAT: Classified as Unique]}$$
 
-*Automated Verification*: Executed in `tests/jb1080/symbolic/test_symbolic_duplicate_matching.py`.
+*Automated Verification*: Executed in `jb1080/test/symbolic/symbolic_execution/test_symbolic_duplicate_matching.py`.
 
 ---
 
@@ -194,7 +194,7 @@ def matches(self, headline: str, content: str = "", category: str = "") -> bool:
 | **Path 4** | $\text{enabled} \wedge \text{len}(\text{keyword}) > 0 \wedge (\text{category\_filter} = \text{None} \vee \text{category\_filter} = \text{category}) \wedge (\text{keyword} \in \text{text})$ | `True` | `keyword="fusion", headline="Nuclear Fusion Energy"` |
 | **Path 5** | $\text{enabled} \wedge \text{len}(\text{keyword}) > 0 \wedge (\text{category\_filter} = \text{None} \vee \text{category\_filter} = \text{category}) \wedge (\text{keyword} \notin \text{text})$ | `False` | `keyword="fusion", headline="Solar Panel Expansion"` |
 
-*Automated Verification*: Executed in `tests/pj161/symbolic/test_symbolic_alert_rule_matching.py`.
+*Automated Verification*: Executed in `pj161/test/symbolic/symbolic_execution/test_symbolic_alert_rule_matching.py`.
 
 ---
 

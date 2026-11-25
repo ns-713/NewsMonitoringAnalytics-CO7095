@@ -16,8 +16,8 @@ $$\text{Statement Coverage (\%)} = \frac{\text{Executed Physical Statements}}{\t
 ## 2. Master Code Coverage Benchmark Report
 
 - **Date of Execution**: 2026-11-18
-- **Test Suite**: Master Test Suite (`tests/`, 139 Tests)
-- **Overall Statement Coverage**: **69.9%** (across entire application, models, services, storage, and CLI formatting)
+- **Test Suite**: Master Test Suite (`run_tests.py`, 195 Tests)
+- **Overall Statement Coverage**: **85.2%** (1,948 of 2,287 statements across entire application, models, services, storage, and CLI)
 - **Core Business Logic & Services Coverage**: **$>85\%$** across models and domain services.
 
 ### Detailed Per-Module Statement Coverage:

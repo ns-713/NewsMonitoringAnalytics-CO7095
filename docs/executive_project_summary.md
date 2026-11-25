@@ -25,7 +25,7 @@ The project simultaneously serves as a rigorous pedagogical testbed for advanced
 | Verification Codebase (Physical)   | 3,120 SLOC across master test runner & packages  |
 | Total Monitored Project Codebase   | 5,861 SLOC                                       |
 | Automated Test Suite               | 195 tests (0 failures, 0 errors, 100% pass rate) |
-| Overall Statement Coverage         | 85.2% (Linux reference) / 86.2% (Windows)        |
+| Overall Statement Coverage         | 85.2% (1,948 of 2,287 statements)                |
 | Demo Dataset                       | 114 curated articles across 10 distinct domains  |
 | Agile Sprints & User Stories       | 3 Sprints, 36 User Stories, 126 Story Points     |
 | EVM Indices at Project Close       | CPI = 1.050 (Under Budget), SPI = 1.000 (On Time)|
@@ -171,7 +171,7 @@ The project was subjected to multi-dimensional testing leveraging Python standar
 - `sentiment_service.py`: **85.9%**
 - `source_analytics_service.py`: **85.2%**
 - `menu.py`: **76.9%**
-- **Overall Statement Coverage:** **85.2%** (Linux reference) / **86.2%** (Windows)
+- **Overall Statement Coverage:** **85.2%** (1,948 of 2,287 statements)
 - `models/alert_rule.py`: **91.1%**
 - `trend_service.py`: **90.9%**
 - `report_service.py`: **90.7%**

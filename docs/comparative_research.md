@@ -64,7 +64,7 @@ Modern software quality assurance encompasses diverse testing paradigms ranging 
 
 ## 4. Synthesis and Practical Recommendations
 
-Based on empirical evidence collected across the 139 test cases implemented in this project:
+Based on empirical evidence collected across the 195 test cases implemented in this project:
 
 ```
         High  ^
