@@ -86,7 +86,7 @@ The project adheres to a simplified **GitFlow** branching strategy:
 ### 4.1 Cloning the Repository
 ```bash
 # Clone the repository onto your lab computer
-git clone https://github.com/YourTeamOrg/NewsMonitoringAnalytics-CO7095.git
+git clone https://github.com/ns-713/NewsMonitoringAnalytics-CO7095.git
 cd NewsMonitoringAnalytics-CO7095
 ```
 
